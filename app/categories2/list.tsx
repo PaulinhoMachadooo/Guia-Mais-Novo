@@ -1,3 +1,4 @@
+import React from "react";
 import { FlatList, StyleSheet, Text, View } from "react-native";
 import { getAllCategories } from "../../services/category";
 import { CategoryItem } from "../../components/category-item";

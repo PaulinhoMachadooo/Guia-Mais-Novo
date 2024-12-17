@@ -1,9 +1,9 @@
 import { SafeAreaView, StyleSheet, Image, useWindowDimensions } from "react-native";
-import  { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useRouter } from "expo-router";
-import React from "react";
 
-export default function Screen() {
+
+export default function Screen(): React.JSX.Element{
   const router = useRouter();
   const { width, height } = useWindowDimensions();
   useEffect(() => {

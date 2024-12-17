@@ -1,3 +1,4 @@
+import React from "react";
 import { router, Stack, useLocalSearchParams } from "expo-router";
 import {
   Image,
