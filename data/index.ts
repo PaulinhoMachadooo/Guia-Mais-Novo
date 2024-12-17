@@ -294,7 +294,7 @@ export const data: Data = {
     },
     {
       id: 70,
-      title: "Posto de Conbustível",
+      title: "Posto de Combustível",
     },
     {
       id: 71,
@@ -315,7 +315,7 @@ export const data: Data = {
   ],
   products: [
     {
-      id: 4 /*Produto*/,
+      id: 1 /*Produto*/,
       idCategory: 1 /*Categoria */,
       image: "https://abrir.link/WHmAZ",
       title: "NO PAIN, NO GAIN",
@@ -335,7 +335,7 @@ export const data: Data = {
     },
 
     {
-      id: 9,
+      id: 2,
       idCategory: 1,
       image: "https://encurtador.com.br/bJeen",
       title: "MAROMBA",
@@ -353,14 +353,27 @@ export const data: Data = {
       horasDescription1: "",
       horasDescription2: "",
     },
-    /* {
-      id: 6,
-      idCategory: 1,
-      image: "https://picsum.photos/id/5/200/200",
-      title: 'Tablet 10"',
-      description: "Tela brilhante, ideal para entretenimento e produtividade.",
-    },
+
     {
+      id: 71,
+      idCategory: 70,
+      image: "https://abrir.link/WwsBg",
+      title: "AUTO POSTO SAN MARINO AVENIDA",
+      uriInstagram: "https://www.instagram.com",
+      imgInst: "https://encurtador.com.br/gUGdZ",
+      uriWhatsapp: "https://api.whatsapp.com/send?phone=5515992724348",
+      imgWhat: "https://encurtador.com.br/Sw6Hl",
+      uriFace: "https://www.facebook.com/autopostosanmarino?locale=pt_BR",
+      imgFace: "https://encurtador.com.br/dJnQp",
+      uriTel: "+5515992724348",
+      imgTel: "https://encurtador.com.br/gLdtY",
+      uriMaps: "geo: -23.2061374,-47.5389697, 0.01, 0.01",
+      imgMaps: "https://abrir.link/ngbAQ",
+      horasTXT:"HORÁRIOS DE FUNCIONAMENTOS",
+      horasDescription1: "SEGUNDA A SEXTA 07:00 ás 21:00",
+      horasDescription2: "DOMINGOS E FERIADOS FECHADO",
+    },
+        /* {
       id: 5,
       idCategory: 1,
       image: "https://picsum.photos/id/4/200/200",
