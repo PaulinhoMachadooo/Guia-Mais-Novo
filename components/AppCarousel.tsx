@@ -1,5 +1,12 @@
-import { View, Image, Dimensions, StyleSheet, Text, TouchableOpacity } from "react-native";
-import  { useState } from "react";
+import {
+  View,
+  Image,
+  Dimensions,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+} from "react-native";
+import { useState } from "react";
 import Carousel from "react-native-reanimated-carousel";
 import React from "react";
 
@@ -13,7 +20,11 @@ export default function AppCarousel(): React.JSX.Element {
       title: "First Item",
       image: "https://encurtador.com.br/zxuV5",
     },
-
+    {
+      id: 1,
+      title: "Fran Pet",
+      image: "https://abrir.link/GbPNB",
+    },
   ];
   return (
     <View style={{ flex: 1 }}>
@@ -25,11 +36,9 @@ export default function AppCarousel(): React.JSX.Element {
         pagingEnabled={pagingEnabled}
         scrollAnimationDuration={2000}
         renderItem={({ item }) => (
-       
           <View style={styles.CarouselItem}>
             <Image style={styles.img} src={item.image} />
           </View>
-        
         )}
       />
     </View>
@@ -47,5 +56,7 @@ const styles = StyleSheet.create({
     width: "90%",
     height: "100%",
     borderRadius: 10,
+    borderWidth: 0.5,
+    borderColor: "#CFCFCF",
   },
 });
