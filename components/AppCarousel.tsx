@@ -18,12 +18,12 @@ export default function AppCarousel(): React.JSX.Element {
     {
       id: 1,
       title: "First Item",
-      image: "https://encurtador.com.br/zxuV5",
+      image: require("../assets/Posto.png"),
     },
     {
       id: 1,
       title: "Fran Pet",
-      image: "https://abrir.link/GbPNB",
+      image: require("../assets/FranPet.png"),
     },
   ];
   return (
@@ -37,7 +37,7 @@ export default function AppCarousel(): React.JSX.Element {
         scrollAnimationDuration={2000}
         renderItem={({ item }) => (
           <View style={styles.CarouselItem}>
-            <Image style={styles.img} src={item.image} />
+            <Image style={styles.img} source={item.image} />
           </View>
         )}
       />

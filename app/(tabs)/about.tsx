@@ -6,7 +6,7 @@ export default function Screen() {
     <View style={styles.container}>
       <Image
         style={{ width: 280, height: 100 }}
-        src="https://abrir.link/WAOLn"
+        source={require("../../assets/LogoGuiaMais.png")}
       />
 
       <View style={{ flexDirection: "row", padding: 5, width: "80%" }}>
