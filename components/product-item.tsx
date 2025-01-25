@@ -10,7 +10,7 @@ export function ProductItem({ data }: Props) {
   return (
     <Link href={`/product/${data.id}`} asChild>
       <Pressable style={styles.container}>
-        <Image style={styles.img} source={{ uri: data.image }} /> 
+        {/*<Image style={styles.img} source={{ uri: data.image }} /> */}
         <View style={styles.info}>
           <Text style={styles.title}>{data.title}</Text>
         </View>
@@ -52,5 +52,4 @@ const styles = StyleSheet.create({
     color: "#555555",
     marginBottom: 10,
   },
-
 });

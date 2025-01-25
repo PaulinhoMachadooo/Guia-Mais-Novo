@@ -8,7 +8,7 @@ type Data = {
 };
 export const data: Data = {
   categories: [
-    {
+    /*{
       id: 1,
       title: "Academia",
     },
@@ -71,12 +71,12 @@ export const data: Data = {
     {
       id: 16,
       title: "Bar e Restaurante",
-    },
+    },*/
     {
       id: 161,
       title: "Bebida",
     },
-    {
+    /*{
       id: 17,
       title: "Beleza e Estética",
     },
@@ -119,12 +119,12 @@ export const data: Data = {
     {
       id: 27,
       title: "Colégio e Escola",
-    },
+    },*/
     {
       id: 271,
       title: "Comida",
     },
-    {
+    /*{
       id: 28,
       title: "Contabilidade",
     },
@@ -279,24 +279,24 @@ export const data: Data = {
     {
       id: 66,
       title: "Perfumes e Cosméticos",
-    },
+    },*/
     {
       id: 67,
       title: "Pet Shop",
     },
-    {
+    /*{
       id: 68,
       title: "Piscina e Jardim",
     },
     {
       id: 69,
       title: "Pizzaria",
-    },
+    },*/
     {
       id: 70,
       title: "Posto de Combustível",
     },
-    {
+    /*{
       id: 71,
       title: "Restaurante",
     },
@@ -311,7 +311,7 @@ export const data: Data = {
     {
       id: 74,
       title: "Tatuagens",
-    },
+    },*/
   ],
   products: [
     {
@@ -320,16 +320,16 @@ export const data: Data = {
       image: "https://abrir.link/WwsBg",
       title: "AUTO POSTO SAN MARINO AVENIDA",
       uriInstagram: "home",
-      imgInst: "https://abrir.link/JBapq",
+      /*imgInst: "https://abrir.link/JBapq",*/
       uriWhatsapp: "https://api.whatsapp.com/send?phone=5515992724348",
-      imgWhat: "https://abrir.link/bCNJO",
+      /*imgWhat: require("../assets/What.png"),*/
       uriFace: "https://www.facebook.com/share/1A6s54Rm84/",
-      imgFace: "https://abrir.link/qARvp",
+      /*imgFace: "https://abrir.link/qARvp",*/
       uriTel: "+55 15992724348",
-      imgTel: "https://abrir.link/mjGzM",
+      /*imgTel: "https://abrir.link/mjGzM",*/
       uriMaps:
         "https://www.google.com/maps/place/Auto+Posto+San+Marino+Avenida/@-23.2258059,-47.5204268,17z/data=!3m1!4b1!4m6!3m5!1s0x94c5fe708eed6259:0x93a6e4f7f223352d!8m2!3d-23.2258059!4d-47.5204268!16s%2Fg%2F1ptz79nk2?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D",
-      imgMaps: "https://abrir.link/EsFmt",
+      /*imgMaps: "https://abrir.link/EsFmt",*/
       horasTXT: "HORÁRIOS DE FUNCIONAMENTOS",
       horasDescription1: "SEGUNDA A SÁBADO 06:00 às 22:00",
       horasDescription2: "DOMINGOS E FERIADOS 07:00 às 21:00",
@@ -341,15 +341,15 @@ export const data: Data = {
       title: "PIZZARIA SURREAL",
       uriInstagram:
         "https://www.instagram.com/pizzariasurreall?igsh=cDFxdzZ2ZnJ4dWp4",
-      imgInst: "https://abrir.link/JBapq",
+      /*imgInst: "https://abrir.link/JBapq",*/
       uriWhatsapp: "https://api.whatsapp.com/send?phone=5515996552341",
-      imgWhat: "https://abrir.link/bCNJO",
+      /*imgWhat: "https://abrir.link/bCNJO",*/
       uriFace: "https://www.facebook.com/share/18ZD5hN5hh/",
-      imgFace: "https://abrir.link/qARvp",
+      /*imgFace: "https://abrir.link/qARvp",*/
       uriTel: "+55 15996552341",
-      imgTel: "https://abrir.link/mjGzM",
+      /*imgTel: "https://abrir.link/mjGzM",*/
       uriMaps: "https://maps.app.goo.gl/tC1CcN4GJT5eKZ3t6",
-      imgMaps: "https://abrir.link/EsFmt",
+      /*imgMaps: "https://abrir.link/EsFmt",*/
       horasTXT: "HORÁRIOS DE FUNCIONAMENTOS",
       horasDescription1: "DOMINGO A SÁBADO 19:00 às 23:00",
       horasDescription2: "QUARTA-FEIRA FECHADO",
@@ -361,15 +361,35 @@ export const data: Data = {
       title: "FRAN PET",
       uriInstagram:
         "https://www.instagram.com/franpet.banhoetosa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-      imgInst: "https://abrir.link/JBapq",
+      /*imgInst: "https://abrir.link/JBapq",*/
       uriWhatsapp: "https://api.whatsapp.com/send?phone=5515997448363",
-      imgWhat: "https://abrir.link/bCNJO",
+      /*imgWhat: "https://abrir.link/bCNJO",*/
       uriFace: "https://www.facebook.com/share/1B6UDBHWUU",
-      imgFace: "https://abrir.link/qARvp",
+      /*imgFace: "https://abrir.link/qARvp",*/
       uriTel: "+55 15997448363",
-      imgTel: "https://abrir.link/mjGzM",
+      /*imgTel: "https://abrir.link/mjGzM",*/
       uriMaps: "https://maps.app.goo.gl/GNM7T12JDGoVo6yE8",
-      imgMaps: "https://abrir.link/EsFmt",
+      /*imgMaps: "https://abrir.link/EsFmt",*/
+      horasTXT: "HORÁRIOS DE FUNCIONAMENTOS",
+      horasDescription1: "SEGUNDA A SÁBADO 07:00 às 18:00",
+      horasDescription2: "DOMINGOS E FERIADOS FECHADO",
+    },
+    {
+      id: 160,
+      idCategory: 161,
+      image: "https://encurtador.com.br/ZcBLt",
+      title: "ADEGA DOS AMIGOS",
+      uriInstagram:
+        "https://www.instagram.com/adegaamgos?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+      /*imgInst: "https://abrir.link/JBapq",*/
+      uriWhatsapp: "https://api.whatsapp.com/send?phone=5515996146707",
+      /*imgWhat: "https://abrir.link/bCNJO",*/
+      uriFace: "https://www.facebook.com/share/19pzmeiHxA/",
+      /*imgFace: "https://abrir.link/qARvp",*/
+      uriTel: "+55 15 99614-6707",
+      /*imgTel: "https://abrir.link/mjGzM",*/
+      uriMaps: "https://maps.app.goo.gl/v5MRNJC9NRQTeivs6",
+      /*imgMaps: "https://abrir.link/EsFmt",*/
       horasTXT: "HORÁRIOS DE FUNCIONAMENTOS",
       horasDescription1: "SEGUNDA A SÁBADO 07:00 às 18:00",
       horasDescription2: "DOMINGOS E FERIADOS FECHADO",

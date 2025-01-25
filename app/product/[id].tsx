@@ -33,7 +33,6 @@ export default function Screen() {
         <View style={{ flex: 1, alignItems: "center" }}>
           <Text style={styles.title}>{product.title}</Text>
         </View>
-        
 
         <View style={{}}>
           <View
@@ -52,7 +51,7 @@ export default function Screen() {
             >
               <Image
                 style={{ height: 50, width: 50 }}
-                source={{ uri: product.imgWhat }}
+                source={require("../../assets/What.png")}
               />
             </TouchableOpacity>
             <TouchableOpacity
@@ -62,7 +61,7 @@ export default function Screen() {
             >
               <Image
                 style={{ height: 50, width: 50 }}
-                source={{ uri: product.imgInst }}
+                source={require("../../assets/Instagram.png")}
               />
             </TouchableOpacity>
             <TouchableOpacity
@@ -72,7 +71,7 @@ export default function Screen() {
             >
               <Image
                 style={{ height: 50, width: 50 }}
-                source={{ uri: product.imgFace }}
+                source={require("../../assets/Face.png")}
               />
             </TouchableOpacity>
             <TouchableOpacity
@@ -82,7 +81,7 @@ export default function Screen() {
             >
               <Image
                 style={{ height: 50, width: 50 }}
-                source={{ uri: product.imgTel }}
+                source={require("../../assets/Tel.png")}
               />
             </TouchableOpacity>
             <TouchableOpacity
@@ -92,19 +91,23 @@ export default function Screen() {
             >
               <Image
                 style={{ height: 50, width: 50 }}
-                source={{ uri: product.imgMaps }}
+                source={require("../../assets/Maps.png")}
               />
             </TouchableOpacity>
           </View>
         </View>
 
         <View style={styles.horasArea}>
-           <Text style={styles.horas}> {product.horasTXT}</Text> 
-           <Text style={styles.horasDescription}> {product.horasDescription1}</Text> 
-           <Text style={styles.horasDescription}> {product.horasDescription2}</Text> 
+          <Text style={styles.horas}> {product.horasTXT}</Text>
+          <Text style={styles.horasDescription}>
+            {" "}
+            {product.horasDescription1}
+          </Text>
+          <Text style={styles.horasDescription}>
+            {" "}
+            {product.horasDescription2}
+          </Text>
         </View>
-        
-        
       </ScrollView>
     </SafeAreaView>
   );
@@ -143,14 +146,14 @@ const styles = StyleSheet.create({
     backgroundColor: "#EBE9E9",
   },
   horas: {
-    fontWeight:"bold",
+    fontWeight: "bold",
     fontSize: 22,
     textAlign: "center",
-    color:"#112342"
+    color: "#112342",
   },
   horasDescription: {
-    fontSize:15,
+    fontSize: 15,
     textAlign: "center",
-    color:"#112342"
+    color: "#112342",
   },
 });

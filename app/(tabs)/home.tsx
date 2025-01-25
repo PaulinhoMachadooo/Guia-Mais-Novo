@@ -43,6 +43,7 @@ export default function Screen() {
               alignItems: "center",
             }}
           >
+            {/*
             <TouchableOpacity>
               <Bars3Icon
                 onPress={handleStart}
@@ -51,6 +52,8 @@ export default function Screen() {
                 style={{ paddingHorizontal: 60 }}
               />
             </TouchableOpacity>
+            */}
+
             <Image
               source={require("../../assets/icon2.png")}
               style={{

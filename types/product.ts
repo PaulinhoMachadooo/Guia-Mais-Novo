@@ -7,13 +7,13 @@ export type Product = {
   horasDescription2: string;
   horasTXT: string;
   uriInstagram: string;
-  imgInst: string;
+  /*imgInst: string;*/
   uriWhatsapp: string;
-  imgWhat: string;
+  /*imgWhat: string;*/
   uriFace: string;
-  imgFace: string;
+  /*imgFace: string;*/
   uriTel: string;
-  imgTel: string;
+  /*imgTel: string;*/
   uriMaps: string;
-  imgMaps: string;
+  /*imgMaps: string;*/
 };
