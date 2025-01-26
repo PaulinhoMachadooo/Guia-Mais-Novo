@@ -8,22 +8,22 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "",
+      "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": ""
+      "backgroundColor": "#ffffff"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "",
-        "backgroundColor": ""
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
       },
       "package": "com.paulinhomachado22.GUIAMAIS"
     },
     "web": {
-      "favicon": ""
+      "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
