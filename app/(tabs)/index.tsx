@@ -82,7 +82,11 @@ export default function Screen() {
               >
                 <View style={{ paddingLeft: 110 }}>
                   <Text
-                    style={{ fontSize: 20, fontWeight: "bold", color: "#FFF" }}
+                    style={{
+                      fontSize: 20,
+                      fontWeight: "bold",
+                      color: "#FFF",
+                    }}
                   >
                     COMIDAS
                   </Text>
@@ -112,7 +116,11 @@ export default function Screen() {
               >
                 <View style={{ paddingLeft: 110 }}>
                   <Text
-                    style={{ fontSize: 20, fontWeight: "bold", color: "#FFF" }}
+                    style={{
+                      fontSize: 20,
+                      fontWeight: "bold",
+                      color: "#FFF",
+                    }}
                   >
                     BEBIDAS
                   </Text>
