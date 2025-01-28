@@ -46,7 +46,7 @@ const TabBarButton = (props) => {
         style={[
           {
             color,
-            fontSize: 18,
+            fontSize: 15,
             fontWeight: "bold",
           },
           animatedTextStyle,

@@ -7,7 +7,7 @@ const _layout = () => {
   return (
     <Tabs tabBar={(props) => <TabBar {...props} />}>
       <Tabs.Screen
-        name="home"
+        name="index"
         options={{
           headerShown: false,
           title: "HOME",
