@@ -27,7 +27,9 @@ export default function Screen() {
   };
 
   return (
-    <SafeAreaView style={{ backgroundColor: "#FFF", height: "100%" }}>
+    <SafeAreaView
+      style={{ backgroundColor: "#FFF", height: "100%", width: "auto" }}
+    >
       <ScrollView
         style={{ backgroundColor: "" }}
         showsVerticalScrollIndicator={true}
@@ -73,7 +75,7 @@ export default function Screen() {
               <View
                 style={{
                   flexDirection: "row",
-                  width: 350,
+                  width: "80%",
                   height: 60,
                   backgroundColor: "#112342",
                   alignItems: "center",
@@ -106,7 +108,7 @@ export default function Screen() {
               <View
                 style={{
                   flexDirection: "row",
-                  width: 350,
+                  width: "80%",
                   height: 60,
                   backgroundColor: "#112342",
                   alignItems: "center",
@@ -146,7 +148,7 @@ export default function Screen() {
             <View
               style={{
                 flexDirection: "row",
-                width: 350,
+                width: "80%",
                 height: 60,
                 backgroundColor: "#112342",
                 alignItems: "center",

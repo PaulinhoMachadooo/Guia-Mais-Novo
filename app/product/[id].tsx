@@ -30,7 +30,9 @@ export default function Screen() {
           source={{ uri: product.image }}
           resizeMode="cover"
         />
-        <View style={{ flex: 1, alignItems: "center" }}>
+        <View
+          style={{ flex: 1, alignItems: "center", justifyContent: "center" }}
+        >
           <Text style={styles.title}>{product.title}</Text>
         </View>
 
@@ -119,7 +121,7 @@ const styles = StyleSheet.create({
   },
   area: {
     flex: 1,
-    padding: 10,
+    padding: 20,
   },
   buttonArea: {
     padding: 10,
@@ -132,11 +134,12 @@ const styles = StyleSheet.create({
     backgroundColor: "#d3d3d3",
   },
   title: {
-    fontSize: 27,
+    fontSize: 20,
     fontWeight: "bold",
     marginBottom: 10,
   },
   description: {
+    width: "100%",
     fontSize: 15,
     color: "#555555",
     marginBottom: 20,

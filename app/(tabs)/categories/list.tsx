@@ -32,17 +32,18 @@ export default function Screen() {
     <View style={styles.container}>
       <View
         style={{
+          width: "85%",
           backgroundColor: "#FFF",
           margin: 20,
           borderRadius: 30,
           flexDirection: "row",
-          elevation:10,
-          justifyContent:"space-around",
-          alignItems:"center",
+          elevation: 10,
+          justifyContent: "space-around",
+          alignItems: "center",
           padding: 10,
         }}
       >
-        <MagnifyingGlassIcon size={hp(2.5)} color={"gray"} strokeWidth={3}/>
+        <MagnifyingGlassIcon size={hp(2.5)} color={"gray"} strokeWidth={3} />
         <TextInput
           style={{ flex: 1, fontSize: 16, padding: 10 }}
           placeholder="Pesquisar..."
@@ -63,11 +64,13 @@ export default function Screen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingBottom:10,
+    paddingBottom: 10,
+    justifyContent: "center",
+    alignItems: "center",
   },
   list: {
     flex: 1,
-    width: "100%",
+    width: "90%",
     padding: 20,
   },
 });

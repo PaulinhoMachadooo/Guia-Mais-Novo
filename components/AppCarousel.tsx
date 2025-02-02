@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   img: {
-    width: "90%",
+    width: "85%",
     height: "100%",
     borderRadius: 10,
     borderWidth: 0.5,

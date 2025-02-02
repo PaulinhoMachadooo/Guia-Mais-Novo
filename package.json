@@ -13,13 +13,13 @@
     "@heroicons/react": "^2.2.0",
     "@react-native-async-storage/async-storage": "1.23.1",
     "eas-cli": "^14.5.0",
-    "expo": "~52.0.27",
-    "expo-constants": "~17.0.4",
+    "expo": "~52.0.28",
+    "expo-constants": "~17.0.5",
     "expo-doctor": "^1.12.5",
-    "expo-linking": "~7.0.4",
+    "expo-linking": "~7.0.5",
     "expo-router": "~4.0.17",
     "expo-status-bar": "~2.0.1",
-    "expo-updates": "~0.26.13",
+    "expo-updates": "~0.26.15",
     "nativewind": "^4.1.23",
     "npx": "^10.2.2",
     "react": "18.3.1",
@@ -35,7 +35,8 @@
     "react-native-skeleton-content": "^1.0.28",
     "react-native-snap-carousel": "^3.9.1",
     "react-native-svg": "15.8.0",
-    "styled-components": "^6.1.14"
+    "styled-components": "^6.1.14",
+    "expo-splash-screen": "~0.29.21"
   },
   "devDependencies": {
     "@babel/core": "^7.26.7",

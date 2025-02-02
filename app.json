@@ -8,12 +8,13 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash.png",
       "resizeMode": "contain",
+      "image": "./assets/icon.png",
       "backgroundColor": "#FFF"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.paulinhomachado22.GUIAMAIS"
     },
     "android": {
       "adaptiveIcon": {

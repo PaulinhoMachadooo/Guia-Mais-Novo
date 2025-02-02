@@ -377,7 +377,7 @@ export const data: Data = {
     {
       id: 160,
       idCategory: 161,
-      image: "",
+      image: "https://encurtador.com.br/ZcBLt",
       title: "ADEGA DOS AMIGOS",
       uriInstagram:
         "https://www.instagram.com/adegaamgos?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",

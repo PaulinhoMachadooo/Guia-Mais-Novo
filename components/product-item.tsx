@@ -24,10 +24,8 @@ const styles = StyleSheet.create({
     backgroundColor: "#FFF",
     height: 60,
     alignItems: "center",
-    flexDirection: "row",
-    marginBottom: 1.5,
-    paddingLeft: 20,
-    paddingRight: 20,
+    justifyContent: "center",
+    padding: 20,
     borderRadius: 10,
   },
   img: {
@@ -41,10 +39,8 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   title: {
-    fontSize: 22,
+    fontSize: 16,
     fontWeight: "bold",
-    marginBottom: 5,
-    paddingLeft: 15,
     color: "#555555",
   },
   description: {
