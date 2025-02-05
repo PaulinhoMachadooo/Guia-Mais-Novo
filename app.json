@@ -4,12 +4,12 @@
     "slug": "GUIA-MAIS",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logos.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
       "resizeMode": "contain",
-      "image": "./assets/icon.png",
+      "image": "./assets/logos.png",
       "backgroundColor": "#FFF"
     },
     "ios": {
@@ -18,7 +18,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/adaptive.png",
         "backgroundColor": "#FFF"
       },
       "package": "com.paulinhomachado22.GUIAMAIS"
