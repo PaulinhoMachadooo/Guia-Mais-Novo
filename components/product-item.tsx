@@ -1,12 +1,9 @@
 import { Image, Pressable, StyleSheet, Text, View } from "react-native";
-import { Product } from "../types/product";
 import { Link } from "expo-router";
 import React from "react";
+import type { Props } from "./Props";
 
-type Props = {
-  data: Product;
-};
-export function ProductItem({ data }: Props) {
+export function ProductItem({ data }: Props): React.JSX.Element {
   return (
     <Link href={`/product/${data.id}`} asChild>
       <Pressable style={styles.container}>

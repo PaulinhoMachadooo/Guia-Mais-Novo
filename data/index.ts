@@ -1,436 +1,658 @@
-import { Category } from "../types/category";
-import { Product } from "../types/product";
-
-type Data = {
-  filter(arg0: (val: any) => boolean): unknown;
-  categories: Category[];
-  products: Product[];
-};
-export const data: Data = {
-  categories: [
-    /*{
-      id: 1,
-      title: "Academia",
-    },
-    {
-      id: 2,
-      title: "Açougue",
-    },
-    {
-      id: 3,
-      title: "Advogado",
-    },
-    {
-      id: 4,
-      title: "Agência de Turismo",
-    },
-    {
-      id: 5,
-      title: "Água e Gás",
-    },
-    {
-      id: 6,
-      title: "Alarme e Segurança",
-    },
-    {
-      id: 7,
-      title: "Aluguel de Equipamentos",
-    },
-    {
-      id: 8,
-      title: "Arquiteto",
-    },
-    {
-      id: 9,
-      title: "Arte e Cultura",
-    },
-    {
-      id: 10,
-      title: "Artigos de Festa",
-    },
-    {
-      id: 11,
-      title: "Associação e Cooperativa",
-    },
-    {
-      id: 12,
-      title: "Auto Elétrica",
-    },
-    {
-      id: 13,
-      title: "Auto Escola",
-    },
-    {
-      id: 14,
-      title: "Auto Peças",
-    },
-    {
-      id: 15,
-      title: "Barbearia",
-    },
-    {
-      id: 16,
-      title: "Bar e Restaurante",
-    },*/
-    {
-      id: 161,
-      title: "Bebida",
-    },
-    /*{
-      id: 17,
-      title: "Beleza e Estética",
-    },
-    {
-      id: 18,
-      title: "Borracharia",
-    },
-    {
-      id: 19,
-      title: "Buffet",
-    },
-    {
-      id: 20,
-      title: "Cabeleireiro",
-    },
-    {
-      id: 21,
-      title: "Cama Mesa e Banho",
-    },
-    {
-      id: 22,
-      title: "Cartório",
-    },
-    {
-      id: 23,
-      title: "Casa e Decoração",
-    },
-    {
-      id: 24,
-      title: "Chaveiro",
-    },
-    {
-      id: 25,
-      title: "Clínica e Laboratório",
-    },
-    {
-      id: 26,
-      title: "Clínica Veterinária",
-    },
-    {
-      id: 27,
-      title: "Colégio e Escola",
-    },*/
-    {
-      id: 271,
-      title: "Comida",
-    },
-    /*{
-      id: 28,
-      title: "Contabilidade",
-    },
-    {
-      id: 29,
-      title: "Dentista",
-    },
-    {
-      id: 30,
-      title: "Despachante",
-    },
-    {
-      id: 31,
-      title: "Doces e Salgados",
-    },
-    {
-      id: 32,
-      title: "Educação",
-    },
-    {
-      id: 33,
-      title: "Eletro Doméstico",
-    },
-    {
-      id: 34,
-      title: "Encanador",
-    },
-    {
-      id: 35,
-      title: "Escola de Idiomas",
-    },
-    {
-      id: 36,
-      title: "Faculdade",
-    },
-    {
-      id: 37,
-      title: "Farmácia",
-    },
-    {
-      id: 38,
-      title: "Fisioterapeuta",
-    },
-    {
-      id: 39,
-      title: "Floricultura",
-    },
-    {
-      id: 40,
-      title: "Foto e Filmagens",
-    },
-    {
-      id: 41,
-      title: "Fretes e Mudança",
-    },
-    {
-      id: 42,
-      title: "Funerária",
-    },
-    {
-      id: 43,
-      title: "Funilaria e Pintura",
-    },
-    {
-      id: 44,
-      title: "Gráfica",
-    },
-    {
-      id: 45,
-      title: "Hotel e Pousada",
-    },
-    {
-      id: 46,
-      title: "Imobiliária",
-    },
-    {
-      id: 47,
-      title: "Internet",
-    },
-    {
-      id: 48,
-      title: "Jardinagem",
-    },
-    {
-      id: 49,
-      title: "Lanches",
-    },
-    {
-      id: 50,
-      title: "Lava Rápido",
-    },
-    {
-      id: 51,
-      title: "Loja de Calçados",
-    },
-    {
-      id: 52,
-      title: "Loja de Informática",
-    },
-    {
-      id: 53,
-      title: "Loja de Presentes e Ultensílios",
-    },
-    {
-      id: 54,
-      title: "Loja de Roupas",
-    },
-    {
-      id: 55,
-      title: "Marcenaria",
-    },
-    {
-      id: 56,
-      title: "Materiais de Construção",
-    },
-    {
-      id: 57,
-      title: "Médicos e Saúde",
-    },
-    {
-      id: 58,
-      title: "Noivas e Casamentos",
-    },
-    {
-      id: 59,
-      title: "OAB",
-    },
-    {
-      id: 60,
-      title: "Oficina de Carro",
-    },
-    {
-      id: 61,
-      title: "Oficina de Moto",
-    },
-    {
-      id: 62,
-      title: "Ótica e Relojoaria",
-    },
-    {
-      id: 63,
-      title: "Padaria",
-    },
-    {
-      id: 64,
-      title: "Papelaria",
-    },
-    {
-      id: 65,
-      title: "Peixaria",
-    },
-    {
-      id: 66,
-      title: "Perfumes e Cosméticos",
-    },*/
-    {
-      id: 67,
-      title: "Pet Shop",
-    },
-    /*{
-      id: 68,
-      title: "Piscina e Jardim",
-    },
-    {
-      id: 69,
-      title: "Pizzaria",
-    },*/
-    {
-      id: 70,
-      title: "Posto de Combustível",
-    },
-    /*{
-      id: 71,
-      title: "Restaurante",
-    },
-    {
-      id: 72,
-      title: "Salão de Beleza",
-    },
-    {
-      id: 73,
-      title: "Supermercado",
-    },
-    {
-      id: 74,
-      title: "Tatuagens",
-    },*/
-  ],
-  products: [
-    {
-      id: 71,
-      idCategory: 70,
-      image: "https://abrir.link/WwsBg",
-      title: "AUTO POSTO SAN MARINO AVENIDA",
-      uriInstagram: "home",
-      /*imgInst: "https://abrir.link/JBapq",*/
-      uriWhatsapp: "https://api.whatsapp.com/send?phone=5515992724348",
-      /*imgWhat: require("../assets/What.png"),*/
-      uriFace: "https://www.facebook.com/share/1A6s54Rm84/",
-      /*imgFace: "https://abrir.link/qARvp",*/
-      uriTel: "+55 15992724348",
-      /*imgTel: "https://abrir.link/mjGzM",*/
-      uriMaps:
-        "https://www.google.com/maps/place/Auto+Posto+San+Marino+Avenida/@-23.2258059,-47.5204268,17z/data=!3m1!4b1!4m6!3m5!1s0x94c5fe708eed6259:0x93a6e4f7f223352d!8m2!3d-23.2258059!4d-47.5204268!16s%2Fg%2F1ptz79nk2?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D",
-      /*imgMaps: "https://abrir.link/EsFmt",*/
-      horasTXT: "HORÁRIOS DE FUNCIONAMENTOS",
-      horasDescription1: "SEGUNDA A SÁBADO 06:00 às 22:00",
-      horasDescription2: "DOMINGOS E FERIADOS 07:00 às 21:00",
-    },
-    {
-      id: 272,
-      idCategory: 271,
-      image: "https://encurtador.com.br/VMqyc",
-      title: "PIZZARIA SURREAL",
-      uriInstagram:
-        "https://www.instagram.com/pizzariasurreall?igsh=cDFxdzZ2ZnJ4dWp4",
-      /*imgInst: "https://abrir.link/JBapq",*/
-      uriWhatsapp: "https://api.whatsapp.com/send?phone=5515996552341",
-      /*imgWhat: "https://abrir.link/bCNJO",*/
-      uriFace: "https://www.facebook.com/share/18ZD5hN5hh/",
-      /*imgFace: "https://abrir.link/qARvp",*/
-      uriTel: "+55 15996552341",
-      /*imgTel: "https://abrir.link/mjGzM",*/
-      uriMaps: "https://maps.app.goo.gl/tC1CcN4GJT5eKZ3t6",
-      /*imgMaps: "https://abrir.link/EsFmt",*/
-      horasTXT: "HORÁRIOS DE FUNCIONAMENTOS",
-      horasDescription1: "DOMINGO A SÁBADO 19:00 às 23:00",
-      horasDescription2: "QUARTA-FEIRA FECHADO",
-    },
-    {
-      id: 671,
-      idCategory: 67,
-      image: "https://abrir.link/GbPNB",
-      title: "FRAN PET",
-      uriInstagram:
-        "https://www.instagram.com/franpet.banhoetosa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-      /*imgInst: "https://abrir.link/JBapq",*/
-      uriWhatsapp: "https://api.whatsapp.com/send?phone=5515997448363",
-      /*imgWhat: "https://abrir.link/bCNJO",*/
-      uriFace: "https://www.facebook.com/share/1B6UDBHWUU",
-      /*imgFace: "https://abrir.link/qARvp",*/
-      uriTel: "+55 15997448363",
-      /*imgTel: "https://abrir.link/mjGzM",*/
-      uriMaps: "https://maps.app.goo.gl/GNM7T12JDGoVo6yE8",
-      /*imgMaps: "https://abrir.link/EsFmt",*/
-      horasTXT: "HORÁRIOS DE FUNCIONAMENTOS",
-      horasDescription1: "SEGUNDA A SÁBADO 07:00 às 18:00",
-      horasDescription2: "DOMINGOS E FERIADOS FECHADO",
-    },
-    {
-      id: 160,
-      idCategory: 161,
-      image: "https://encurtador.com.br/ZcBLt",
-      title: "ADEGA DOS AMIGOS",
-      uriInstagram:
-        "https://www.instagram.com/adegaamgos?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-      /*imgInst: "https://abrir.link/JBapq",*/
-      uriWhatsapp: "https://api.whatsapp.com/send?phone=5515996146707",
-      /*imgWhat: "https://abrir.link/bCNJO",*/
-      uriFace: "https://www.facebook.com/share/19pzmeiHxA/",
-      /*imgFace: "https://abrir.link/qARvp",*/
-      uriTel: "+55 15 99614-6707",
-      /*imgTel: "https://abrir.link/mjGzM",*/
-      uriMaps: "https://maps.app.goo.gl/v5MRNJC9NRQTeivs6",
-      /*imgMaps: "https://abrir.link/EsFmt",*/
-      horasTXT: "HORÁRIOS DE FUNCIONAMENTOS",
-      horasDescription1: "SEGUNDA A SÁBADO 07:00 às 18:00",
-      horasDescription2: "DOMINGOS E FERIADOS FECHADO",
-    },
-    /*{
-      id: 3,
-      idCategory: 1,
-      image: "https://picsum.photos/id/2/200/200",
-      title: "Fone Bluetooth",
-      description: "Som cristalino, cancelamento de ruído ativo.",
-    },
-    {
-      id: 1,
-      idCategory: 1,
-      image: "https://picsum.photos/id/0/200/200",
-      title: "Smartphone X1",
-      description: "Alta performance, tela AMOLED e câmera avançada.",
-    },
-    {
-      id: 2,
-      idCategory: 1,
-      image: "https://picsum.photos/id/1/200/200",
-      title: "Laptop Pro",
-      description: "Design elegante, processador i7, 16GB RAM.",
-    },
-    {
-      id: 7,
-      idCategory: 1,
-      image: "https://picsum.photos/id/6/200/200",
-      title: 'TV LED 50"',
-      description: "Imagem vívida, resolução 4K, serviços de streaming.",
-    },
-    {
-      id: 10,
-      idCategory: 1,
-      image: "https://picsum.photos/id/9/200/200",
-      title: "Drone Pro",
-      description: "Voo preciso, câmera HD, controle intuitivo.",
-    },*/
-  ],
-  filter: function (arg0: (val: any) => boolean): unknown {
-    throw new Error("Function not implemented.");
+export const categories = [
+  { 
+    id: '1', 
+    name: 'Academia', 
+    businesses: [
+      /*{
+        id: '1',
+        name: 'Restaurante Sabor & Arte',
+        images: [
+          'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500',
+          'https://images.unsplash.com/photo-1552566626-52f8b828add9?w=500',
+          'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=500'
+        ],
+        address: 'Rua das Flores, 123',
+        phone: '+55 15996524975',
+        tel: '15 99652-4975',
+        hours: 'Seg-Sex: 11h às 23h\nSáb-Dom: 11h às 00h',
+        description: 'Cuidamos do seu animalzinho.',
+        socialMedia: [
+          { type: 'instagram', url: 'https://instagram.com/saborarte' },
+          { type: 'facebook', url: 'https://facebook.com/saborarte' },
+          { type: 'whatsapp', url: 'https://wa.me/5511999999999' },
+          { type: 'maps', url: 'https://maps.app.goo.gl/tC1CcN4GJT5eKZ3t6'},
+          
+        ]
+      }*/
+    ]
   },
-};
+  {
+  id: '2', 
+    name: 'Açougue', 
+    businesses: [
+      
+     
+    ]
+  },
+  {
+    id: '3',
+    name: "Advogado",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '4',
+    name: "Agência de Turismo",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '5',
+    name: "Água e Gás",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '6',
+    name: "Alarme e Segurança",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '7',
+    name: "Aluguel de Equipamentos",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '8',
+    name: "Arquiteto",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '9',
+    name: "Arte e Cultura",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '10',
+    name: "Artigos de Festa",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '11',
+    name: "Associação e Cooperativa",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '12',
+    name: "Auto Elétrica",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '13',
+    name: "Auto Escola",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '14',
+    name: "Auto Peças",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '15',
+    name: "Barbearia",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '16',
+    name: "Bar e Restaurante",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '161',
+    name: "Bebida",
+    businesses: [
+      {
+        id: '161.1',
+        name: 'Adega dos Amigos',
+        images: [
+          
+        ],
+        address: 'Rua Armando Sales de Oliveira',
+        phone: '+55 15 99614-6707',
+        tel: '15 99614-6707',
+        hours: 'Seg-Sex: 08 às 22h\nSáb-Dom: 08h às 20h',
+        description: 'Bedidas em geral.',
+        socialMedia: [
+        
+          
+        ]
+      }
+     
+    ]
+  },
+  {
+    id: '17',
+    name: "Beleza e Estética",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '18',
+    name: "Borracharia",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '19',
+    name: "Buffet",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '20',
+    name: "Cabeleireiro",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '21',
+    name: "Cama Mesa e Banho",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '22',
+    name: "Cartório",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '23',
+    name: "Casa e Decoração",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '24',
+    name: "Chaveiro",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '25',
+    name: "Clínica e Laboratório",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '26',
+    name: "Clínica Veterinária",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '27',
+    name: "Colégio e Escola",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '271',
+    name: "Comida",
+    businesses: [
+      {
+        id: '271.1',
+        name: 'Pizzaria Surreal',
+        images: [
+          'https://encurtador.com.br/VMqyc',
+          'https://encurtador.com.br/ow1lL',
+          'https://encurtador.com.br/FQRo6',
+        ],
+        address: 'Rua Newton Prado 535',
+        phone: '+55 15996552341',
+        tel: '15 1599655-2341',
+        hours: 'Seg-Sex: 19h às 23h\nSáb: 19h às 23h\nDom: 19h às 23h',
+        description: 'Um sabor Surreal.',
+        socialMedia: [
+          { type: 'instagram', url: 'https://www.instagram.com/pizzariasurreall?igsh=cDFxdzZ2ZnJ4dWp4' },
+          { type: 'facebook', url: 'https://www.facebook.com/share/18ZD5hN5hh/' },
+          { type: 'whatsapp', url: 'https://wa.me/5515996552341' },
+          { type: 'maps', url: 'https://maps.app.goo.gl/tC1CcN4GJT5eKZ3t6'},
+          
+        ]
+      }
+     
+    ]
+  },
+  {
+    id: '28',
+    name: "Contabilidade",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '29',
+    name: "Dentista",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '30',
+    name: "Despachante",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '31',
+    name: "Doces e Salgados",
+    businesses: [
+      {
+        id: '31.1',
+        name: 'Jô Bolos',
+        images: [
+          'https://encurtador.com.br/86GAI',
+          'https://encurtador.com.br/dPgn6',
+          'https://encurtador.com.br/tN4d3',
+        ],
+        address: '',
+        phone: '+55 15991537174',
+        phone2: '+55 15996541847',
+        tel: '15 99153-7174',
+        tel2: '15 99654-1847',
+        hours: 'Seg-Sex: 9h às 18h\nSáb: 9h às 18h\nDom: 9h às 12h',
+        description: 'Toda hora é a hora perfeita',
+        socialMedia: [
+          { type: 'instagram', url: 'https://www.instagram.com/joscivania_bolos?utm_source=qr&igsh=MWY0dGE0MzZxdWowZw==' },
+          { type: 'facebook', url: 'https://www.facebook.com/share/1AE8vYALPP/' },
+          { type: 'whatsapp', url: 'https://wa.me/5515991537174' },
+          { type: 'whatsapp2', url: 'https://wa.me/5515996541847' },
+          
+          
+        ]
+      }
+    ]
+  },
+  {
+    id: '32',
+    name: "Educação",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '33',
+    name: "Eletro Doméstico",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '34',
+    name: "Encanador",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '35',
+    name: "Escola de Idiomas",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '36',
+    name: "Faculdade",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '37',
+    name: "Farmácia",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '38',
+    name: "Fisioterapeuta",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '39',
+    name: "Floricultura",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '40',
+    name: "Foto e Filmagens",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '41',
+    name: "Fretes e Mudança",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '42',
+    name: "Funerária",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '43',
+    name: "Funilaria e Pintura",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '44',
+    name: "Gráfica",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '45',
+    name: "Hotel e Pousada",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '46',
+    name: "Imobiliária",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '47',
+    name: "Internet",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '48',
+    name: "Jardinagem",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '49',
+    name: "Lanches",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '50',
+    name: "Lava Rápido",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '51',
+    name: "Loja de Calçados",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '52',
+    name: "Loja de Informática",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '53',
+    name: "Loja de Presentes e Ultensílios",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '54',
+    name: "Loja de Roupas",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '55',
+    name: "Marcenaria",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '56',
+    name: "Materiais de Construção",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '57',
+    name: "Médicos e Saúde",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '58',
+    name: "Noivas e Casamentos",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '59',
+    name: "OAB",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '60',
+    name: "Oficina de Carro",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '61',
+    name: "Oficina de Moto",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '62',
+    name: "Ótica e Relojoaria",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '63',
+    name: "Padaria",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '64',
+    name: "Papelaria",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '65',
+    name: "Peixaria",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '66',
+    name: "Perfumes e Cosméticos",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '67',
+    name: "Pet Shop",
+    businesses: [
+      {
+        id: '67.1',
+        name: 'Fran Pet',
+        images: [
+          'https://abrir.link/WFNbH',
+        ],
+        address: 'Rua das Flores, 123',
+        phone: '+55 15997448363',
+        tel: '15 99744-8363',
+        hours: 'Seg-Sex: 08h às 18h\nSáb: 08h às 13h\nDom: Fechado',
+        description: 'Cuidado com seu animalzinho.',
+        socialMedia: [
+          { type: 'instagram', url: 'https://www.instagram.com/franpet.banhoetosa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' },
+          { type: 'facebook', url: 'https://www.facebook.com/share/1B6UDBHWUU' },
+          { type: 'whatsapp', url: 'https://wa.me/5515997448363' },
+          { type: 'maps', url: 'https://maps.app.goo.gl/GNM7T12JDGoVo6yE8'},
+          
+        ]
+      }
+     
+    ]
+  },
+  {
+    id: '68',
+    name: "Piscina e Jardim",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '69',
+    name: "Pizzaria",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '70',
+    name: "Posto de Combustível",
+    businesses: [
+      {
+        id: '71.1',
+        name: 'Auto Posto San Marino Avenida',
+        images: [
+          'https://abrir.link/MEYHE',
+        ],
+        address: 'Avenida Antônio Pires de Almeida 1803',
+        phone: '+55 15992724348',
+        tel: '15 99242-4348',
+        hours: 'Seg-Sex: 05h às 22\nSáb: 06h às 22h\nDom: 07h às 21h',
+        description: 'Mais que uma opção, uma diferença.',
+        socialMedia: [
+          { type: 'facebook', url: 'https://www.facebook.com/share/1A6s54Rm84/' },
+          { type: 'whatsapp', url: 'https://wa.me/5515992724348' },
+          { type: 'maps', url: 'https://www.google.com/maps/place/Auto+Posto+San+Marino+Avenida/@-23.2258059,-47.5204268,17z/data=!3m1!4b1!4m6!3m5!1s0x94c5fe708eed6259:0x93a6e4f7f223352d!8m2!3d-23.2258059!4d-47.5204268!16s%2Fg%2F1ptz79nk2?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D'},
+          
+        ]
+      }
+     
+    ]
+  },
+  {
+    id: '71',
+    name: "Restaurante",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '72',
+    name: "Salão de Beleza",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '73',
+    name: "Supermercado",
+    businesses: [
+     
+    ]
+  },
+  {
+    id: '74',
+    name: "Tatuagens",
+    businesses: [
+     
+    ]
+  },
+ 
+];
+
+export const carouselImages = [
+  'https://abrir.link/MEYHE',
+  'https://abrir.link/WFNbH',
+];
