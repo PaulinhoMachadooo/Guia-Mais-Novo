@@ -129,8 +129,8 @@ const styles = StyleSheet.create({
   },
   searchInput: {
     flex: 1,
-    paddingVertical: 12,
-    fontSize: 16,
+    paddingVertical: 'auto',
+    
     color: '#0f172a',
   },
   clearButton: {
@@ -156,7 +156,7 @@ const styles = StyleSheet.create({
     elevation: 3,
   },
   categoryName: {
-    fontSize: 22,
+    fontSize: 16,
     fontWeight: '600',
     color: '#FFF',
     marginBottom: 4,

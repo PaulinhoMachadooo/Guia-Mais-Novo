@@ -240,9 +240,9 @@ export const categories = [
         id: '271.1',
         name: 'Pizzaria Surreal',
         images: [
-          'https://encurtador.com.br/VMqyc',
-          'https://encurtador.com.br/ow1lL',
-          'https://encurtador.com.br/FQRo6',
+          'https://lh3.googleusercontent.com/pw/AP1GczN220tkHWKbrHzTMC5MXQklYhDUjCCxo8EKQGLnfGo01I8drdMcyNMGbeeYUA9OqwWai67e4cLPRh-D573b0CwoxEUTK4HmMCBaDXMTSZpwSkqOYBh8UMCIBVITbcbc7mlg0v4CCgFenO_FpWUFeivm=w640-h640-s-no-gm?authuser=6',
+          'https://lh3.googleusercontent.com/pw/AP1GczMOeiDqyyh2REp8osYzItris4SbONALDgyQlTfGcvUrfp3DyXEQp-0Hp3UVV_3ZJVmxOOlRUgr8hzwpMsLP9sysgVoAPaF_3Abqt2Syp2OumKGuYOMM6bex1jKBhkRAYj0TuzPdWH_b5HjqJLD2Tfw-=w1080-h608-s-no-gm?authuser=7',
+          'https://lh3.googleusercontent.com/pw/AP1GczNHhIjLrohNvOIWaKiqdl8NFdqmehQIqa6_bh1iV9H-EdlaqvNo2dgOV0ialTP_e5T0_Ad4xiCo3VzbPR31B6HnmS935vzQxO1QJNEknzgz8md6KkVeqEqYmg9HtaQfpu04d2WyYMbVMfHphJwgO6Ae=w905-h905-s-no-gm?authuser=7',
         ],
         address: 'Rua Newton Prado 535',
         phone: '+55 15996552341',
@@ -289,9 +289,10 @@ export const categories = [
         id: '31.1',
         name: 'Jô Bolos',
         images: [
-          'https://encurtador.com.br/86GAI',
-          'https://encurtador.com.br/dPgn6',
-          'https://encurtador.com.br/tN4d3',
+          'https://lh3.googleusercontent.com/pw/AP1GczNbds9enrB47tnaVqoME0ROg2jKXhnjLfIOAJH7UyKN7Go2c7YoSIc-XOvNmP73p5JmEceQwZq4XmOJczArv2WGCapISbpNsxsoeCvEBv-rFaPg_IqmwBCBhMdHMxBgBaVjp9qiM6cQU1bIJeV8eZBR=w1218-h750-s-no-gm?authuser=7',
+          'https://lh3.googleusercontent.com/pw/AP1GczMkZUqOiF1Ki8U-R2HzHy1JST47Ib_5VaJJ7tUWEyRpHCsNdvbvtCxC9wsYt7IOZg-7yS_HbR8cxSr4-Ra218hpUaXcuQJjeO5hHB6B2YoNUwUgAEXFdxb7nr7dJJl4EfhQGKha_Qrgx2jckv-CWpC4=w1218-h813-s-no-gm?authuser=7',
+          'https://lh3.googleusercontent.com/pw/AP1GczMaAhoi9Q6_l-PpADZG1vK6nQgztpqzPq-sR-pJQAV8PWrZPdfX8Nt-BPlDE6cDDaWr9NBknOdL-Kdda-YSR8foN0OGBZfVsGMe4d2uEPZ1yEkqPpr2i3Uv526NxaWtfPrNHE3bc5ab2GIvlhPqyFnX=w858-h573-s-no-gm?authuser=7',
+          'https://lh3.googleusercontent.com/pw/AP1GczOLhmHDYFlURmjffCj6fONyhlKAFkGmwbbodizD7StE-IQ6i609JwXAELoGHYL_4sT3DdpBbPrll5ARH1CT2EWLjsV907sPPLTV4MWj8xfWElcRqCUfuUzkaCUO44H2qRtc7GjrUvwxfOHQTiEej0Qd=w858-h573-s-no-gm?authuser=7'
         ],
         address: '',
         phone: '+55 15991537174',
@@ -564,7 +565,7 @@ export const categories = [
         id: '67.1',
         name: 'Fran Pet',
         images: [
-          'https://abrir.link/WFNbH',
+          'https://lh3.googleusercontent.com/pw/AP1GczOXCovGefw6teH_MnkoO0Jhjtp6-fHP24imKWZaHI_Kc-duyQuxmwCZxJUol81NtMMGP2-D3z6SOYzEh4rRyXgMqwwBtgRmsLJcbWgCMSls3vbnYVSoHR0-KoCb0sYRZN6hXgqKBxa2MhLedKSOaVGh=w858-h412-s-no-gm?authuser=7',
         ],
         address: 'Rua das Flores, 123',
         phone: '+55 15997448363',
@@ -653,6 +654,6 @@ export const categories = [
 ];
 
 export const carouselImages = [
-  'https://abrir.link/MEYHE',
-  'https://abrir.link/WFNbH',
+  'https://lh3.googleusercontent.com/pw/AP1GczNIvyIOKh6JYDTNamdXBME_gpZ3qGwCwYu2PuINsgMelhpjiKKACV5KwZdcDgYV7WG8cUjd1IIS8lOyrWe0j1f5E4xVQ3WejiTCoJQBckFJofLJP1uAUDzQgFKhd5EFiaFOYOBPgF-vYa-zVErCoeB5=w521-h250-s-no-gm?authuser=7',
+  'https://lh3.googleusercontent.com/pw/AP1GczOXCovGefw6teH_MnkoO0Jhjtp6-fHP24imKWZaHI_Kc-duyQuxmwCZxJUol81NtMMGP2-D3z6SOYzEh4rRyXgMqwwBtgRmsLJcbWgCMSls3vbnYVSoHR0-KoCb0sYRZN6hXgqKBxa2MhLedKSOaVGh=w1043-h501-s-no-gm?authuser=7',
 ];

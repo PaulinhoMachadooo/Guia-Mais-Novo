@@ -105,7 +105,7 @@ const styles = StyleSheet.create({
     padding: 16,
   },
   businessName: {
-    fontSize: 18,
+    fontSize: 15,
     fontWeight: '600',
     color: '#0f172a',
     marginBottom: 4,

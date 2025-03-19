@@ -162,7 +162,7 @@ export default function HomeScreen() {
                 <View style={{ paddingLeft: 110 }}>
                   <Text
                     style={{
-                      fontSize: 20,
+                      fontSize: 17,
                       fontWeight: "bold",
                       color: "#FFF",
                     }}
@@ -195,7 +195,7 @@ export default function HomeScreen() {
                 <View style={{ paddingLeft: 110 }}>
                   <Text
                     style={{
-                      fontSize: 20,
+                      fontSize: 17,
                       fontWeight: "bold",
                       color: "#FFF",
                     }}
@@ -233,7 +233,7 @@ export default function HomeScreen() {
             >
               <View style={{ paddingLeft: 110 }}>
                 <Text
-                  style={{ fontSize: 20, fontWeight: "bold", color: "#FFF" }}
+                  style={{ fontSize: 17, fontWeight: "bold", color: "#FFF" }}
                 >
                   BARGANHAS
                 </Text>
@@ -278,7 +278,7 @@ const styles = StyleSheet.create({
     color: '#0891b2',
   },
   tagline: {
-    fontSize: 16,
+    fontSize: 15,
     color: '#64748b',
   },
   carouselContainer: {

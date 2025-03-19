@@ -86,11 +86,11 @@ const styles = StyleSheet.create({
   tabbar: {
     bottom: 1,
     flexDirection: "row",
-    justifyContent: "space-between",
+    justifyContent: "center",
     alignItems: "center",
     backgroundColor: "#ff5e00",
     marginHorizontal: 35,
-    paddingVertical: 15,
+  
     marginTop: 9,
     borderRadius: 25,
     borderCurve: "continuous",

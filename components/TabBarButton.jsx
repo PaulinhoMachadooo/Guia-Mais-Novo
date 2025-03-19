@@ -46,7 +46,7 @@ const TabBarButton = (props) => {
         style={[
           {
             color,
-            fontSize: 15,
+            fontSize: 14,
             fontWeight: "bold",
           },
           animatedTextStyle,
@@ -60,7 +60,10 @@ const TabBarButton = (props) => {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flexDirection: 'row',
+    paddingHorizontal: 10,
+    paddingBottom: 15,
+    paddingTop: 15,
     justifyContent: "center",
     alignItems: "center",
     gap: 4,
