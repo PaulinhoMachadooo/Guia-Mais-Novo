@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet, Image, ScrollView, Linking, Pressable, Dimensions, Animated, FlatList } from 'react-native';
 import { useRouter, useLocalSearchParams } from 'expo-router';
-import { Clock, MapPin, Phone, Mail, ArrowLeft, Instagram, Facebook, Twitter, Linkedin, Youtube, MessageCircle } from 'lucide-react-native';
+import { Clock, MapPin, Phone, Mail, ArrowLeft, Instagram, Facebook, Twitter, Linkedin, Youtube, MessageCircle, Chrome } from 'lucide-react-native';
 import { useRef, useState, useEffect } from 'react';
 import { categories } from '../data/index';
 import React from 'react';
@@ -123,23 +123,23 @@ export default function DetailsScreen() {
     switch (type) {
       case 'instagram':
         icon = <Instagram size={35} color="#E1306C" />;
-        color = '#E1306C';
+       
         break;
       case 'facebook':
         icon = <Facebook size={35} color="#1877F2" />;
-        color = '#1877F2';
+        
         break;
       case 'whatsapp':
         icon = <MessageCircle size={35} color="#25D366" />;
-        color = '#25D366';
+        
         break;
         case 'whatsapp2':
           icon = <MessageCircle size={35} color="#25D366" />;
-          color = '#25D366';
+          
           break;
       case 'maps':
         icon = <Image source={require("../assets/maps.png")} style={{ width: 35, height: 35 }} />;
-        color = '#25D366';
+        
         break;
       default:
         return null;
@@ -148,7 +148,7 @@ export default function DetailsScreen() {
     return (
       <Pressable
         key={type}
-        style={[styles.socialIcon, { borderColor: color }]}
+        style={[styles.socialIcon, ]}
         onPress={() => Linking.openURL(url)}>
         {icon}
       </Pressable>
@@ -165,16 +165,7 @@ export default function DetailsScreen() {
 
   return (
     <View style={styles.container}>
-      <View style={styles.header}>
-      <Pressable 
-          onPress={() => router.push({
-            pathname: '/businesses',
-            params: { categoryId: categoryId }
-          })} 
-          style={styles.backButton}>
-          <ArrowLeft size={24} color="#0f172a" />
-        </Pressable>
-      </View>
+  
       
       <ScrollView 
         style={styles.scrollContainer}
@@ -288,13 +279,12 @@ const styles = StyleSheet.create({
   header: {
     flexDirection: 'row',
     alignItems: 'center',
-    padding: 16,
     backgroundColor: 'white',
     borderBottomWidth: 1,
     borderBottomColor: '#e2e8f0',
   },
   backButton: {
-    marginTop: 30,
+    marginTop: 15,
     marginRight: 12,
     padding: 4,
   },
@@ -307,17 +297,20 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   carouselContainer: {
-    height: 270,
+    height: 300,
   },
   carouselItem: {
     width,
-    height: 250,
+    height: 280,
     justifyContent: 'center',
     alignItems: 'center',
   },
   carouselImage: {
     width: width,
-    height: 250,
+    height: 280,
+    borderBottomLeftRadius: 30,
+    borderBottomRightRadius: 30,
+    marginBottom:30,
   },
   dotsContainer: {
     flexDirection: 'row',
@@ -368,8 +361,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginRight: 12,
     backgroundColor: 'white',
-    borderWidth: 1,
-    shadowColor: '#000',
     shadowOffset: {
       width: 0,
       height: 2,
@@ -390,6 +381,14 @@ const styles = StyleSheet.create({
     padding: 16,
     borderRadius: 12,
     gap: 16,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 3,
+    elevation: 2,
   },
   infoItem: {
     flexDirection: 'row',

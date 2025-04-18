@@ -6,15 +6,25 @@ import { Link, router } from "expo-router";
 import { heightPercentageToDP as hp } from "react-native-responsive-screen";
 import { ScrollView } from 'react-native';
 import React from 'react';
+import { BannerCarousel } from '../../components/BannerCarousel';
+
 
 const { width } = Dimensions.get('window');
 
 export default function HomeScreen() {
+  
   const scrollX = useRef(new Animated.Value(0)).current;
   const [currentIndex, setCurrentIndex] = useState(0);
   const flatListRef = useRef(null);
   const autoPlay = true;
   const autoPlayInterval = 3500;
+
+  const [showBanner, setShowBanner] = useState(true);
+
+  const handleCloseBanner = () => {
+    setShowBanner(false);
+  };
+
 
   useEffect(() => {
     let interval;
@@ -117,7 +127,7 @@ export default function HomeScreen() {
   };
 
   return (
-    <ScrollView style={styles.container}>
+    (<ScrollView style={styles.container}>
       <View style={styles.logoContainer}>
         <Image source={require("../../assets/LogoGuiaMais.png")} 
         style={{
@@ -128,7 +138,6 @@ export default function HomeScreen() {
         />
         <Text style={styles.tagline}>Descubra o melhor da cidade</Text>
       </View>
-      
       <View style={styles.carouselContainer}>
         <Animated.FlatList
           ref={flatListRef}
@@ -144,8 +153,6 @@ export default function HomeScreen() {
         />
         {renderDots()}
       </View>
-
-
       <Pressable style={{paddingTop: 20, alignItems:'center',  }}
           onPress={navigateToRestaurants}
       >
@@ -178,85 +185,90 @@ export default function HomeScreen() {
                 </View>
               </View>
             </Pressable>
-
-            <Pressable style={{ paddingTop:40, alignItems:'center' }}
-          onPress={navigateToBebida}
-      >
-              <View
-                style={{
-                  flexDirection: "row",
-                  width: "80%",
-                  height: 60,
-                  backgroundColor: "#112342",
-                  alignItems: "center",
-                  borderRadius: 10,
-                }}
-              >
-                <View style={{ paddingLeft: 110 }}>
-                  <Text
-                    style={{
-                      fontSize: 17,
-                      fontWeight: "bold",
-                      color: "#FFF",
-                    }}
-                  >
-                    BEBIDAS
-                  </Text>
-                </View>
-                <View style={{ flex: 1, paddingLeft: 30, paddingBottom: 15 }}>
-                  <Image
-                    style={{ height: 115, width: 110,}}
-                    source={require("../../assets/Bebidas3.png")}
-                  />
-                </View>
-              </View>
-            </Pressable>
-
-            <Pressable
-            onPress={() => {
-              Linking.openURL(
-                "https://www.facebook.com/groups/2314226998745714?locale=pt_BR"
-              );
-            }}
-            style={{ paddingTop: 35, alignItems:'center' }}
-          >
-            <View
+      <Pressable style={{ paddingTop:40, alignItems:'center' }}
+    onPress={navigateToBebida}
+>
+        <View
+          style={{
+            flexDirection: "row",
+            width: "80%",
+            height: 60,
+            backgroundColor: "#112342",
+            alignItems: "center",
+            borderRadius: 10,
+          }}
+        >
+          <View style={{ paddingLeft: 110 }}>
+            <Text
               style={{
-                flexDirection: "row",
-                width: "80%",
-                height: 60,
-                backgroundColor: "#112342",
-                alignItems: "center",
-                justifyContent: "center",
-                borderRadius: 10,
+                fontSize: 17,
+                fontWeight: "bold",
+                color: "#FFF",
               }}
             >
-              <View style={{ paddingLeft: 110 }}>
-                <Text
-                  style={{ fontSize: 17, fontWeight: "bold", color: "#FFF" }}
-                >
-                  BARGANHAS
-                </Text>
-              </View>
-              <View style={{ flex: 1, paddingLeft: 2, paddingBottom: 15 }}>
-                <Image
-                  style={{ height: 100, width: 110 }}
-                  source={require("../../assets/SACOLAS.png")}
-                />
-              </View>
-            </View>
-          </Pressable>
-      
-        
+              BEBIDAS
+            </Text>
+          </View>
+          <View style={{ flex: 1, paddingLeft: 30, paddingBottom: 15 }}>
+            <Image
+              style={{ height: 115, width: 110,}}
+              source={require("../../assets/Bebidas3.png")}
+            />
+          </View>
+        </View>
+      </Pressable>
+      <Pressable
+      onPress={() => {
+        Linking.openURL(
+          "https://www.facebook.com/groups/2314226998745714?locale=pt_BR"
+        );
+      }}
+      style={{ paddingTop: 35, alignItems:'center' }}
+    >
+      <View
+        style={{
+          flexDirection: "row",
+          width: "80%",
+          height: 60,
+          backgroundColor: "#112342",
+          alignItems: "center",
+          justifyContent: "center",
+          borderRadius: 10,
+        }}
+      >
+        <View style={{ paddingLeft: 110 }}>
+          <Text
+            style={{ fontSize: 17, fontWeight: "bold", color: "#FFF" }}
+          >
+            BARGANHAS
+          </Text>
+        </View>
+        <View style={{ flex: 1, paddingLeft: 2, paddingBottom: 15 }}>
+          <Image
+            style={{ height: 100, width: 110 }}
+            source={require("../../assets/SACOLAS.png")}
+          />
+        </View>
+
+       
+      </View>
+    </Pressable>
       {/*<View style={styles.welcomeContainer}>
           <Text style={styles.welcomeTitle}>...</Text>
           <Text style={styles.welcomeText}>
               ...
           </Text>
       </View>*/}
-      
-    </ScrollView>
-  );
+
+
+       {/* {showBanner && (                              //BANNER ADS
+        <View style={styles.bannerContainer}>
+          <BannerCarousel onClose={handleCloseBanner} />
+        </View>
+      )}
+         */}
+    </ScrollView>)
+  );  
 }
 
 const styles = StyleSheet.create({
@@ -360,5 +372,13 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: '#334155',
     lineHeight: 24,
+  },
+  bannerContainer: {
+    position: 'absolute',
+    bottom: -60, // Position above tab bar
+    left: 0,
+    right: 0,
+    height: 60,
+    zIndex: 100,
   },
 });

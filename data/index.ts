@@ -247,7 +247,7 @@ export const categories = [
         address: 'Rua Newton Prado 535',
         phone: '+55 15996552341',
         tel: '15 1599655-2341',
-        hours: 'Seg-Sex: 19h às 23h\nSáb: 19h às 23h\nDom: 19h às 23h',
+        hours: 'Seg-Ter: 19h às 23h\nQua: Fechado\nQui-Sex-Sáb-Dom: 19h às 23h',
         description: 'Um sabor Surreal.',
         socialMedia: [
           { type: 'instagram', url: 'https://www.instagram.com/pizzariasurreall?igsh=cDFxdzZ2ZnJ4dWp4' },
