@@ -165,7 +165,16 @@ export default function DetailsScreen() {
 
   return (
     <View style={styles.container}>
-  
+      <View style={styles.header}>
+      <Pressable 
+          onPress={() => router.push({
+            pathname: '/businesses',
+            params: { categoryId: categoryId }
+          })} 
+          style={styles.backButton}>
+          <ArrowLeft size={24} color="#0f172a" />
+        </Pressable>
+      </View>
       
       <ScrollView 
         style={styles.scrollContainer}
@@ -276,18 +285,8 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#f4f4f5',
   },
-  header: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: 'white',
-    borderBottomWidth: 1,
-    borderBottomColor: '#e2e8f0',
-  },
-  backButton: {
-    marginTop: 15,
-    marginRight: 12,
-    padding: 4,
-  },
+
+
   headerTitle: {
     fontSize: 20,
     fontWeight: '600',
@@ -297,20 +296,17 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   carouselContainer: {
-    height: 400,
+    height: 270,
   },
   carouselItem: {
     width,
-    height: 380,
+    height: 250,
     justifyContent: 'center',
     alignItems: 'center',
   },
   carouselImage: {
     width: width,
-    height: 380,
-    borderBottomLeftRadius: 30,
-    borderBottomRightRadius: 30,
-    marginBottom:30,
+    height: 250,
   },
   dotsContainer: {
     flexDirection: 'row',
@@ -337,11 +333,10 @@ const styles = StyleSheet.create({
     padding: 16,
   },
   name: {
-    fontSize: 30,
+    fontSize: 24,
     fontWeight: '600',
-    color: '#112342',
+    color: '#0f172a',
     marginBottom: 4,
-    textAlign:'center',
   },
   category: {
     fontSize: 16,
@@ -349,7 +344,6 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   socialMediaContainer: {
-    alignItems:'center',
     marginBottom: 16,
   },
   socialMediaList: {
@@ -376,7 +370,6 @@ const styles = StyleSheet.create({
     color: '#334155',
     lineHeight: 24,
     marginBottom: 24,
-    textAlign:'center',
   },
   infoSection: {
     width:"auto",

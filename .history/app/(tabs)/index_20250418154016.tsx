@@ -261,12 +261,12 @@ export default function HomeScreen() {
       </View>*/}
 
 
-        {showBanner && (                              //BANNER ADS
+       {/* {showBanner && (                              //BANNER ADS
         <View style={styles.bannerContainer}>
           <BannerCarousel onClose={handleCloseBanner} />
         </View>
       )}
-         
+         */}
     </ScrollView>)
   );  
 }

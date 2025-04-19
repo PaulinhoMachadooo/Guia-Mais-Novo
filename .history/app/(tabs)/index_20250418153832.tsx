@@ -266,9 +266,8 @@ export default function HomeScreen() {
           <BannerCarousel onClose={handleCloseBanner} />
         </View>
       )}
-         
     </ScrollView>)
-  );  
+  );
 }
 
 const styles = StyleSheet.create({

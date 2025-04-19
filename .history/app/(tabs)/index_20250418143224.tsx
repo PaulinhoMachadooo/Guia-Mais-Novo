@@ -259,16 +259,13 @@ export default function HomeScreen() {
               ...
           </Text>
       </View>*/}
-
-
-        {showBanner && (                              //BANNER ADS
+        {showBanner && (
         <View style={styles.bannerContainer}>
           <BannerCarousel onClose={handleCloseBanner} />
         </View>
       )}
-         
     </ScrollView>)
-  );  
+  );
 }
 
 const styles = StyleSheet.create({
@@ -372,13 +369,5 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: '#334155',
     lineHeight: 24,
-  },
-  bannerContainer: {
-    position: 'absolute',
-    bottom: -60, // Position above tab bar
-    left: 0,
-    right: 0,
-    height: 60,
-    zIndex: 100,
   },
 });

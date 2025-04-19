@@ -337,9 +337,9 @@ const styles = StyleSheet.create({
     padding: 16,
   },
   name: {
-    fontSize: 30,
+    fontSize: 24,
     fontWeight: '600',
-    color: '#112342',
+    color: '#0f172a',
     marginBottom: 4,
     textAlign:'center',
   },
@@ -376,7 +376,6 @@ const styles = StyleSheet.create({
     color: '#334155',
     lineHeight: 24,
     marginBottom: 24,
-    textAlign:'center',
   },
   infoSection: {
     width:"auto",

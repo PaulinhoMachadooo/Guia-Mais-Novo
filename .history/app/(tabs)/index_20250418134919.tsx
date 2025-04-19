@@ -8,23 +8,14 @@ import { ScrollView } from 'react-native';
 import React from 'react';
 import { BannerCarousel } from '../../components/BannerCarousel';
 
-
 const { width } = Dimensions.get('window');
 
 export default function HomeScreen() {
-  
   const scrollX = useRef(new Animated.Value(0)).current;
   const [currentIndex, setCurrentIndex] = useState(0);
   const flatListRef = useRef(null);
   const autoPlay = true;
   const autoPlayInterval = 3500;
-
-  const [showBanner, setShowBanner] = useState(true);
-
-  const handleCloseBanner = () => {
-    setShowBanner(false);
-  };
-
 
   useEffect(() => {
     let interval;
@@ -259,16 +250,11 @@ export default function HomeScreen() {
               ...
           </Text>
       </View>*/}
-
-
-        {showBanner && (                              //BANNER ADS
-        <View style={styles.bannerContainer}>
-          <BannerCarousel onClose={handleCloseBanner} />
-        </View>
-      )}
-         
+       < BannerCarousel onClose={function (): void {
+               throw new Error('Function not implemented.');
+             } }/>
     </ScrollView>)
-  );  
+  );
 }
 
 const styles = StyleSheet.create({
@@ -372,13 +358,5 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: '#334155',
     lineHeight: 24,
-  },
-  bannerContainer: {
-    position: 'absolute',
-    bottom: -60, // Position above tab bar
-    left: 0,
-    right: 0,
-    height: 60,
-    zIndex: 100,
   },
 });

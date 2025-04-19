@@ -259,16 +259,13 @@ export default function HomeScreen() {
               ...
           </Text>
       </View>*/}
-
-
-        {showBanner && (                              //BANNER ADS
+        {showBanner && (
         <View style={styles.bannerContainer}>
           <BannerCarousel onClose={handleCloseBanner} />
         </View>
       )}
-         
     </ScrollView>)
-  );  
+  );
 }
 
 const styles = StyleSheet.create({
@@ -375,7 +372,7 @@ const styles = StyleSheet.create({
   },
   bannerContainer: {
     position: 'absolute',
-    bottom: -60, // Position above tab bar
+    bottom: 1, // Position above tab bar
     left: 0,
     right: 0,
     height: 60,
