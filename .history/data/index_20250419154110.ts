@@ -1,29 +1,120 @@
 export const categories = [
   { 
     id: '1', 
-    name: '', 
+    name: 'Academia', 
     businesses: [
-      /*{
-        id: '1',
-        name: 'Restaurante Sabor & Arte',
+      {
+        id: '1.1',
+        name: 'AMC',
         images: [
-          'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500',
-          'https://images.unsplash.com/photo-1552566626-52f8b828add9?w=500',
-          'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=500'
+          
         ],
-        address: 'Rua das Flores, 123',
-        phone: '+55 15996524975',
-        tel: '15 99652-4975',
-        hours: 'Seg-Sex: 11h às 23h\nSáb-Dom: 11h às 00h',
-        description: 'Cuidamos do seu animalzinho.',
+        address: '',
+        phone: '+55 15 99712-4530',
+        tel: '15 99712-4530',
+        hours: '',
+        description: '',
         socialMedia: [
-          { type: 'instagram', url: 'https://instagram.com/saborarte' },
-          { type: 'facebook', url: 'https://facebook.com/saborarte' },
-          { type: 'whatsapp', url: 'https://wa.me/5511999999999' },
-          { type: 'maps', url: 'https://maps.app.goo.gl/tC1CcN4GJT5eKZ3t6'},
+        
           
         ]
-      }*/
+      },
+      {
+        id: '1.2',
+        name: 'Atlética Jardim Vante',
+        images: [
+          
+        ],
+        address: '',
+        phone: '+55 99608-2848',
+        tel: '15 99608-2848',
+        hours: '',
+        description: '',
+        socialMedia: [
+        
+          
+        ]
+      },
+      {
+        id: '1.3',
+        name: 'Corpo e Alma',
+        images: [
+          
+        ],
+        address: '',
+        phone: '+55 3262-5591',
+        tel: '15 3262-5591',
+        hours: '',
+        description: '',
+        socialMedia: [
+        
+          
+        ]
+      },
+      {
+        id: '1.4',
+        name: 'Fratello Centro de Treinamento',
+        images: [
+          
+        ],
+        address: '',
+        phone: '+55 99642-3404',
+        tel: '15 99642-3404',
+        hours: '',
+        description: '',
+        socialMedia: [
+        
+          
+        ]
+      },
+      {
+        id: '1.5',
+        name: 'Life Fit',
+        images: [
+          
+        ],
+        address: '',
+        phone: '',
+        tel: '',
+        hours: '',
+        description: '',
+        socialMedia: [
+        
+          
+        ]
+      },
+      {
+        id: '1.6',
+        name: 'R2 Academia',
+        images: [
+          
+        ],
+        address: '',
+        phone: '+55 15 99163-7575',
+        tel: '15 99163-7575',
+        hours: '',
+        description: '',
+        socialMedia: [
+        
+          
+        ]
+      },
+      {
+        id: '1.8',
+        name: 'Spartacus',
+        images: [
+          
+        ],
+        address: '',
+        phone: '+55 15 3261-5337',
+        tel: '15 3261-5337',
+        hours: '',
+        description: '',
+        socialMedia: [
+        
+          
+        ]
+      }
     ]
   },
   {
@@ -247,7 +338,7 @@ export const categories = [
         address: 'Rua Newton Prado 535',
         phone: '+55 15996552341',
         tel: '15 1599655-2341',
-        hours: 'Seg-Ter: 19h às 23h\nQua: Fechado\nQui-Sex-Sab-Dom: 19h às 23h',
+        hours: 'Seg-Ter: 19h às 23h\nQua: Fechado\nQui-Sex-Sáb-Dom: 19h às 23h',
         description: 'Um sabor Surreal.',
         socialMedia: [
           { type: 'instagram', url: 'https://www.instagram.com/pizzariasurreall?igsh=cDFxdzZ2ZnJ4dWp4' },
@@ -645,9 +736,27 @@ export const categories = [
   },
   {
     id: '74',
-    name: "Tatuagens",
+    name: "Tapeçaria",
     businesses: [
-     
+      {
+        id: '741',
+        name: 'Tapeçaria Antunes',
+        images: [
+          'https://media-gru1-2.cdn.whatsapp.net/v/t61.24694-24/439036292_1644837546353443_793468100918874379_n.jpg?ccb=11-4&oh=01_Q5AaIbRc0xbRw467wUPeste4U9Ovi0J7QxA3_VhTVysvzjbN&oe=67F1E194&_nc_sid=5e03e0&_nc_cat=101',
+          "https://lh3.googleusercontent.com/gps-cs-s/AB5caB9RRpxJmTx6ptuly1Nd-S2JAGGKiknFaQ3WFUapRBp73Ms-xqLwgGiMfA9VPHFDdeHKv8R70RJKp8XL-MTBm68DejM1BNY75AZ1ZniQTi5nvrVYf53iOWVXqwavopYdbE9N1lXSVw=s2286-w2286-h1808-rw",
+          'https://lh3.googleusercontent.com/gps-cs-s/AB5caB9hLB1KFFFAgHYxn8OkQzSW2my6-u7la_DhrgmqSO6yEQRtjr3xjfHIgJy_Gz9gF6fDiARYhiUZM14kzBX-2hLNexKI9xLUqIkkG2J2LBhbzydfIj9hvx2L-vuc8DY3zLYYen1E=s2286-w2286-h1808-rw'
+        ],
+        address: 'R. João Portela Sobrinho, 616 - Centro',
+        phone: '+55 1599758-9870',
+        tel: '15 99758-9870',
+        hours: 'Dom: Fechado\nSeg-Sex: 07:00 às 17:00\nSáb: 08:00 às 11:30',
+        description: '',
+        socialMedia: [
+          { type: 'whatsapp', url: 'https://wa.me/5515997589870' },
+          { type: 'maps', url: 'https://maps.app.goo.gl/YMuhpwLJMNKTv5DT9'},
+          
+        ]
+      },
     ]
   },
  
