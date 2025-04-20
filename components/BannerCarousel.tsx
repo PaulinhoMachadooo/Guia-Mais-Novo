@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from "react";
 import {
   View,
   Text,
@@ -7,24 +7,24 @@ import {
   Animated,
   Dimensions,
   Platform,
-  Pressable
-} from 'react-native';
-import { X } from 'lucide-react-native';
-import { router } from 'expo-router';
+  Pressable,
+} from "react-native";
+import { X } from "lucide-react-native";
+import { router } from "expo-router";
 
-const { width } = Dimensions.get('window');
+const { width } = Dimensions.get("window");
 
 type BannerCarouselProps = {
   onClose: () => void;
 };
 
-const ads = [ 
+const ads = [
   {
-    id: '1',
-    title: 'ANÚNCIE AQUI!',
-    backgroundColor: 'rgba(59, 130, 246, 0.9)', // Blue
-    textColor: '#FFFFFF',
-    link: '/about',
+    id: "1",
+    title: "ANÚNCIE AQUI!",
+    backgroundColor: "rgba(59, 130, 246, 0.9)", // Blue
+    textColor: "#FFFFFF",
+    link: "/about",
   },
   /*{
     id: '2',
@@ -115,22 +115,19 @@ export const BannerCarousel: React.FC<BannerCarouselProps> = ({ onClose }) => {
           const dotWidth = scrollX.interpolate({
             inputRange,
             outputRange: [8, 16, 8],
-            extrapolate: 'clamp',
+            extrapolate: "clamp",
           });
 
           const opacity = scrollX.interpolate({
             inputRange,
             outputRange: [0.4, 1, 0.4],
-            extrapolate: 'clamp',
+            extrapolate: "clamp",
           });
 
           return (
             <Animated.View
               key={index}
-              style={[
-                styles.indicator,
-                { width: dotWidth, opacity },
-              ]}
+              style={[styles.indicator, { width: dotWidth, opacity }]}
             />
           );
         })}
@@ -149,7 +146,11 @@ interface AdBannerProps {
   textColor: string;
 }
 
-const AdBanner: React.FC<AdBannerProps> = ({ title, backgroundColor, textColor }) => {
+const AdBanner: React.FC<AdBannerProps> = ({
+  title,
+  backgroundColor,
+  textColor,
+}) => {
   return (
     <View style={[styles.slide, { backgroundColor }]}>
       <Text style={[styles.adText, { color: textColor }]}>{title}</Text>
@@ -159,12 +160,12 @@ const AdBanner: React.FC<AdBannerProps> = ({ title, backgroundColor, textColor }
 
 const styles = StyleSheet.create({
   container: {
-    height: 90,
-    width: '100%',
-    position: 'relative',
+    height: 70,
+    width: "100%",
+    position: "relative",
     ...Platform.select({
       ios: {
-        shadowColor: '#000',
+        shadowColor: "#000",
         shadowOffset: { width: 0, height: -3 },
         shadowOpacity: 0.1,
         shadowRadius: 5,
@@ -173,7 +174,7 @@ const styles = StyleSheet.create({
         elevation: 5,
       },
       web: {
-        shadowColor: '#000',
+        shadowColor: "#000",
         shadowOffset: { width: 0, height: -3 },
         shadowOpacity: 0.1,
         shadowRadius: 5,
@@ -182,40 +183,40 @@ const styles = StyleSheet.create({
   },
   slide: {
     width: width,
-    height: 90,
-    justifyContent: 'center',
-    alignItems: 'center',
+    height: 70,
+    justifyContent: "center",
+    alignItems: "center",
   },
   adText: {
     fontSize: 16,
-    fontWeight: '500',
-    textAlign: 'center',
+    fontWeight: "500",
+    textAlign: "center",
     paddingHorizontal: 40,
   },
   closeButton: {
-    position: 'absolute',
+    position: "absolute",
     right: 10,
-    top: '50%',
+    top: "50%",
     marginTop: -12,
     width: 24,
     height: 24,
     borderRadius: 12,
-    backgroundColor: 'rgba(0, 0, 0, 0.25)',
-    justifyContent: 'center',
-    alignItems: 'center',
+    backgroundColor: "rgba(0, 0, 0, 0.25)",
+    justifyContent: "center",
+    alignItems: "center",
     zIndex: 2,
   },
   indicatorContainer: {
-    position: 'absolute',
+    position: "absolute",
     bottom: 6,
-    flexDirection: 'row',
-    justifyContent: 'center',
-    width: '100%',
+    flexDirection: "row",
+    justifyContent: "center",
+    width: "100%",
   },
   indicator: {
     height: 4,
     borderRadius: 2,
-    backgroundColor: '#FFFFFF',
+    backgroundColor: "#FFFFFF",
     marginHorizontal: 2,
   },
 });
