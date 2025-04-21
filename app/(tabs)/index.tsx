@@ -255,14 +255,15 @@ export default function HomeScreen() {
             </View>
           </View>
         </Pressable>
-        <View style={{}}>
-          {showBanner && ( //BANNER ADS
-            <View style={styles.bannerContainer}>
-              <BannerCarousel onClose={handleCloseBanner} />
-            </View>
-          )}
-        </View>
+        <View style={styles.spacer} />
       </ScrollView>
+      <View style={{}}>
+        {showBanner && ( //BANNER ADS
+          <View style={styles.bannerContainer}>
+            <BannerCarousel onClose={handleCloseBanner} />
+          </View>
+        )}
+      </View>
     </View>
   );
 }
@@ -368,9 +369,12 @@ const styles = StyleSheet.create({
     color: "#334155",
     lineHeight: 24,
   },
+  spacer: {
+    height: 3,
+  },
   bannerContainer: {
     position: "absolute",
-    bottom: -15, // Position above tab bar
+    bottom: 20, // Position above tab bar
     left: 0,
     right: 0,
     height: 60,
