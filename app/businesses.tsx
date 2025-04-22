@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, FlatList, Pressable, Image } from 'react-native';
+import { View, Text, StyleSheet, FlatList, Pressable, Image, TouchableOpacity } from 'react-native';
 import { useRouter, useLocalSearchParams } from 'expo-router';
 import { ArrowLeft } from 'lucide-react-native';
 import { categories } from '../data/index';
@@ -19,7 +19,7 @@ export default function BusinessesScreen() {
   }
 
   const renderBusiness = ({ item }) => (
-    <Pressable
+    <TouchableOpacity
       style={styles.businessItem}
       onPress={() => router.push({
         pathname: '/details',
@@ -30,17 +30,17 @@ export default function BusinessesScreen() {
         <Text style={styles.businessName}>{item.name}</Text>
       {/*<Text style={styles.businessCategory}>{category.name}</Text>*/}
       </View>
-    </Pressable>
+    </TouchableOpacity>
   );
 
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Pressable 
+        <TouchableOpacity 
           onPress={() => router.push('/categories')} 
           style={styles.backButton}>
           <ArrowLeft size={24} color="#0f172a" />
-        </Pressable>
+        </TouchableOpacity>
         <Text style={styles.categoryTitle}>{category.name}</Text>
       </View>
       <FlatList
@@ -71,13 +71,13 @@ const styles = StyleSheet.create({
   backButton: {
     marginRight: 12,
     padding: 4,
-    marginTop: 30,
+    marginTop: 20,
   },
   categoryTitle: {
-    marginTop: 30,
+    marginTop: 20,
     fontSize: 15,
     fontWeight: '600',
-    color: '#0f172a',
+    color: '#64748b',
   },
   listContainer: {
     padding: 16,
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
   businessItem: {
     backgroundColor: 'white',
     borderRadius: 12,
-    marginBottom: 16,
+    marginBottom: 4,
     alignItems:'center',
     overflow: 'hidden',
     shadowColor: '#000',
@@ -107,7 +107,7 @@ const styles = StyleSheet.create({
   businessName: {
     fontSize: 15,
     fontWeight: '600',
-    color: '#0f172a',
+    color: '#112342',
     marginBottom: 4,
   },
   businessCategory: {

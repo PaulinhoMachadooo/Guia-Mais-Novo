@@ -7,6 +7,7 @@ import {
   Animated,
   Pressable,
   Linking,
+  TouchableOpacity,
 } from "react-native";
 import { useRef, useState, useEffect } from "react";
 import { useRouter } from "expo-router";
@@ -157,8 +158,8 @@ export default function HomeScreen() {
           />
           {renderDots()}
         </View>
-        <Pressable
-          style={{ paddingTop: 20, alignItems: "center" }}
+        <TouchableOpacity
+          style={{ paddingTop: 40, alignItems: "center" }}
           onPress={navigateToRestaurants}
         >
           <View
@@ -189,8 +190,9 @@ export default function HomeScreen() {
               />
             </View>
           </View>
-        </Pressable>
-        <Pressable
+        
+        </TouchableOpacity>
+        <TouchableOpacity
           style={{ paddingTop: 40, alignItems: "center" }}
           onPress={navigateToBebida}
         >
@@ -222,8 +224,8 @@ export default function HomeScreen() {
               />
             </View>
           </View>
-        </Pressable>
-        <Pressable
+        </TouchableOpacity>
+        <TouchableOpacity
           onPress={() => {
             Linking.openURL(
               "https://www.facebook.com/groups/2314226998745714?locale=pt_BR"
@@ -254,7 +256,7 @@ export default function HomeScreen() {
               />
             </View>
           </View>
-        </Pressable>
+        </TouchableOpacity>
         <View style={styles.spacer} />
       </ScrollView>
       <View style={{}}>

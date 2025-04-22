@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, Image, ScrollView, Linking, Pressable, Dimensions, Animated, FlatList } from 'react-native';
+import { View, Text, StyleSheet, Image, ScrollView, Linking, Pressable, Dimensions, Animated, FlatList, TouchableOpacity } from 'react-native';
 import { useRouter, useLocalSearchParams } from 'expo-router';
 import { Clock, MapPin, Phone, Mail, ArrowLeft, Instagram, Facebook, Twitter, Linkedin, Youtube, MessageCircle, Chrome } from 'lucide-react-native';
 import { useRef, useState, useEffect } from 'react';
@@ -146,12 +146,12 @@ export default function DetailsScreen() {
     }
 
     return (
-      <Pressable
+      <TouchableOpacity
         key={type}
         style={[styles.socialIcon, ]}
         onPress={() => Linking.openURL(url)}>
         {icon}
-      </Pressable>
+      </TouchableOpacity>
     );
   };
 
@@ -220,11 +220,15 @@ export default function DetailsScreen() {
             {hasData(business.phone) && (
               <View style={styles.infoItem}>
                 <Phone size={30} color="#0891b2" />
+                <TouchableOpacity style={{}}
+                onPress={() => Linking.openURL(`tel:${business.phone}`)}
+                >
                 <Text 
                   style={[styles.infoPhoneText, styles.link]}
-                  onPress={() => Linking.openURL(`tel:${business.phone}`)}>
+                  >
                   {business.tel}
                 </Text>
+                </TouchableOpacity>
               </View>
             )}
 

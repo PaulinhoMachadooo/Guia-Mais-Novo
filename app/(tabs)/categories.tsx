@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, FlatList, Pressable, TextInput } from 'react-native';
+import { View, Text, StyleSheet, FlatList, Pressable, TextInput, TouchableOpacity } from 'react-native';
 import { useRouter } from 'expo-router';
 import { Search, X } from 'lucide-react-native';
 import { useState, useMemo } from 'react';
@@ -58,7 +58,7 @@ export default function CategoriesScreen() {
   }, [searchQuery]);
 
   const renderCategory = ({ item }) => (
-    <Pressable
+    <TouchableOpacity
       style={styles.categoryItem}
       onPress={() => router.push({
         pathname: '/businesses',
@@ -66,7 +66,7 @@ export default function CategoriesScreen() {
       })}>
       <Text style={styles.categoryName}>{item.name}</Text>
       <Text style={styles.categoryCount}>{item.businesses.length} estabelecimentos</Text>
-    </Pressable>
+    </TouchableOpacity>
   );
 
   return (
