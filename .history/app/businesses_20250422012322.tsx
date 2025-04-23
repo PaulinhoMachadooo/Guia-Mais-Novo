@@ -109,7 +109,6 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     color: '#112342',
     marginBottom: 4,
-    textAlign:'center',
   },
   businessCategory: {
     fontSize: 14,

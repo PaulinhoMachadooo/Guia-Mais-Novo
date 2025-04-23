@@ -1862,7 +1862,7 @@ export const categories = [
       },                                                        
     ],
   },
- /* {
+  {
     id: "28",
     name: "Contabilidade",
     businesses: [],
@@ -1876,7 +1876,7 @@ export const categories = [
     id: "30",
     name: "Despachante",
     businesses: [],
-  },*/
+  },
   {
     id: "31",
     name: "Doces e Salgados",

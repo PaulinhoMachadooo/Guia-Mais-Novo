@@ -78,6 +78,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     fontWeight: '600',
     color: '#64748b',
+    textAlign:'center',
   },
   listContainer: {
     padding: 16,
@@ -109,7 +110,6 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     color: '#112342',
     marginBottom: 4,
-    textAlign:'center',
   },
   businessCategory: {
     fontSize: 14,

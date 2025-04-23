@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, FlatList, Pressable, Image, TouchableOpacity } from 'react-native';
+import { View, Text, StyleSheet, FlatList, Pressable, Image } from 'react-native';
 import { useRouter, useLocalSearchParams } from 'expo-router';
 import { ArrowLeft } from 'lucide-react-native';
 import { categories } from '../data/index';
@@ -19,7 +19,7 @@ export default function BusinessesScreen() {
   }
 
   const renderBusiness = ({ item }) => (
-    <TouchableOpacity
+    <Pressable
       style={styles.businessItem}
       onPress={() => router.push({
         pathname: '/details',
@@ -30,17 +30,17 @@ export default function BusinessesScreen() {
         <Text style={styles.businessName}>{item.name}</Text>
       {/*<Text style={styles.businessCategory}>{category.name}</Text>*/}
       </View>
-    </TouchableOpacity>
+    </Pressable>
   );
 
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <TouchableOpacity 
+        <Pressable 
           onPress={() => router.push('/categories')} 
           style={styles.backButton}>
           <ArrowLeft size={24} color="#0f172a" />
-        </TouchableOpacity>
+        </Pressable>
         <Text style={styles.categoryTitle}>{category.name}</Text>
       </View>
       <FlatList
@@ -71,13 +71,13 @@ const styles = StyleSheet.create({
   backButton: {
     marginRight: 12,
     padding: 4,
-    marginTop: 20,
+    marginTop: 30,
   },
   categoryTitle: {
-    marginTop: 20,
+    marginTop: 30,
     fontSize: 15,
     fontWeight: '600',
-    color: '#64748b',
+    color: '#0f172a',
   },
   listContainer: {
     padding: 16,
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
   businessItem: {
     backgroundColor: 'white',
     borderRadius: 12,
-    marginBottom: 4,
+    marginBottom: 16,
     alignItems:'center',
     overflow: 'hidden',
     shadowColor: '#000',
@@ -107,9 +107,8 @@ const styles = StyleSheet.create({
   businessName: {
     fontSize: 15,
     fontWeight: '600',
-    color: '#112342',
+    color: '#0f172a',
     marginBottom: 4,
-    textAlign:'center',
   },
   businessCategory: {
     fontSize: 14,

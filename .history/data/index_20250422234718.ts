@@ -1862,7 +1862,7 @@ export const categories = [
       },                                                        
     ],
   },
- /* {
+  {
     id: "28",
     name: "Contabilidade",
     businesses: [],
@@ -1876,7 +1876,7 @@ export const categories = [
     id: "30",
     name: "Despachante",
     businesses: [],
-  },*/
+  },
   {
     id: "31",
     name: "Doces e Salgados",
@@ -2177,58 +2177,13 @@ export const categories = [
     id: "62",
     name: "Ótica e Relojoaria",
     businesses: [],
-  },*/
+  },
   {
     id: "63",
     name: "Padaria",
-    businesses: [
-        {
-        id: "63.1",
-        name: "Padaria e Confeitaria Moura",
-        images: [],
-        address: "Av. Armando de Salles Oliveira, 289 ",
-        phone: "+55 15 99696-8261",
-        tel: "15 99696-8261",
-        hours: "",
-        description: "PADARIA",
-        socialMedia: [],
-      },   
-      {
-        id: "63.2",
-        name: "Padaria e Confeitaria Rainha do Porto",
-        images: [],
-        address: "R. Jéferson Soares de Souza, 14 - Bambu",
-        phone: "+55 15 2107-7160",
-        tel: "15 2107-7160",
-        hours: "",
-        description: "PADARIA",
-        socialMedia: [],
-      },       
-      {
-        id: "63.3",
-        name: "Padaria e Lanchonete Maranata",
-        images: [],
-        address: "Av. Monsenhor Seckler, 877 - Vila América",
-        phone: "+55 15 3261-6447",
-        tel: "15 3261-6447",
-        hours: "",
-        description: "PADARIA",
-        socialMedia: [],
-      },
-      {
-        id: "63.4",
-        name: "Padaria e Restaurante São João",
-        images: [],
-        address: "R. José Bonifácio, 211",
-        phone: "+55 15 99797-1465",
-        tel: "15 99797-1465",
-        hours: "",
-        description: "PADARIA",
-        socialMedia: [],
-      }, 
-    ],
+    businesses: [],
   },
-/*{
+  {
     id: "64",
     name: "Papelaria",
     businesses: [],
