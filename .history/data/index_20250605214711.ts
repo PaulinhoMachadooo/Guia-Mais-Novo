@@ -1589,7 +1589,7 @@ export const categories = [
         address: "R. Daniel de Camargo Taborda, 140",
         phone: "+55 1599709-5216",
         tel: "15 99709-5216",
-        hours: "Seg: FECHADO\nTer: 18:30 às 22:30\nQua: 18:30 às 22:30\nQui: 18:30 às 22:30\nSex: 10:30 às 14:00 e 18:30 às 22:30\nSab: 10:30 às 14:00 e 18:30 às 22:30\nDom: FECHADO",
+        hours: "Seg: FECHADO\nTer: 18:30 às 22:30\nQua: 18:30 às 22:30\nQui: 18:30 às 22:30\nSex: 10:30 às 14:00 , 18:30 às 22:30\nSab: 10:30 às 14:00 , 18:30 às 22:30\nDom: FECHADO",
         description: "RESTAURANTE",
         socialMedia: [
            {

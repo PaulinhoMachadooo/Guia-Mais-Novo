@@ -1532,7 +1532,7 @@ export const categories = [
         address: "Av. Getúlio Vargas, 314 - Bambu",
         phone: "+55 1599763-6136",
         tel: "15 99763-6136",
-        hours: "Seg: 19:00 às 23:00\nTer: Fechado\nQua-Qui-Sex-Sáb-Dom: 19:00 às 23:00",
+        hours: "Seg: 19h às 23h\nTer: Fechado\nQua-Qui-Sex-Sáb-Dom: 19h às 23h",
         description: "LANCHES",
         socialMedia: [
            {
@@ -1548,61 +1548,67 @@ export const categories = [
         ],
       },
       {
+        id: "271.3",
+        name: "Á Pequenina",
+        images: [
+          "https://lh3.googleusercontent.com/pw/AP1GczMXm2cS1R2o0aFuVKg-v4uFNcwxJ25CBA1L8Yky6m_Fa3_oVZXgogCjMQtpq7o7ME4KY6qTy4fSSvkGS7IZoBS3kz_2PrlEWqVBMBe04mmZjS6UTZ4-bFng64-T1fUZTtigIe8WB1SSfHJvhyU-r56w=w407-h407-s-no-gm?authuser=7",
+        ],
+        address: "R. Prof. Aurora Machado Guimarães, 16 - Conjunto habitacional algostinho alcalá",
+        phone: "+55 1599699-4201",
+        tel: "15 99699-4201",
+        hours: "",
+        description: "LANCHONETE",
+        socialMedia: [
+           {
+            type: "instagram",
+            url: "https://www.instagram.com/pizzariasurreall?igsh=cDFxdzZ2ZnJ4dWp4",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/18ZD5hN5hh/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515996552341" },
+          { type: "maps", url: "https://maps.app.goo.gl/tC1CcN4GJT5eKZ3t6" },
+        ],
+      },
+      {
         id: "271.4",
         name: "Bar da Barra",
         images: [
-          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nox89iGf_kJhUvOKUMRdi1vUtaf5CC3a94JZbpX33e5O53CHZSq1Ai0nlOfxOUlD_9WXet2aP7fV4LiYwlEXFqT753L45hXdHcJLaeteqgrIO897SSt9vSwo-IQqWteTuI_m6E=w426-h240-k-no",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "R. Cândido Mota, 291",
         phone: "+55 153261-3752",
         tel: "15 3261-3752",
-        hours: "Seg: 08:00 às 23:00\nTer: 08:00 às 23:00\nQua: 08:00 às 23:00\nQui: 08:00 às 23:00\nSex:08:00 às 23:00\nSab: 08:00 às 23:00\nDom: 08:00 às 23:00",
+        hours: "",
         description: "LANCHES",
-        socialMedia: [
-          { type: "maps", url:"https://www.google.com/maps/place/Bar+do+Barra/@-23.2100348,-47.525568,17z/data=!3m1!4b1!4m6!3m5!1s0x94c5fe09284ddee3:0x9729e4693a476ee9!8m2!3d-23.2100398!4d-47.5229877!16s%2Fg%2F11fy4pspcc?entry=ttu&g_ep=EgoyMDI1MDYwMy4wIKXMDSoASAFQAw%3D%3D" },
-        ],
+        socialMedia: [],
       },
       {
         id: "271.5",
         name: "Bar e Restaurante do Kleber",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczOar7BrQqOpWzRFTNwu9NZU8epulxawtwXK0B8q9AMuWUUZXT5QVPyiv7n8O9TPYoQwx_H_RpWMYghPNNVNDXycNlOs3hsuYGHNBpE9hc9vqMpApHcJ8tgcSyOAn-c6qSTxM5mMMOuL3qlZxu0i8Pma=w680-h382-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "Rua Francisco Nunes Seckler, 05 - Jardim Seckler",
         phone: "+55 152107-9115",
         tel: "15 2107-9115",
-        hours: "Seg: 10:00 às 16:00\nTer: 10:00 às 16:00\nQua: 10:00 às 16:00\nQui: 10:00 às 16:00\nSex:10:00 às 16:00\nSab: 10:00 às 16:00\nDom: FECHADO",
+        hours: "",
         description: "RESTAURANTE",
-        socialMedia: [ 
-          {
-            type: "facebook",
-            url: "https://www.facebook.com/share/1Av1VwDmf7/",
-          },
-          { type: "maps", url: "https://www.google.com/maps/dir//Rua+Francisco+Nunes+Seckler,+05+-+Jardim+Seckler,+Porto+Feliz+-+SP,+18540-000/@-23.2106943,-47.6028489,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe4046578aaf:0x284b0974bb8cbd08!2m2!1d-47.5204473!2d-23.2107158?entry=ttu&g_ep=EgoyMDI1MDYwMy4wIKXMDSoASAFQAw%3D%3D" },],
+        socialMedia: [],
       },
       {
         id: "271.6",
         name: "Batataria Bom Tempero",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczMSl_35De_72Db2Y2Rslc7_aXFTOABg6PQnZ39TTxf_13s8H4VGwnctk8RXvlySCJIomW1LpaTxYVDsJioieDIa8ntjAgIp_wiwVirD7m7TnsQdch0ETkFjXvgf9nxFlljRt3v1l6XkcxOQ0mIKvOiQ=w850-h850-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "R. Daniel de Camargo Taborda, 140",
         phone: "+55 1599709-5216",
         tel: "15 99709-5216",
-        hours: "Seg: FECHADO\nTer: 18:30 às 22:30\nQua: 18:30 às 22:30\nQui: 18:30 às 22:30\nSex: 10:30 às 14:00 e 18:30 às 22:30\nSab: 10:30 às 14:00 e 18:30 às 22:30\nDom: FECHADO",
+        hours: "",
         description: "RESTAURANTE",
-        socialMedia: [
-           {
-            type: "instagram",
-            url: "https://www.instagram.com/batatariabomtempero/",
-          },
-          {
-            type: "facebook",
-            url: "https://www.facebook.com/share/16kWuwMJjn/",
-          },
-          { type: "whatsapp", url: "https://wa.me/5515997095216" },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+Daniel+de+Camargo+Taborda,+140,+Porto+Feliz+-+SP,+18540-000/@-23.19214,-47.6057819,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c600a8ee26e067:0xcab6ae665b1a617e!2m2!1d-47.5233803!2d-23.1921614?entry=ttu&g_ep=EgoyMDI1MDYwMy4wIKXMDSoASAFQAw%3D%3D" },
-        ],
+        socialMedia: [],
       },
       {
         id: "271.7",

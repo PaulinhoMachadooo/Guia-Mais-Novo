@@ -1584,12 +1584,12 @@ export const categories = [
         id: "271.6",
         name: "Batataria Bom Tempero",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczMSl_35De_72Db2Y2Rslc7_aXFTOABg6PQnZ39TTxf_13s8H4VGwnctk8RXvlySCJIomW1LpaTxYVDsJioieDIa8ntjAgIp_wiwVirD7m7TnsQdch0ETkFjXvgf9nxFlljRt3v1l6XkcxOQ0mIKvOiQ=w850-h850-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "R. Daniel de Camargo Taborda, 140",
         phone: "+55 1599709-5216",
         tel: "15 99709-5216",
-        hours: "Seg: FECHADO\nTer: 18:30 às 22:30\nQua: 18:30 às 22:30\nQui: 18:30 às 22:30\nSex: 10:30 às 14:00 e 18:30 às 22:30\nSab: 10:30 às 14:00 e 18:30 às 22:30\nDom: FECHADO",
+        hours: "",
         description: "RESTAURANTE",
         socialMedia: [
            {
