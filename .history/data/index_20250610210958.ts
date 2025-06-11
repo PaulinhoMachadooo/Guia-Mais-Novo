@@ -1940,7 +1940,6 @@ export const categories = [
             type: "instagram",
             url: "https://www.instagram.com/lanchesestacao_pf/",
           },
-           { type: "whatsapp", url: "https://wa.me/5515998328172" },
           { type: "maps", url: "https://www.google.com/maps/dir//R.+João+Pessoa,+200+-+Centro,+Porto+Feliz+-+SP,+18540-131/@-23.218497,-47.6089656,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff8a1c975033:0x5f65b4388064ed8f!2m2!1d-47.526564!2d-23.2185185?entry=ttu&g_ep=EgoyMDI1MDYwOC4wIKXMDSoASAFQAw%3D%3D"}
         ],
       },   
@@ -1948,64 +1947,51 @@ export const categories = [
         id: "271.23",
         name: "Lanchonete Mais Um",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczN4utkKfssTzIOtGTg1RcauWWKrN2PfAfe2g3gJOerbWMm081lFDFgUj1fa8Cu3ttqUXh5CrLvcH_J3s53xU3CIF9m5BCI5WlDu6J2F1-TNG8e-8sa4rAAdVXqzqcXfilBSk_6o3F3ESAzbXzM6QU0v=w874-h874-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "R. Ademar de Barros, 345 ",
         phone: "+55 15 3262-4348",
         tel: "15 3262-4348",
-        hours: "Seg - Ter - Qua - Qui - Sex: 11:00 às 23:15\nSáb: 11:00 às 23:30\nDom: FECHADO",
+        hours: "",
         description: "LANCHES",
         socialMedia: [
             {
             type: "instagram",
-            url: "https://www.instagram.com/lanchonetemaisum/",
+            url: "https://www.instagram.com/capitaofoodsushi/",
           },
           {
             type: "facebook",
-            url: "https://www.facebook.com/share/16gZ1649Nz/",
+            url: "https://www.facebook.com/share/1EJXezF4tF/",
           },
-          { type: "whatsapp", url: "https://wa.me/5515998004348" },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+Ademar+de+Barros,+345+-+Centro,+Porto+Feliz+-+SP,+18540-073/@-23.2133417,-47.6054942,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0ec751f8b5:0x2236a3b2a8bd8586!2m2!1d-47.5230926!2d-23.2133632?entry=ttu&g_ep=EgoyMDI1MDYwOC4wIKXMDSoASAFQAw%3D%3D"}
+          { type: "whatsapp", url: "https://wa.me/5515997214407" },
+          { type: "maps", url: ""}
         ],
       },     
       {
         id: "271.24",
         name: "McJhon Lanches",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczPf0QPzDtRwhRfcDoJ_TTX5zHaIl020g5X_i_zLnreilGKeUdk5NRLo4FEN8FP61ChIpiI9g8qzmhn-INKSiKTE-KjrqBjp1o3N3n3C7TIlZr2p4pVTZAiTA4-tJQG3Q97texuIpuOx3TbFckKV7dRn=w912-h874-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "Av. Monsenhor Seckler",
         phone: "+55 15 99785-7476",
         tel: "15 99785-7476",
-        hours: "Seg - Ter - Qua - Qui: 18:00 às 03:00\nSex - Sáb: 18:00 às 04:00\nDom: 18:00 às 03:00",
+        hours: "",
         description: "LANCHES",
-        socialMedia: [
-          { type: "whatsapp", url: "https://wa.me/5515997857476" },
-          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+Porto+Feliz+-+SP,+18540-000/@-23.2133391,-47.5938437,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe6b351daa41:0x235bdf06369ac291!2m2!1d-47.5114421!2d-23.2133606?entry=ttu&g_ep=EgoyMDI1MDYwOC4wIKXMDSoASAFQAw%3D%3D"}
-        ],
+        socialMedia: [],
       }, 
       {
         id: "271.25",
         name: "Nadir Bonfa & Cia",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNceKFSgJLHqzuFM0RrKntPJA-SwXnhsbaXeJ2TWGB6J0ec-kIkJe3R3VvopaP0bI7CNItIApycpECrdxy1QVSDbGRNphXZh9LiLi4-bfgh6k4cBfNJ6zBoQnoN8wwcJaAntWEFY9Xi8IOGWS7alSHy=w1218-h685-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: " R. Tatuí, 205",
         phone: "+55 15 3262-1886",
         tel: "15 3262-1886",
-        hours: "Seg - Ter: FECHADO\nQua - Qui - Sex: 09:00 às 15:00\nSáb: 09:00 às 17:00\nDom: 09:00 às 16:00",
+        hours: "",
         description: "COMIDAS",
-        socialMedia: [
-            {
-            type: "instagram",
-            url: "https://www.instagram.com/assadosbonfa/"
-          },
-          {
-            type: "facebook",
-            url: "https://www.facebook.com/share/16b8jnJjou/",
-          },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+Tatuí,+203,+Porto+Feliz+-+SP,+18542-180/@-23.2005205,-47.6063113,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe01a66165db:0xcdd87b6403fa3bec!2m2!1d-47.5239324!2d-23.2005894?entry=ttu&g_ep=EgoyMDI1MDYwOC4wIKXMDSoASAFQAw%3D%3D"}
-        ],
+        socialMedia: [],
       }, 
       {
         id: "271.26",

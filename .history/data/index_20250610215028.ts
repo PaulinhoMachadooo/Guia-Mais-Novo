@@ -1993,7 +1993,7 @@ export const categories = [
         address: " R. Tatuí, 205",
         phone: "+55 15 3262-1886",
         tel: "15 3262-1886",
-        hours: "Seg - Ter: FECHADO\nQua - Qui - Sex: 09:00 às 15:00\nSáb: 09:00 às 17:00\nDom: 09:00 às 16:00",
+        hours: "",
         description: "COMIDAS",
         socialMedia: [
             {
@@ -2004,7 +2004,7 @@ export const categories = [
             type: "facebook",
             url: "https://www.facebook.com/share/16b8jnJjou/",
           },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+Tatuí,+203,+Porto+Feliz+-+SP,+18542-180/@-23.2005205,-47.6063113,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe01a66165db:0xcdd87b6403fa3bec!2m2!1d-47.5239324!2d-23.2005894?entry=ttu&g_ep=EgoyMDI1MDYwOC4wIKXMDSoASAFQAw%3D%3D"}
+          { type: "maps", url: ""}
         ],
       }, 
       {

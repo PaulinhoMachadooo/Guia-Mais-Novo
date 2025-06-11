@@ -1742,270 +1742,170 @@ export const categories = [
         id: "271.13",
         name: "Cazu Pizzas",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczM5xqfDthBoglIbQWkSex3CDY2HgDIUuYlB4xjSIDL3YgGx7tG2COOJLGK0GlMx2aTM7EMNObcuulMoa86LuIyDo8sD6tETT2IaQY_CoUsehQ9Yi1YdwQFN7zbmLq1yiffCtSYGhccR_OK0mtsOucRu=w850-h850-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "Av. Cap. Joaquim Floriano de Toledo, 509 - Centro",
         phone: "+55 1599776-5500",
         tel: "15 99776-5500",
-        hours: "Seg: FECHADO\nTer - Qua - Qui: 18:00 às 22:40\nSex - Sáb: 18:00 às 22:55\nDom: 18:00 às 22:40",
+        hours: "",
         description: "PIZZARIA",
-        socialMedia: [
-            {
-            type: "instagram",
-            url: "https://www.instagram.com/cazupizzas/",
-          },
-          {
-            type: "facebook",
-            url: "https://www.facebook.com/share/16ctvsJPDD/",
-          },
-          { type: "whatsapp", url: "https://wa.me/5515997765500" },
-          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Cap.+Joaquim+Floriano+de+Toledo,+509+-+Centro,+Porto+Feliz+-+SP,+18540-001/@-23.2081717,-47.6035209,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c6077dcad06ae9:0x72003f3cf5a942a!2m2!1d-47.5211193!2d-23.2081932?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"}
-        ],
+        socialMedia: [],
       },
       {
         id: "271.14",
         name: "Chôburger's",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczMqgcYD0x7aeHeDPY82hA3lriR6d2UrdDo4mNPfAWtY6754NBofmkD9Q2aSyovm4dTA60MVP48z0eUKZb29KoDQ7JRQVfeTzvzDyyMmuoDq_KVkQQrSBa7v8Cf6XfDOl0Wn7EIOdb2W2Aw4nPZEBOc5=w723-h718-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "Rua Newton Prado, 110",
         phone: "+55 152107-6907",
         tel: "15 2107-6907",
-        hours: "Seg: FECHADO\nTer - Qua - Qui: 17:30 às 22:30\nSex - Sáb - Dom: 18:30 às 23:00",
+        hours: "",
         description: "LANCHES",
-        socialMedia: [
-            {
-            type: "instagram",
-            url: "https://www.instagram.com/cho_burgers/",
-          },
-          {
-            type: "facebook",
-            url: "https://www.facebook.com/share/16SW7DgPys/",
-          },
-          { type: "maps", url:"https://www.google.com/maps/dir//Rua+Newton+Prado,+110+-+Centro,+Porto+Feliz+-+SP,+18540-000/@-23.2183417,-47.6077283,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff8afc40558b:0x3e8be179c2433644!2m2!1d-47.5253777!2d-23.2183819?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"}
+        socialMedia: [],
+      },
+      {
+        id: "271.15",
+        name: "Coxinha Real",
+        images: [
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
+        address: " Av. Armando de Salles Oliveira, 791 - Centro",
+        phone: "+55 1599644-4384",
+        tel: "15 99644-4384",
+        hours: "",
+        description: "SALGADOS",
+        socialMedia: [],
       },
       {
         id: "271.16",
         name: "Divó Comidaria",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczPaa8t6__BRzcAHD6DbdAAVH2Hj2wbpyorwDs5YM4RqWq8IQ6PXESjZgm_O7umrtOdA5bhZuYcSx8BdDZZdMp0yntpcb7a0DRhO4NX6dwssXQlnUXFlBJRlsIcWX5hG-Ah7JCnQJAKi9NJC-DJNT6de=w499-h499-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "R. Daniel de Camargo Taborda, 439",
         phone: "+55 152107-6505",
         tel: "15 2107-6505",
-        hours: "Seg: 10:30 às 14:30\nTer - Qua - Qui - Sex: 11:00 às 14:30\nSáb: 10:30 às 15:00\nDom: 11:00 às 15:00",
+        hours: "",
         description: "COMIDAS",
-        socialMedia: [
-            {
-            type: "instagram",
-            url: "https://www.instagram.com/divocomidaria/",
-          },
-          {
-            type: "facebook",
-            url: "https://www.facebook.com/share/18xc1JE7hx/",
-          },
-          { type: "whatsapp", url: "https://wa.me/5515996244868" },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+Daniel+de+Camargo+Taborda,+439,+Porto+Feliz+-+SP,+18540-000/@-23.1928476,-47.6028062,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff9189b587cd:0x5c05d2db20c33651!2m2!1d-47.5203952!2d-23.1928716?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"}
-        ],
+        socialMedia: [],
       },
       {
         id: "271.17",
         name: "Du Levain Cozinha Artesanal",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczPUyXB-Cp78HgSmSGxjrz8uYE9DDbPT0IpAbYOMt7W8THKiJZcKcwmKWVMR1ZXaJv15pSHH8XVgCe3zZnF4yOWWjkjDkm9HAveugq-_QG4mCfCXVDrHgCSXVwnOTVkd-4S1mqZaicPeBoszPtX_ViDy=w720-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "Av. José Maurino, 83 - Centro",
         phone: "+55 1599702-2235",
         tel: "15 99702-2235",
-        hours: "Seg - Ter: FECHADO\nQua - Qui: 18:00 às 22:00\nSex - Sáb: 18:00 às 22:30\nDom: FECHADO",
+        hours: "",
         description: "COMIDAS",
-        socialMedia: [
-            {
-            type: "instagram",
-            url: "https://www.instagram.com/dulevainpizza/",
-          },
-          {
-            type: "facebook",
-            url: "https://www.facebook.com/share/1BzKbn4BYY/",
-          },
-          { type: "whatsapp", url: "https://wa.me/5515997022235" },
-          { type: "maps", url:"https://www.google.com/maps/dir//Av.+José+Maurino,+83+-+Centro,+Porto+Feliz+-+SP,+18540-093/@-23.2141632,-47.6068942,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ffc0c03503c9:0x46ab62cffa202954!2m2!1d-47.524576!2d-23.2141846?entry=ttu&g_ep=EgoyMDI1MDYwOC4wIKXMDSoASAFQAw%3D%3D"}
-        ],
+        socialMedia: [],
       },
       {
         id: "271.18",
         name: "Empório Country Hamburgueria",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczOxapuR6ePnKid-qzc7q-NfYFu-_GOd7Up_e0VNDQN26hvcWAmrTxTU94FrqeW12YaOWg2FJr-TlqUd9qbkn9PcUt39lN4YVnBAJmc5brhluyQ55ZIrgvZg5eZEID3eXUIY6jZeYobEjF7c0-ku4LzO=w720-h726-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "Av. Cap. Joaquim Floriano de Toledo, 184",
         phone: "+55 153261-4198",
         tel: "15 3261-4198",
-        hours: "Seg - Ter - Qua - Qui - Sex - Sáb - Dom: 18:30 às 23:30",
+        hours: "",
         description: "LANCHES",
-        socialMedia: [
-          {
-            type: "facebook",
-            url: "https://www.facebook.com/share/16cJAxn8fJ/",
-          },
-          { type: "whatsapp", url: "https://wa.me/5515996567209" },
-          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Cap.+Joaquim+Floriano+de+Toledo,+184,+Porto+Feliz+-+SP,+18540-000/@-23.2073728,-47.6065684,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0624802ab1:0x17ea763803473836!2m2!1d-47.5241668!2d-23.2073943?entry=ttu&g_ep=EgoyMDI1MDYwOC4wIKXMDSoASAFQAw%3D%3D"}
-        ],
+        socialMedia: [],
       },
       {
         id: "271.19",
         name: "Hamburgueria king Mek",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczM5LnDTTu5x1MJl-rwfVYDYFVs744imVZh8rif9JWD7GwhZxtHlXSQ8rQ1dOrvjDY2kFKl-uyhvaHSY0HMJieodZirDTCybI8Oxo-GxKBi1k5ukroFJGHg6ZspSq75k0rN2aWP6Y56RcvFfcLynQovH=w876-h874-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "Av. Monsenhor Seckler, 222 - centro",
         phone: "+55 1599611-3511",
         tel: "15 99611-3511",
-        hours: "Seg - Ter - Qua - Qui: 18:00 às 23:00\nSex: FECHADO\nSáb - Dom: 18:00 às 23:00",
+        hours: "",
         description: "LANCHES",
-        socialMedia: [
-            {
-            type: "instagram",
-            url: "https://www.instagram.com/kingmekporto/",
-          },
-          {
-            type: "facebook",
-            url: "https://www.facebook.com/share/1CA3pSpscF/",
-          },
-          { type: "whatsapp", url: "https://wa.me/5515996113511" },
-          { type: "maps", url: "https://www.google.com/maps/dir/-23.2257968,-47.5215503/Hamburgueria+king+Mek+Avenida+Monsenhor+Seckler+-+Av.+Monsenhor+Seckler,+222+-+centro,+Porto+Feliz+-+SP,+18546-030/@-23.2189117,-47.5320568,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94c5ff7d08d2d2df:0xf53b1aa7a99b1368!2m2!1d-47.5190077!2d-23.2116136?entry=ttu&g_ep=EgoyMDI1MDYwOC4wIKXMDSoASAFQAw%3D%3D"}
-        ],
+        socialMedia: [],
       },
       {
         id: "271.20",
         name: "Juve Lanches",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczPnlxQOyY2WIvLv5Et0MdvSxbE44vGAy1jBDpRbhMTMmZ1wmr0ywo8XO-fVnTzUziEdXUf_nYim9o6uElEow4ueMBYK3ZR9P9Ry0X64z9vimd9WhTZyXHsf-eCWeaCtb8q6cev1Pd68DGVxwKU6qzBU=w639-h540-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "Av Armando Sales - s/n",
         phone: "+55 15 3262-6161",
         tel: "15 3262-6161",
-        hours: "Seg - Ter - Qua - Qui - Sex - Sáb - Dom: 18:00 às 00:00",
+        hours: "",
         description: "LANCHES",
-        socialMedia: [
-            {
-            type: "instagram",
-            url: "https://www.instagram.com/juvelanches/",
-          },
-          {
-            type: "facebook",
-            url: "https://www.facebook.com/share/1JENqjbgUb/",
-          },
-          { type: "whatsapp", url: "https://wa.me/5515996524453" },
-          { type: "maps", url: "https://www.google.com/maps/dir//av+Armando+Sales+-+s%2Fn,+Porto+Feliz+-+SP,+18540-000/@-23.2023889,-47.6095253,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe7c82282117:0xa805b9aed31b18c1!2m2!1d-47.5271237!2d-23.2024104?entry=ttu&g_ep=EgoyMDI1MDYwOC4wIKXMDSoASAFQAw%3D%3D"}
-        ],
+        socialMedia: [],
       },  
       {
         id: "271.21",
         name: "Kiss Burger's Delivery",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczO9ibwnJa5yLSd5hof-mJoDjcQrjuXh3d2F3yXHE64Hqz_BPXovcz1OA7JKmzxOt_Fb1-zeBd_GWD8Y-FEV09cHbsL8fnx4eRVxBnK9DaDp8mrh5-uj8bHI_5BHu8WjV01H1wKK0u9EpmE2i-R2TD__=w874-h874-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "R. Silvio Pelegrini, 47",
         phone: "",
         tel: "",
-        hours: "Seg: FECHADO\nTer - Qua - Qui - Sex - Sáb - Dom: 18:30 às 23:00",
+        hours: "",
         description: "LANCHES",
-        socialMedia: [
-            {
-            type: "instagram",
-            url: "https://www.instagram.com/kiss_burgers/",
-          },
-          {
-            type: "facebook",
-            url: "https://www.facebook.com/share/1FjkV8B4DX/",
-          },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+Silvio+Pelegrini,+47,+Porto+Feliz+-+SP,+18540-000/@-23.1929696,-47.6093756,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c601466599c8bf:0x3d109a1953d03c7a!2m2!1d-47.526974!2d-23.1929911?entry=ttu&g_ep=EgoyMDI1MDYwOC4wIKXMDSoASAFQAw%3D%3D"}
-        ],
+        socialMedia: [],
       },   
       {
         id: "271.22",
         name: "Lanches Estação",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczN5nMuS_J88tdHgch-rKbwTeVkTTwRdzFvS7Jhl8uwzWYncycRNZY1jjutz9UN4gLU3AGhRcp-lay6k6e-Adnd9kzy2xckj7HVkwBI7Lzuj9aPwA3XiG6LaT6rwuZSdxy-GiNHxUch7_FVddCjltuaW=w225-h225-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "R. João Pessoa, 200 - Centro",
-        phone: "+55 15 99832-8172",
-        tel: "15 99832-8172",
-        hours: "Seg: 18:00 às 23:00\nTer: FECHADO\nQua - Qui - Sex - Sáb - Dom: 18:00 às 23:00",
+        phone: "",
+        tel: "",
+        hours: "",
         description: "LANCHES",
-        socialMedia: [
-            {
-            type: "instagram",
-            url: "https://www.instagram.com/lanchesestacao_pf/",
-          },
-           { type: "whatsapp", url: "https://wa.me/5515998328172" },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+João+Pessoa,+200+-+Centro,+Porto+Feliz+-+SP,+18540-131/@-23.218497,-47.6089656,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff8a1c975033:0x5f65b4388064ed8f!2m2!1d-47.526564!2d-23.2185185?entry=ttu&g_ep=EgoyMDI1MDYwOC4wIKXMDSoASAFQAw%3D%3D"}
-        ],
+        socialMedia: [],
       },   
       {
         id: "271.23",
         name: "Lanchonete Mais Um",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczN4utkKfssTzIOtGTg1RcauWWKrN2PfAfe2g3gJOerbWMm081lFDFgUj1fa8Cu3ttqUXh5CrLvcH_J3s53xU3CIF9m5BCI5WlDu6J2F1-TNG8e-8sa4rAAdVXqzqcXfilBSk_6o3F3ESAzbXzM6QU0v=w874-h874-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "R. Ademar de Barros, 345 ",
         phone: "+55 15 3262-4348",
         tel: "15 3262-4348",
-        hours: "Seg - Ter - Qua - Qui - Sex: 11:00 às 23:15\nSáb: 11:00 às 23:30\nDom: FECHADO",
+        hours: "",
         description: "LANCHES",
-        socialMedia: [
-            {
-            type: "instagram",
-            url: "https://www.instagram.com/lanchonetemaisum/",
-          },
-          {
-            type: "facebook",
-            url: "https://www.facebook.com/share/16gZ1649Nz/",
-          },
-          { type: "whatsapp", url: "https://wa.me/5515998004348" },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+Ademar+de+Barros,+345+-+Centro,+Porto+Feliz+-+SP,+18540-073/@-23.2133417,-47.6054942,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0ec751f8b5:0x2236a3b2a8bd8586!2m2!1d-47.5230926!2d-23.2133632?entry=ttu&g_ep=EgoyMDI1MDYwOC4wIKXMDSoASAFQAw%3D%3D"}
-        ],
+        socialMedia: [],
       },     
       {
         id: "271.24",
         name: "McJhon Lanches",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczPf0QPzDtRwhRfcDoJ_TTX5zHaIl020g5X_i_zLnreilGKeUdk5NRLo4FEN8FP61ChIpiI9g8qzmhn-INKSiKTE-KjrqBjp1o3N3n3C7TIlZr2p4pVTZAiTA4-tJQG3Q97texuIpuOx3TbFckKV7dRn=w912-h874-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "Av. Monsenhor Seckler",
         phone: "+55 15 99785-7476",
         tel: "15 99785-7476",
-        hours: "Seg - Ter - Qua - Qui: 18:00 às 03:00\nSex - Sáb: 18:00 às 04:00\nDom: 18:00 às 03:00",
+        hours: "",
         description: "LANCHES",
-        socialMedia: [
-          { type: "whatsapp", url: "https://wa.me/5515997857476" },
-          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+Porto+Feliz+-+SP,+18540-000/@-23.2133391,-47.5938437,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe6b351daa41:0x235bdf06369ac291!2m2!1d-47.5114421!2d-23.2133606?entry=ttu&g_ep=EgoyMDI1MDYwOC4wIKXMDSoASAFQAw%3D%3D"}
-        ],
+        socialMedia: [],
       }, 
       {
         id: "271.25",
         name: "Nadir Bonfa & Cia",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNceKFSgJLHqzuFM0RrKntPJA-SwXnhsbaXeJ2TWGB6J0ec-kIkJe3R3VvopaP0bI7CNItIApycpECrdxy1QVSDbGRNphXZh9LiLi4-bfgh6k4cBfNJ6zBoQnoN8wwcJaAntWEFY9Xi8IOGWS7alSHy=w1218-h685-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: " R. Tatuí, 205",
         phone: "+55 15 3262-1886",
         tel: "15 3262-1886",
-        hours: "Seg - Ter: FECHADO\nQua - Qui - Sex: 09:00 às 15:00\nSáb: 09:00 às 17:00\nDom: 09:00 às 16:00",
+        hours: "",
         description: "COMIDAS",
-        socialMedia: [
-            {
-            type: "instagram",
-            url: "https://www.instagram.com/assadosbonfa/"
-          },
-          {
-            type: "facebook",
-            url: "https://www.facebook.com/share/16b8jnJjou/",
-          },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+Tatuí,+203,+Porto+Feliz+-+SP,+18542-180/@-23.2005205,-47.6063113,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe01a66165db:0xcdd87b6403fa3bec!2m2!1d-47.5239324!2d-23.2005894?entry=ttu&g_ep=EgoyMDI1MDYwOC4wIKXMDSoASAFQAw%3D%3D"}
-        ],
+        socialMedia: [],
       }, 
       {
         id: "271.26",

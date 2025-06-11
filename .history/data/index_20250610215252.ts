@@ -1993,7 +1993,7 @@ export const categories = [
         address: " R. Tatuí, 205",
         phone: "+55 15 3262-1886",
         tel: "15 3262-1886",
-        hours: "Seg - Ter: FECHADO\nQua - Qui - Sex: 09:00 às 15:00\nSáb: 09:00 às 17:00\nDom: 09:00 às 16:00",
+        hours: "",
         description: "COMIDAS",
         socialMedia: [
             {

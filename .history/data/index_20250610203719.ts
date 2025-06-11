@@ -1881,12 +1881,12 @@ export const categories = [
         id: "271.20",
         name: "Juve Lanches",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczPnlxQOyY2WIvLv5Et0MdvSxbE44vGAy1jBDpRbhMTMmZ1wmr0ywo8XO-fVnTzUziEdXUf_nYim9o6uElEow4ueMBYK3ZR9P9Ry0X64z9vimd9WhTZyXHsf-eCWeaCtb8q6cev1Pd68DGVxwKU6qzBU=w639-h540-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "Av Armando Sales - s/n",
         phone: "+55 15 3262-6161",
         tel: "15 3262-6161",
-        hours: "Seg - Ter - Qua - Qui - Sex - Sáb - Dom: 18:00 às 00:00",
+        hours: "",
         description: "LANCHES",
         socialMedia: [
             {
@@ -1905,107 +1905,66 @@ export const categories = [
         id: "271.21",
         name: "Kiss Burger's Delivery",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczO9ibwnJa5yLSd5hof-mJoDjcQrjuXh3d2F3yXHE64Hqz_BPXovcz1OA7JKmzxOt_Fb1-zeBd_GWD8Y-FEV09cHbsL8fnx4eRVxBnK9DaDp8mrh5-uj8bHI_5BHu8WjV01H1wKK0u9EpmE2i-R2TD__=w874-h874-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "R. Silvio Pelegrini, 47",
         phone: "",
         tel: "",
-        hours: "Seg: FECHADO\nTer - Qua - Qui - Sex - Sáb - Dom: 18:30 às 23:00",
+        hours: "",
         description: "LANCHES",
-        socialMedia: [
-            {
-            type: "instagram",
-            url: "https://www.instagram.com/kiss_burgers/",
-          },
-          {
-            type: "facebook",
-            url: "https://www.facebook.com/share/1FjkV8B4DX/",
-          },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+Silvio+Pelegrini,+47,+Porto+Feliz+-+SP,+18540-000/@-23.1929696,-47.6093756,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c601466599c8bf:0x3d109a1953d03c7a!2m2!1d-47.526974!2d-23.1929911?entry=ttu&g_ep=EgoyMDI1MDYwOC4wIKXMDSoASAFQAw%3D%3D"}
-        ],
+        socialMedia: [],
       },   
       {
         id: "271.22",
         name: "Lanches Estação",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczN5nMuS_J88tdHgch-rKbwTeVkTTwRdzFvS7Jhl8uwzWYncycRNZY1jjutz9UN4gLU3AGhRcp-lay6k6e-Adnd9kzy2xckj7HVkwBI7Lzuj9aPwA3XiG6LaT6rwuZSdxy-GiNHxUch7_FVddCjltuaW=w225-h225-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "R. João Pessoa, 200 - Centro",
-        phone: "+55 15 99832-8172",
-        tel: "15 99832-8172",
-        hours: "Seg: 18:00 às 23:00\nTer: FECHADO\nQua - Qui - Sex - Sáb - Dom: 18:00 às 23:00",
+        phone: "",
+        tel: "",
+        hours: "",
         description: "LANCHES",
-        socialMedia: [
-            {
-            type: "instagram",
-            url: "https://www.instagram.com/lanchesestacao_pf/",
-          },
-           { type: "whatsapp", url: "https://wa.me/5515998328172" },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+João+Pessoa,+200+-+Centro,+Porto+Feliz+-+SP,+18540-131/@-23.218497,-47.6089656,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff8a1c975033:0x5f65b4388064ed8f!2m2!1d-47.526564!2d-23.2185185?entry=ttu&g_ep=EgoyMDI1MDYwOC4wIKXMDSoASAFQAw%3D%3D"}
-        ],
+        socialMedia: [],
       },   
       {
         id: "271.23",
         name: "Lanchonete Mais Um",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczN4utkKfssTzIOtGTg1RcauWWKrN2PfAfe2g3gJOerbWMm081lFDFgUj1fa8Cu3ttqUXh5CrLvcH_J3s53xU3CIF9m5BCI5WlDu6J2F1-TNG8e-8sa4rAAdVXqzqcXfilBSk_6o3F3ESAzbXzM6QU0v=w874-h874-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "R. Ademar de Barros, 345 ",
         phone: "+55 15 3262-4348",
         tel: "15 3262-4348",
-        hours: "Seg - Ter - Qua - Qui - Sex: 11:00 às 23:15\nSáb: 11:00 às 23:30\nDom: FECHADO",
+        hours: "",
         description: "LANCHES",
-        socialMedia: [
-            {
-            type: "instagram",
-            url: "https://www.instagram.com/lanchonetemaisum/",
-          },
-          {
-            type: "facebook",
-            url: "https://www.facebook.com/share/16gZ1649Nz/",
-          },
-          { type: "whatsapp", url: "https://wa.me/5515998004348" },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+Ademar+de+Barros,+345+-+Centro,+Porto+Feliz+-+SP,+18540-073/@-23.2133417,-47.6054942,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0ec751f8b5:0x2236a3b2a8bd8586!2m2!1d-47.5230926!2d-23.2133632?entry=ttu&g_ep=EgoyMDI1MDYwOC4wIKXMDSoASAFQAw%3D%3D"}
-        ],
+        socialMedia: [],
       },     
       {
         id: "271.24",
         name: "McJhon Lanches",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczPf0QPzDtRwhRfcDoJ_TTX5zHaIl020g5X_i_zLnreilGKeUdk5NRLo4FEN8FP61ChIpiI9g8qzmhn-INKSiKTE-KjrqBjp1o3N3n3C7TIlZr2p4pVTZAiTA4-tJQG3Q97texuIpuOx3TbFckKV7dRn=w912-h874-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "Av. Monsenhor Seckler",
         phone: "+55 15 99785-7476",
         tel: "15 99785-7476",
-        hours: "Seg - Ter - Qua - Qui: 18:00 às 03:00\nSex - Sáb: 18:00 às 04:00\nDom: 18:00 às 03:00",
+        hours: "",
         description: "LANCHES",
-        socialMedia: [
-          { type: "whatsapp", url: "https://wa.me/5515997857476" },
-          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+Porto+Feliz+-+SP,+18540-000/@-23.2133391,-47.5938437,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe6b351daa41:0x235bdf06369ac291!2m2!1d-47.5114421!2d-23.2133606?entry=ttu&g_ep=EgoyMDI1MDYwOC4wIKXMDSoASAFQAw%3D%3D"}
-        ],
+        socialMedia: [],
       }, 
       {
         id: "271.25",
         name: "Nadir Bonfa & Cia",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNceKFSgJLHqzuFM0RrKntPJA-SwXnhsbaXeJ2TWGB6J0ec-kIkJe3R3VvopaP0bI7CNItIApycpECrdxy1QVSDbGRNphXZh9LiLi4-bfgh6k4cBfNJ6zBoQnoN8wwcJaAntWEFY9Xi8IOGWS7alSHy=w1218-h685-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: " R. Tatuí, 205",
         phone: "+55 15 3262-1886",
         tel: "15 3262-1886",
-        hours: "Seg - Ter: FECHADO\nQua - Qui - Sex: 09:00 às 15:00\nSáb: 09:00 às 17:00\nDom: 09:00 às 16:00",
+        hours: "",
         description: "COMIDAS",
-        socialMedia: [
-            {
-            type: "instagram",
-            url: "https://www.instagram.com/assadosbonfa/"
-          },
-          {
-            type: "facebook",
-            url: "https://www.facebook.com/share/16b8jnJjou/",
-          },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+Tatuí,+203,+Porto+Feliz+-+SP,+18542-180/@-23.2005205,-47.6063113,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe01a66165db:0xcdd87b6403fa3bec!2m2!1d-47.5239324!2d-23.2005894?entry=ttu&g_ep=EgoyMDI1MDYwOC4wIKXMDSoASAFQAw%3D%3D"}
-        ],
+        socialMedia: [],
       }, 
       {
         id: "271.26",
