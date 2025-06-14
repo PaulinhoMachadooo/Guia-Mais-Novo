@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "#ff5e00",
     marginHorizontal: 35,
-    marginBottom: 50,
+    marginBottom: 45,
     marginTop: 9,
     borderRadius: 25,
     borderCurve: "continuous",

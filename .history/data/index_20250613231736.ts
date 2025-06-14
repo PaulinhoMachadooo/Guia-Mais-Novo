@@ -2185,7 +2185,7 @@ export const categories = [
         id: "271.34",
         name: "Peninha Lanches",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczPRFRrrxtLqm1vLbbNBR54H5m6KazSMMKr5KhZG7XF472riiFbaJu1e2SFvRhf91l7LobWOukITe9mO5u0UCI5uFq10P7WHZOsTHmsBXuYTHw3-UiXvQnP4BOeh4tZDxZ0SjdPFu0FkryY5diYBgA96=w883-h905-s-no-gm?authuser=7",
+          "https://scontent.fcpq7-1.fna.fbcdn.net/v/t39.30808-6/464748696_9489102597786964_4202165388353001681_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=HhISTZktz5IQ7kNvwE53Tz9&_nc_oc=Admouzszng9APOMM_EmN-gj-Mlhnvm6BHWysuorI3zs9KQeDCQP6pEeqy-K9eNl4uWKmIFz0tdiYNV2Y3LQpIhai&_nc_zt=23&_nc_ht=scontent.fcpq7-1.fna&_nc_gid=Ooe3bl9uFsDnsuiQRBRetw&oh=00_AfPg96B9s9dt7WSoPODf-fmQ5FNOtFAZtBLKkXEY-zsiEg&oe=6852B253",
         ],
         address: "R. Natálio Tauhyl, 258",
         phone: "+55 15 99818-7912",

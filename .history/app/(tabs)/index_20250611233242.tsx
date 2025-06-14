@@ -249,7 +249,7 @@ export default function HomeScreen() {
                 BARGANHAS
               </Text>
             </View>
-            <View style={{ flex: 1, paddingLeft: 2, paddingBottom: 10 }}>
+            <View style={{ flex: 1, paddingLeft: 2, paddingBottom: 15 }}>
               <Image
                 style={{ height: 80, width: 90 }}
                 source={require("../../assets/SACOLAS.png")}

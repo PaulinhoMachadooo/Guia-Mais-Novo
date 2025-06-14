@@ -2161,45 +2161,27 @@ export const categories = [
         id: "271.33",
         name: "Peixaria Peixe Vivo",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczO_nfoy9xMh2EHPqKHoaAaTCy9aWOQlSHLo4aQaCwpYXu05_ukIc6KY2Q-hWeV5nCgYJDvCEhaAPPu5NxrFD_oIM79y387UWvt3aV4hCkh7zd8y__VkQPztyE6XBFmfBLxmrp7dcMJQFZ3U1gPAkEf9=w901-h905-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "Av. Gov. Mário Covas, 2520",
         phone: "+55 15 99794-2376",
         tel: "15 99794-2376",
         hours: "",
         description: "COMIDAS",
-        socialMedia: [
-          {
-            type: "instagram",
-            url: "https://www.instagram.com/peixariapeixevivopfz/",
-          },
-          {
-            type: "facebook",
-            url: "https://www.facebook.com/share/1JEFmRtpwe/",
-          },
-          { type: "whatsapp", url: "https://wa.me/5515997942376" },
-          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Gov.+Mário+Covas,+2520,+Porto+Feliz+-+SP,+18540-000/@-23.1953738,-47.6011595,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c601b52e8384b3:0xdeef775362a9da22!2m2!1d-47.5187579!2d-23.1953953?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D"},
-        ],
+        socialMedia: [],
       },
       {
         id: "271.34",
         name: "Peninha Lanches",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczPRFRrrxtLqm1vLbbNBR54H5m6KazSMMKr5KhZG7XF472riiFbaJu1e2SFvRhf91l7LobWOukITe9mO5u0UCI5uFq10P7WHZOsTHmsBXuYTHw3-UiXvQnP4BOeh4tZDxZ0SjdPFu0FkryY5diYBgA96=w883-h905-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "R. Natálio Tauhyl, 258",
         phone: "+55 15 99818-7912",
         tel: "15 99818-7912",
         hours: "",
         description: "LANCHES",
-        socialMedia: [
-          {
-            type: "facebook",
-            url: "https://www.facebook.com/share/19JZ4KuEb3/",
-          },
-          { type: "whatsapp", url: "https://wa.me/5515998187912" },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+Natálio+Tauhyl,+258,+Porto+Feliz+-+SP,+18540-000/@-23.200271,-47.6042938,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe03ce6ac8bd:0x80cc1b2481f16d31!2m2!1d-47.5218871!2d-23.2002879?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D"}
-        ],
+        socialMedia: [],
       },      
       {
         id: "271.35",

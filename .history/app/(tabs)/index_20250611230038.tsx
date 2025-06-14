@@ -131,7 +131,7 @@ export default function HomeScreen() {
   };
 
   return (
-    <View style={{ flex: 1}}>
+    <View style={{ flex: 1, paddingBottom: 30}}>
       <ScrollView style={styles.container}>
         <View style={styles.logoContainer}>
           <Image
@@ -166,7 +166,7 @@ export default function HomeScreen() {
             style={{
               flexDirection: "row",
               width: "80%",
-              height: 50,
+              height: 60,
               backgroundColor: "#112342",
               alignItems: "center",
               borderRadius: 10,
@@ -183,9 +183,9 @@ export default function HomeScreen() {
                 COMIDAS
               </Text>
             </View>
-            <View style={{ flex: 1, paddingLeft: 30, paddingBottom: 20 }}>
+            <View style={{ flex: 1, paddingLeft: 30, paddingBottom: 30 }}>
               <Image
-                style={{ height: 80, width: 80 }}
+                style={{ height: 115, width: 110 }}
                 source={require("../../assets/LANCHE2.png")}
               />
             </View>
@@ -200,7 +200,7 @@ export default function HomeScreen() {
             style={{
               flexDirection: "row",
               width: "80%",
-              height: 50,
+              height: 60,
               backgroundColor: "#112342",
               alignItems: "center",
               borderRadius: 10,
@@ -219,7 +219,7 @@ export default function HomeScreen() {
             </View>
             <View style={{ flex: 1, paddingLeft: 30, paddingBottom: 15 }}>
               <Image
-                style={{ height: 85, width: 100 }}
+                style={{ height: 115, width: 110 }}
                 source={require("../../assets/Bebidas3.png")}
               />
             </View>
@@ -237,7 +237,7 @@ export default function HomeScreen() {
             style={{
               flexDirection: "row",
               width: "80%",
-              height: 50,
+              height: 60,
               backgroundColor: "#112342",
               alignItems: "center",
               justifyContent: "center",
@@ -249,9 +249,9 @@ export default function HomeScreen() {
                 BARGANHAS
               </Text>
             </View>
-            <View style={{ flex: 1, paddingLeft: 2, paddingBottom: 10 }}>
+            <View style={{ flex: 1, paddingLeft: 2, paddingBottom: 15 }}>
               <Image
-                style={{ height: 80, width: 90 }}
+                style={{ height: 100, width: 110 }}
                 source={require("../../assets/SACOLAS.png")}
               />
             </View>
@@ -275,7 +275,6 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#FFF",
     height: "100%",
-    paddingTop: 15,
   },
   logoContainer: {
     marginTop: 10,

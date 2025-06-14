@@ -2098,108 +2098,66 @@ export const categories = [
         id: "271.30",
         name: "Padaria e Lanchonete Nona",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczO0gBZfFpQpYu5Ld3iw1zr8KT7pc4und-nfVC-ZBekoEnpngYm2Hru05j298qRacTwc7AhpJkND3uNVjXn5KDf8qvi3RZ4Nyjd8qaBg5_lmFADrpYTJm8P6tfZn9h6L0ZFyPKDOMC0suCjFOTOA2T8Y=w777-h620-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "Av. Monsenhor Seckler, 877 - Vila América",
         phone: "+55 15 3261-6447",
         tel: "15 3261-6447",
-        hours: "Seg - Ter - Qua - Qui - Sex - Sáb: 05:30 às 20:30\nDom: 05:30 às 13:00",
+        hours: "",
         description: "PADARIA",
-        socialMedia: [
-          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+877+-+Vila+América,+Porto+Feliz+-+SP,+18540-000/@-23.2128599,-47.594847,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe14a5ea7083:0xd7739b953a1e8081!2m2!1d-47.5124454!2d-23.2128814?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D"}
-        ],
+        socialMedia: [],
       },
       {
         id: "271.31",
         name: "Padaria e Restaurante São João",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczMqcA3-CHSvvXwk2ANMOOhJ5xe35DbiLP30j_IDZL1Dsc6IQhDJBXzTd0xvmhAFZDdi4oPxBVIcYLQcCkYo_Vl_55oTf8DanU26ZTkHjb9VIVHsQmZ8OdZ-qMtqgYyhfWNVWgDUbd1mgVdvpKvaO5KL=w650-h650-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "R. José Bonifácio, 211",
         phone: "+55 15 99797-1465",
         tel: "15 99797-1465",
-        hours: "Seg - Ter - Qua - Qui - Sex - Sáb - Dom: 06:00 às 22:00",
+        hours: "",
         description: "PADARIA",
-        socialMedia: [
-          {
-            type: "instagram",
-            url: "https://www.instagram.com/padariarestaurantesaojoao/",
-          },
-          {
-            type: "facebook",
-            url: "https://www.facebook.com/share/16LZhxUDq4/",
-          },
-          { type: "whatsapp", url: "https://wa.me/5515997971465" },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+José+Bonifácio,+211+-+Centro,+Porto+Feliz+-+SP,+18540-000/@-23.2104089,-47.6065225,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe091eeebff7:0x972a950ca5c65bf8!2m2!1d-47.5241209!2d-23.2104304?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D"}
-        ],
+        socialMedia: [],
       }, 
       {
         id: "271.32",
         name: "Pastelaria Sonho Meu",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczMRzajS3NlSVvelZQrCTyQvq0eo8JqNcNMxpioFp1lF19cZYgekppcChxdPIUPKDDK_TRG2XvRQ-2tkppdlQi4xaIyYvqXIyGeLMifcwZIHWMZVyseFjuwx4vAMZzyXLqEZ9v1Liwcu7WCuthUlPkIB=w828-h810-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "R. Prof. Aurora Machado Guimarães, 146",
         phone: "+55 15 3261-1014",
         tel: "15 3261-1014",
-        hours: "Seg: FECHADO\nTer - Qua - Qui - Sex - Sáb - Dom: 18:00 às 23:00",
+        hours: "",
         description: "PASTELARIA",
-        socialMedia: [
-          {
-            type: "instagram",
-            url: "https://www.instagram.com/pastelaria_sonhomeu/",
-          },
-          {
-            type: "facebook",
-            url: "https://www.facebook.com/share/1C7RCWjPrZ/",
-          },
-          { type: "whatsapp", url: "https://wa.me/5515996144606" },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+Prof.+Aurora+Machado+Guimarães,+146,+Porto+Feliz+-+SP,+18540-000/@-23.192189,-47.6085549,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c601b82c3762ed:0xdd51bbd708f1d6f5!2m2!1d-47.5261533!2d-23.1922104?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D"}
-        ],
+        socialMedia: [],
       },
       {
         id: "271.33",
         name: "Peixaria Peixe Vivo",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczO_nfoy9xMh2EHPqKHoaAaTCy9aWOQlSHLo4aQaCwpYXu05_ukIc6KY2Q-hWeV5nCgYJDvCEhaAPPu5NxrFD_oIM79y387UWvt3aV4hCkh7zd8y__VkQPztyE6XBFmfBLxmrp7dcMJQFZ3U1gPAkEf9=w901-h905-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "Av. Gov. Mário Covas, 2520",
         phone: "+55 15 99794-2376",
         tel: "15 99794-2376",
         hours: "",
         description: "COMIDAS",
-        socialMedia: [
-          {
-            type: "instagram",
-            url: "https://www.instagram.com/peixariapeixevivopfz/",
-          },
-          {
-            type: "facebook",
-            url: "https://www.facebook.com/share/1JEFmRtpwe/",
-          },
-          { type: "whatsapp", url: "https://wa.me/5515997942376" },
-          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Gov.+Mário+Covas,+2520,+Porto+Feliz+-+SP,+18540-000/@-23.1953738,-47.6011595,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c601b52e8384b3:0xdeef775362a9da22!2m2!1d-47.5187579!2d-23.1953953?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D"},
-        ],
+        socialMedia: [],
       },
       {
         id: "271.34",
         name: "Peninha Lanches",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczPRFRrrxtLqm1vLbbNBR54H5m6KazSMMKr5KhZG7XF472riiFbaJu1e2SFvRhf91l7LobWOukITe9mO5u0UCI5uFq10P7WHZOsTHmsBXuYTHw3-UiXvQnP4BOeh4tZDxZ0SjdPFu0FkryY5diYBgA96=w883-h905-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
         ],
         address: "R. Natálio Tauhyl, 258",
         phone: "+55 15 99818-7912",
         tel: "15 99818-7912",
         hours: "",
         description: "LANCHES",
-        socialMedia: [
-          {
-            type: "facebook",
-            url: "https://www.facebook.com/share/19JZ4KuEb3/",
-          },
-          { type: "whatsapp", url: "https://wa.me/5515998187912" },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+Natálio+Tauhyl,+258,+Porto+Feliz+-+SP,+18540-000/@-23.200271,-47.6042938,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe03ce6ac8bd:0x80cc1b2481f16d31!2m2!1d-47.5218871!2d-23.2002879?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D"}
-        ],
+        socialMedia: [],
       },      
       {
         id: "271.35",
