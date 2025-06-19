@@ -2212,7 +2212,18 @@ export const categories = [
         tel: "19 3491-2117",
         hours: "",
         description: "COMIDAS",
-        socialMedia: [],
+        socialMedia: [
+           {
+            type: "instagram",
+            url: "https://www.instagram.com/peixariapeixevivopfz/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1JEFmRtpwe/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515997942376" },
+          { type: "maps", url: ""},
+        ],
       },  
       {
         id: "271.36",
