@@ -131,7 +131,7 @@ export default function HomeScreen() {
   };
 
   return (
-    <View style={{ flex: 1}}>
+    <View style={{ flex: 1 }}>
       <ScrollView style={styles.container}>
         <View style={styles.logoContainer}>
           <Image
@@ -190,7 +190,7 @@ export default function HomeScreen() {
               />
             </View>
           </View>
-        
+
         </TouchableOpacity>
         <TouchableOpacity
           style={{ paddingTop: 40, alignItems: "center" }}
