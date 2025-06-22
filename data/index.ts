@@ -219,92 +219,179 @@ export const categories = [
         id: "2.1",
         name: "Açougue do Baleia",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczOOII3y95qwxmUelHpplD7gJj14DiSe9NjjRLig1Uwz4CO8bk7kRPVrOwtMVWFIu1ubItpQivEHrw0VkXSmmp3FUGfAUFkr1xBZNKvXUOS0JKbjxM4qJQkUJ6Ruz44-rXiSOy9gtQVpLzyVpJM_57cR=w902-h902-s-no-gm?authuser=4",
         ],
         address: "Av. Monsenhor Seckler, 547 - Vila Alcala",
         phone: "+55 15 3262-1336",
         tel: "15 3262-1336",
-        hours: "",
+        hours:
+          "Seg: FECHADO\nTer - Qua - Qui - Sex: 08:00 - 11:00, 13:00 - 18:00\nSáb: 08:00 às 13:00\nDom: 08:00 às 11:00",
         description: "CARNES",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/acouguedobaleia/",
+          },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+547+-+Vila+Alcala,+Porto+Feliz+-+SP,+18540-000/@-23.2119209,-47.598553,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ffb9c296c9fb:0xfb177efb5a56d763!2m2!1d-47.5161629!2d-23.211987?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "2.2",
         name: "Casa de Carnes Água Branca",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczO2Nuyi1yfRSprxatAe5Nm4Ld_DU33gfF-qA5gFocwaGiBR7kcKV2-0-LBg-FSVi-3Xb1_TlEtRZd9TZM81IzVnrhZf_Nb-sqcz757nSjK3uuglqGOQ4R-tgcvWJM4BXz5CiSN0kigaQQNUMxrkATn3=w800-h800-s-no-gm?authuser=4",
         ],
         address: " R. Daniel de Camargo Taborda, 279 - Água Branca",
         phone: "+55 15 3262-3798",
         tel: "15 3262-3798",
-        hours: "",
+        hours:
+          "Seg: FECHADO\nTer - Qua - Qui - Sex - Sáb: 07:30 ás 19:00\nDom: 07:30 às 13:00",
         description: "CARNES",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/casadecarnesaguabranca/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/19Dnbon3ee/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515996200303" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Daniel+de+Camargo+Taborda,+279+-+Água+Branca,+Porto+Feliz+-+SP,+18540-000/@-23.1923499,-47.6044615,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c60125bb47518b:0xd30fdbdfa4366681!2m2!1d-47.5220599!2d-23.1923713?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "2.3",
         name: "Casa De Carnes Capixaba",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczM7xzHFSdg3cDw1WlgD_PywKVFglNlrD8vRL7hW6HQGMeOWlyPvt64UyI1jyTf0CGOGx4CaN8dPbBiHxhZFzXcabXeo2syyZf-VIqb5T1Qe274H1zlUkNyfRtBfg3Vp1aXIi4VdFrBKh70QUINx-nYa=w680-h510-s-no-gm?authuser=4",
         ],
         address: "Av. Monsenhor Seckler",
         phone: "+55 15 98809-7760",
         tel: "15 98809-7760",
-        hours: "",
+        hours:
+          "Seg: FECHADO\nTer - Qua - Qui - Sex - Sáb: 08:00 às 19:30\nDom: 08:00 às 12:00",
         description: "CARNES",
-        socialMedia: [],
+        socialMedia: [
+          { type: "whatsapp", url: "https://wa.me/5515988097760" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+Porto+Feliz+-+SP,+18540-000/@-23.2134553,-47.5936513,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe6b33fc75f7:0xe807b8b16bb588e1!2m2!1d-47.51125!2d-23.213467?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "2.4",
         name: "Frangolandia Luan",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczMZAb-rrqVKUxAWRb21ItcuiOiYODDWRwwYh-TqS9BpzqqJwpXkOxTD-Yn7jgzcRWNV0XpLQob_nr6tBmew8HHesGZ1EQPSCRYCcpO2_FVaLNv_GlTAklyiNtHeA-PjoXipWCGFI8JY38UHmwzaDgKL=w902-h902-s-no-gm?authuser=4",
         ],
         address: "Rua Newton Prado, 254",
         phone: "+55 15 99831-3193",
         tel: "15 99831-3193",
-        hours: "",
+        hours:
+          "Seg: FECHADO\nTer - Qua - Qui - Sex: 08:30 às 18:00\nSáb: 08:00 às 15:00\nDom: 08:00 às 13:00",
         description: "CARNES",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/frangolandialuan/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/19DHNPT2jr/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515998313193" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Rua+Newton+Prado,+254,+Porto+Feliz+-+SP,+18540-119/@-23.2197115,-47.6074984,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff3af8f007f5:0xe6fe8f474275b4a7!2m2!1d-47.52503!2d-23.2197103?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "2.5",
         name: "JT CARNES",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczPawmE_fHUyGXWNWrWXPhevxTLui5Hy1dWK93eSv_wMRiqr37M12m3GMVd4uIWtGblme6EIo1BzUMmeN23JFBZ7Ls1TQ2Y0RamvCS8JPq29pUBWxgnR85hPZtlGWarzDFjV0up8RK3cedwNLKbvncoA=w902-h902-s-no-gm?authuser=4",
         ],
         address: "RUA Cardoso Pimentel 1698",
         phone: "+55 15 99110-2020",
         tel: "15 99110-2020",
         hours: "",
         description: "CARNES",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/jtcarnes.grill?utm_source=ig_web_button_share_sheet&igsh=M2Zsdzl4dXpld2Zu",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1AXRTfSjj7/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515991102020" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Porto+Feliz+-+SP,+18540-000/@-23.199859,-47.5981263,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe1c8461c147:0x6e3df1af31960031!2m2!1d-47.5157036!2d-23.1998888?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "2.6",
         name: "Monteiro Casa de Carnes & Espetaria - Dimas",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczN3AfezPZAkUwSSY3CxyD0oVxEIakOimrKwqDS4a_itA-ygqdnE2cTotSR0VQJi_LopGZwvyhAqFb5GCep5iyzEkO-3Dm1EyPXk7A02R3EhVkn0Ui4bA8v8NoX3w_w0ch_mqtDkMdoHIfZ1mcNXhqSw=w500-h500-s-no-gm?authuser=4",
         ],
         address: "Rua Altino Arantes, 02 - Centro",
         phone: "+55 15 3262-5200",
         tel: "15 3262-5200",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex - Sáb: 08:00 às 18:00\nDom: 07:00 às 12:00",
         description: "CARNES",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1JTwcEK6Tf/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515997959191" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Rua+Altino+Arantes,+02+-+Centro,+Porto+Feliz+-+SP,+18540-000/@-23.2132166,-47.6079697,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0ada781fd1:0xe9327ff284a6a18e!2m2!1d-47.5255681!2d-23.2132381?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "2.7",
         name: "Skina Casa de Carnes",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNoQ0jhq-XRNPin7L9kXc5s9l11XEA-io7307wwt7LSfbhFzjBpnzi8jGdMgWbqAVQa7k9oyDw2OpxvVwqTxC5xmaKf4yJoqhEjieZ33v8ua0rcTe_RXJ-7QxAssDWunadBT1nBJqiKrBp2Rxs4IlAJ=w902-h902-s-no-gm?authuser=4",
         ],
         address: " R. Monsenhor Píres, 23 - Jardim Santa Eliza",
         phone: "+55 15 99685-1553",
         tel: "15 99685-1553",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex - Sáb: 08:00 às 18:00\nDom: 08:00 às 12:00",
         description: "CARNES",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/casadecarneskina?utm_source=ig_web_button_share_sheet&igsh=ZTE2NXYzOTJjYTFo",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1J4LFFyyNw/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515996851553" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Monsenhor+Píres,+23+-+Jardim+Santa+Eliza,+Porto+Feliz+-+SP,+18542-272/@-23.2003724,-47.6105377,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fd94f067a719:0x5c09d9656f7908b!2m2!1d-47.5281361!2d-23.2003939?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
     ],
   },
