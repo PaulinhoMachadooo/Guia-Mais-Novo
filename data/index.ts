@@ -7,16 +7,31 @@ export const categories = [
         id: "1.1",
         name: "AMC",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNSyXht7-7Ep84T7_KiRSVIK05nko810Pb6GKYgwfoSRnWLSdMQ-9tX5D-9Tu65S4HW984Ps9vXebS4LRPGkbAsLDbjtWg9ECN69BJoxaTuHa-TVU-g3XuyhvHQ52mxj73TY6b4oapFi72e6vzsAB2T=w900-h905-s-no-gm?authuser=4",
         ],
         address: "Av. Dr. Antônio Píres de Almeida, 811",
         phone: "+55 15 99712-4530",
         tel: "15 99712-4530",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex:  06:00 às 22:00\nSáb: 06:00 às 13:00\nDom: FECHADO",
         description: "ACADEMIA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/amcacademia/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1C9SSrBfqF/",
+          },
+          //{ type: "whatsapp", url: "https://wa.me/5515997124350" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Dr.+Antônio+Píres+de+Almeida,+811,+Porto+Feliz+-+SP,+18540-000/@-23.2171481,-47.6029828,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe73249f7d25:0xd756cde0951df256!2m2!1d-47.5205837!2d-23.2171689?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
-      {
+      /*{
         id: "1.2",
         name: "Atlética Jardim Vante",
         images: [
@@ -28,84 +43,171 @@ export const categories = [
         hours: "",
         description: "ACADEMIA",
         socialMedia: [],
-      },
+      },*/
       {
         id: "1.3",
         name: "Corpo e Alma",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNJPPe6I5X6XLXcSQsMUUY0Bn6-ZjkeajeDGKdEVTDnmrkvU4vBmZxn2LitrG2MpGqGCRlGLd-3fZHp26SIpRug-DVgHYcknmLYJmDHsON7_fzFHyDvtJfbHkiwPHsukRripoHYu2xB6fENJYdFqyCb=w500-h500-s-no-gm?authuser=4",
         ],
         address: " R. Cândido Mota, 300 - Centro",
         phone: "+55 15 3262-5591",
         tel: "15 3262-5591",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 06:00 às 22:00\nSáb: 08:00 às 12:00\nDom: FECHADO",
         description: "ACADEMIA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/academia_corpoealma/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1BuBvrXjGS/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515981183702" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Cândido+Mota,+300+-+Centro,+Porto+Feliz+-+SP,+18540-021/@-23.2102098,-47.605686,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fc2aca141a75:0x937597d3425be923!2m2!1d-47.5232844!2d-23.2102313?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "1.4",
         name: "Fratello Centro de Treinamento",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczOtsll_ZURnYRyUt6VtzAupPnWChDAD69Z26N0igmBz_xUUvNZuryNbnlDAm3Qs4L11tLBBRy9jggXkzHhsRwntNIBl9LraDm0bg2iIDgTL6gAsghW-snJoleDyTJm2NTDRVhAwti2803YKq5g5g3Gc=w426-h426-s-no-gm?authuser=4",
         ],
         address: "R. Luiz Carlos Lisboa, 580 - Residencial Ville Ipe",
         phone: "+55 15 99642-3404",
         tel: "15 99642-3404",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 06:00 - 08:00, 12:00 - 13:00, 16:00 - 20:00\nSáb: 07:30 às 09:00\nDom: FECHADO",
         description: "ACADEMIA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/fratelloct/",
+          },
+
+          { type: "whatsapp", url: "https://wa.me/5515996423404" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Luiz+Carlos+Lisboa,+580+-+Residencial+Ville+Ipe,+Porto+Feliz+-+SP,+18545-120/@-23.2013072,-47.6007078,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff3b0da92b39:0x9e32f98397af26!2m2!1d-47.5183062!2d-23.2013287?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "1.5",
         name: "Life Fit",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNBSk-lwK_g1Jr2efKlSWf3slnh5VniNW82D_EmK6uOn-CgEhUkjVXsDMyEAFpwalLcFroROmKwgYMyseAgxE2a24i0lfOEZzobNBERB1ihYPmS6luN0MEJ6_tOjG_AESzBOtUsp4HMQpZiypddx0Az=w759-h759-s-no-gm?authuser=4",
         ],
         address: "Av. Dr. Antônio Píres de Almeida, 1480",
-        phone: "",
-        tel: "",
-        hours: "",
+        // phone: "+55 15 99128-1954",
+        //tel: "15 99128-1954",
+        hours:
+          "Seg -Ter - Qua - Qui - Sex: 06:00 às 22:00\nSáb: 08:00 às 13:00\nDom: 09:00 às 12:00",
         description: "ACADEMIA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/academia_lifefit/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/15v6Rr6wFP/",
+          },
+          //{ type: "whatsapp", url: "https://wa.me/5515991281954" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Dr.+Antônio+Píres+de+Almeida,+1480,+Porto+Feliz+-+SP,+18540-000/@-23.2232368,-47.6037499,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe7119854f01:0xb84f9cb62d37bde9!2m2!1d-47.5212388!2d-23.2232788?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "1.6",
         name: "R2 Academia",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNnLti-cUiUcGGyfjOeYbkvd3a4iy57N8IWkxMco0xFnchK58n5iuehRARYEtefMpcp0-CiQ0Bp0BZhxRsLwxNesI5PyAHWgL2nVrKMRx1IiX3Y98tc2dWLYb0D6BuNsbw3uoW0vVJOwHvmwLkBVKlR=w793-h793-s-no-gm?authuser=4",
         ],
         address: "R. Ademar de Barros, 345 Shopping - Centro,",
-        phone: "+55 15 99163-7575",
-        tel: "15 99163-7575",
-        hours: "",
+        phone: "+55 15 99148-4224",
+        tel: "15 99148-4224",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 05:30 às 22:00\nSáb: 08:00 às 13:00\nDom: 08:00 às 12:00",
         description: "ACADEMIA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/r2academia_pf/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1CQmitbYgj/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515991484224" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Ademar+de+Barros,+345+Shopping+-+Centro,+Porto+Feliz+-+SP,+18540-000/@-23.2133417,-47.6054942,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff2b933e368b:0x1369288b3a32ffd!2m2!1d-47.5230926!2d-23.2133632?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "1.7",
         name: "Silvana Yara",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczOO-Efea8BgtPJSjxa3FYZ4mfoqv6wZyoAApL_d5ckNm1khE7ym59Nt1hn9KBi6FgXo8ZhLUP_sxLwfH82gWAgQcRPMuXbtecHCwuYQ8Sg39ZoyM_X3McbMFEkrIWUOQ7__UJccpuk-lvD0OBmoujHc=w902-h902-s-no-gm?authuser=4",
         ],
         address: "R. Bandeirantes, 224 - Centro",
-        phone: "+55 15 3261-5337",
-        tel: "15 3261-5337",
-        hours: "",
+        phone: "+55 15 3261-2043",
+        tel: "15 3261-2043",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 06:00 - 12:00, 15:00 - 21:30\nSáb: 08:00 às 12:00\nDom: FECHADO",
         description: "ACADEMIA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/academia_sy/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1EPjBrAvMf/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515996886423" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Bandeirantes,+224+-+Centro,+Porto+Feliz+-+SP,+18540-061/@-23.2120968,-47.6080937,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff61675b1573:0x8c84ca73eaf0b5d5!2m2!1d-47.5256921!2d-23.2121183?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "1.8",
         name: "Spartacus",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczN6wGEEir69aad6rlYWCgXpjtd1N5SLFcKIRvUyNyuUISZ8JIy6Cu0diPgkLAiRuhOON3LaldF0SPiO4NUzKVyQ-I_hkWd7n8NXXa8HTdX-_LNScwii-KTELQDHjm8rjYHDTc9P-_q-nz0j1PxAkcr8=w340-h344-s-no-gm?authuser=4",
         ],
         address: "R. Humberto Marteli, 180",
-        phone: "+55 15 3261-5337",
-        tel: "15 3261-5337",
-        hours: "",
+        phone: "+55 15 99742-8461",
+        tel: "15 99742-8461",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 06:00 - 12:00, 15:00 - 21:00\nSáb: 07:00 às 12:00\nDom: FECHADO",
         description: "ACADEMIA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/academia_spartacuspfz?utm_source=ig_web_button_share_sheet&igsh=bGRoZzh0azl0Z2k1",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1HgnhnUo1F/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515997428461" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Humberto+Marteli,+180,+Porto+Feliz+-+SP,+18540-000/@-23.198152,-47.6067431,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c600aa63271ad5:0xf63703025f7e8be6!2m2!1d-47.5243399!2d-23.1981802?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
     ],
   },
@@ -921,68 +1023,122 @@ export const categories = [
         id: "161.1",
         name: "Adega Avenida",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczPmO95kGZzhj3epA7n0EeXLZ_X8thRwYQT3K743bYBjzWU1zAOwOoCd4FZfOJoZXhPEgFS_6L9OFdQy0gwzgaPjhYe9CDrNWNEGnRKObTaXdnOx4qzZRbIayPR8xUxuGErxIJpVDP43plLsmFwHAXbG=w726-h720-s-no-gm?authuser=4",
         ],
         address: " Av. Armando de Salles Oliveira, 258",
         phone: "+55 15 99691-0933",
         tel: "15 99691-0933",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui: 08:00 às 21:00\nSex - Sáb: 08:00 às 22:00\nDom: 08:00 às 21:00",
         description: "Bedidas em geral.",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/14Gaziu97Cu/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515996910933" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Armando+de+Salles+Oliveira,+258,+Porto+Feliz+-+SP,+18540-000/@-23.2021379,-47.6095132,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0084db5d49:0xdbf891442ffb7c72!2m2!1d-47.5270772!2d-23.2021411?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "161.2",
         name: "Adega Dias",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczP-vN2r6ePCQDI3wN59Mlc26OloURD3RAarmPmnaIdyFFOtV-9Rv2HIX7oWljnRuwEtEqc7pBFxOxT2tYusULLCvk0z9nrdqcKLUhF9Fybu0XYKwBy0OAbChgKwJPW3emBmiHwsLl9rVvYHbKlAJ1DP=w484-h510-s-no-gm?authuser=4",
         ],
         address: "Av. Getúlio Vargas, 184 - Bambu",
         phone: "+55 15 99146-7703",
         tel: "15 99146-7703",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui: 09:00 às 21:00\nSex - Sáb: 09:00 às 22:00\nDom: 09:00 às 22:00",
         description: "Bedidas em geral.",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/adegadiasportofeliz/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515991467703" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Getúlio+Vargas,+184+-+Bambu,+Porto+Feliz+-+SP,+18540-354/@-23.2238415,-47.6067494,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff12a66294a3:0xfd2214e6ec27d404!2m2!1d-47.5243478!2d-23.223863?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "161.3",
         name: "Adega Do Bico",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczOXRZAnMmpIT3hF430CiSVMKw9oMsuZ1aqa3P-pnEgalxLQNI2kX70cso8JyQBJSN5CiE_XpBjRcPinCvTprEgbsjybgYMXmR8O06m63qQ584aBjimKasE-E5vVmkNNtgAs70Gjvh83AfRn4XWMP8V4=w382-h510-s-no-gm?authuser=4",
         ],
         address: "Av. Gov. Mário Covas - São Marcos",
         phone: "+55 15 99198-0421",
         tel: "15 99198-0421",
-        hours: "",
+        hours:
+          "Seg: FECHADO\nTer - Qua - Qui: 13:00 às 21:00\nSex - Sáb: 10:00 às 01:00\nDom: 10:00 às 17:00",
         description: "Bedidas em geral.",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/17sWKm7Lxu/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515991980421" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Gov.+Mário+Covas+-+São+Marcos,+Porto+Feliz+-+SP,+18540-000/@-23.1946468,-47.6014185,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c60189d88c898f:0xc71c33b42ebdf4a!2m2!1d-47.5190445!2d-23.1946648?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "161.4",
         name: "Adega dos Amigos",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczN_cMSNoWbje2w7g-f7hdn9DaTT9UY8SQbAyTLUdCmVEP2i74dpNJaiY0JwupOI09StIL3KA8dTJN_lhGOWDSt9a1T73bf9x0cBG1_pJp8duKk2uuTwJm8v24FI2fL4BziqhnsoXRDlI37esPk-q-iI=w420-h420-s-no-gm?authuser=4",
         ],
         address: "R. João Moreira Salles",
         phone: "+55 15 3261-6361",
         tel: "15 3261-6361",
         hours: "",
         description: "Bedidas em geral.",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1CTwbm3YZq/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515996266721" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+João+Moreira+Salles,+Porto+Feliz+-+SP,+18540-000/@-23.2072595,-47.6056261,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe061ccf6853:0xd847dd91252add2e!2m2!1d-47.523219!2d-23.2072044?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "161.5",
         name: "Adega dos Amigos Gole",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNXeIiG2ZjLktbO8i3QTZhAnxDfw7ySUwLu13FfgUABn5qiUtOkU1B1O-d160pzFBnDsTE6x5kQa_scYH69rrFh1qWCPImPg9G0ngJFAh2VorgIdI84CBeZoRnCjN_42C8uzA0wcg11YNwF_N9y_ddX=w914-h904-s-no-gm?authuser=4",
         ],
         address: "Rua Armando Sales de Oliveira",
         phone: "+55 15 99614-6707",
         tel: "15 99614-6707",
-        hours: "",
+        hours:
+          "Seg -Ter - Qua - Qui - Sex - Sáb: 09:00 às 21:00\nDom: 08:00 às 13:00",
         description: "Bedidas em geral.",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/16KZFjVHge/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515996146707" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Armando+de+Salles+Oliveira,+671,+Porto+Feliz+-+SP,+18540-000/@-23.1990359,-47.6117108,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c607e63927775f:0x7e70fc17eb15d1b0!2m2!1d-47.5293092!2d-23.1990574?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
-      {
+      /*{
         id: "161.6",
         name: "Adega e Bar 90 graus",
         images: [
@@ -993,7 +1149,18 @@ export const categories = [
         tel: "",
         hours: "",
         description: "Bedidas em geral.",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/peixariapeixevivopfz/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1JEFmRtpwe/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515997942376" },
+          { type: "maps", url: ""},
+        ],
       },
       {
         id: "161.7",
@@ -1007,7 +1174,7 @@ export const categories = [
         hours: "",
         description: "Bedidas em geral.",
         socialMedia: [],
-      },
+      },*/
     ],
   },
   {
@@ -2734,7 +2901,8 @@ export const categories = [
         address: "Rua Altino Arantes, 164",
         phone: "+55 15 99738-9543",
         tel: "15 99738-9543",
-        hours: "Seg - Ter - Qua - Qui - Sex - Sáb: 10:00 às 20:00\nDom: FECHADO",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex - Sáb: 10:00 às 20:00\nDom: FECHADO",
         description: "SALGADOS",
         socialMedia: [
           {
@@ -2745,8 +2913,11 @@ export const categories = [
             type: "facebook",
             url: "https://www.facebook.com/share/19KkXSXN3a/",
           },
-          { type: "whatsapp", url: "https://wa.me/5515997389543"},
-          { type: "maps", url: "https://www.google.com/maps/dir//Rua+Altino+Arantes,+164,+Porto+Feliz+-+SP,+18540-147/@-23.2147091,-47.6081522,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0a45f4c111:0xaa7ea034d70bb0d0!2m2!1d-47.5257506!2d-23.2147306?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D"},
+          { type: "whatsapp", url: "https://wa.me/5515997389543" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Rua+Altino+Arantes,+164,+Porto+Feliz+-+SP,+18540-147/@-23.2147091,-47.6081522,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0a45f4c111:0xaa7ea034d70bb0d0!2m2!1d-47.5257506!2d-23.2147306?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       {
@@ -2758,7 +2929,8 @@ export const categories = [
         address: "Av. Licio Marcondes do Amaral, 29",
         phone: "+55 15 99161-3737",
         tel: "15 99161-3737",
-        hours: "Seg - Ter: FECHADO\nQua - Qui - Sex - Sáb: 18:00 às 23:00\nDom: FECHADO",
+        hours:
+          "Seg - Ter: FECHADO\nQua - Qui - Sex - Sáb: 18:00 às 23:00\nDom: FECHADO",
         description: "COMIDAS",
         socialMedia: [
           {
@@ -2769,8 +2941,11 @@ export const categories = [
             type: "facebook",
             url: "https://www.facebook.com/share/1Un2F4D7eG/",
           },
-          { type: "whatsapp", url: "https://wa.me/5515991613737"},
-          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Licio+Marcondes+do+Amaral,+29,+Porto+Feliz+-+SP,+18540-000/@-23.2153341,-47.6038347,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ffb0cab9693b:0xee3155e9bf85cf3a!2m2!1d-47.5214331!2d-23.2153557?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D"},
+          { type: "whatsapp", url: "https://wa.me/5515991613737" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Licio+Marcondes+do+Amaral,+29,+Porto+Feliz+-+SP,+18540-000/@-23.2153341,-47.6038347,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ffb0cab9693b:0xee3155e9bf85cf3a!2m2!1d-47.5214331!2d-23.2153557?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       {
@@ -2782,16 +2957,19 @@ export const categories = [
         address: "Av. Monsenhor Seckler, 579",
         phone: "+55 15 99799-2820",
         tel: "15 99799-2820",
-        hours: "Seg - Ter - Qua - Qui - Sex - Sáb: 11:00 às 22:00\nDom: FECHADO",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex - Sáb: 11:00 às 22:00\nDom: FECHADO",
         description: "COMIDAS",
         socialMedia: [
-         
           {
             type: "facebook",
             url: "https://www.facebook.com/share/1JBnfiYM69/",
           },
-          { type: "whatsapp", url: "https://wa.me/5515997992820"},
-          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+579,+Porto+Feliz+-+SP,+18540-000/@-23.2120787,-47.59778,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe12557aa4f5:0x8405571455e36ff8!2m2!1d-47.5153817!2d-23.2121119?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D"},
+          { type: "whatsapp", url: "https://wa.me/5515997992820" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+579,+Porto+Feliz+-+SP,+18540-000/@-23.2120787,-47.59778,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe12557aa4f5:0x8405571455e36ff8!2m2!1d-47.5153817!2d-23.2121119?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       {
@@ -2814,7 +2992,10 @@ export const categories = [
             type: "facebook",
             url: "https://www.facebook.com/share/16SfMnKXsC/",
           },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+Ademar+de+Barros,+345,+Porto+Feliz+-+SP,+18540-000/@-23.2133417,-47.6054942,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff39691d2be9:0x55758b2c0a11dadf!2m2!1d-47.5230926!2d-23.2133632?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Ademar+de+Barros,+345,+Porto+Feliz+-+SP,+18540-000/@-23.2133417,-47.6054942,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff39691d2be9:0x55758b2c0a11dadf!2m2!1d-47.5230926!2d-23.2133632?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
     ],
@@ -3427,16 +3608,31 @@ export const categories = [
         id: "63.1",
         name: "Padaria e Confeitaria Moura",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczP4ZP3lm4yYZsXfWxahpMzxn-gtkJGyrAZBut79At_FCKdt_MQ5wM2YVMHi8tXU-j7aBPYSrcamYBpJ6y5rdD7lqn3kMVzerdBI2ZeQglom0KjmvegooPnbo5WEEpLJI0KigD_2z3IRkdCFliFiDJEc=w362-h362-s-no-gm?authuser=7",
         ],
         address: "Av. Armando de Salles Oliveira, 289 ",
         phone: "+55 15 99696-8261",
         tel: "15 99696-8261",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 06:00 ás 21:00\nSáb: 06:00 às 20:00\nDom: 06:00 às 21:00",
         description: "PADARIA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/padariamouraportofeliz/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/19XLDnZG7v/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515996968261" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Armando+de+Salles+Oliveira,+289+-+Centro,+Porto+Feliz+-+SP,+18540-000/@-23.2050417,-47.6087739,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0744200c71:0xed665eac5a8db452!2m2!1d-47.5262937!2d-23.205045?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
-      {
+      /*{
         id: "63.2",
         name: "Padaria e Confeitaria Rainha do Porto",
         images: [
@@ -3448,32 +3644,52 @@ export const categories = [
         hours: "",
         description: "PADARIA",
         socialMedia: [],
-      },
+      },*/
       {
         id: "63.3",
-        name: "Padaria e Lanchonete Maranata",
+        name: "Padaria e Lanchonete Nona",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczO0gBZfFpQpYu5Ld3iw1zr8KT7pc4und-nfVC-ZBekoEnpngYm2Hru05j298qRacTwc7AhpJkND3uNVjXn5KDf8qvi3RZ4Nyjd8qaBg5_lmFADrpYTJm8P6tfZn9h6L0ZFyPKDOMC0suCjFOTOA2T8Y=w777-h620-s-no-gm?authuser=7",
         ],
         address: "Av. Monsenhor Seckler, 877 - Vila América",
         phone: "+55 15 3261-6447",
         tel: "15 3261-6447",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex - Sáb: 05:30 às 20:30\nDom: 05:30 às 13:00",
         description: "PADARIA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+877+-+Vila+América,+Porto+Feliz+-+SP,+18540-000/@-23.2128599,-47.594847,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe14a5ea7083:0xd7739b953a1e8081!2m2!1d-47.5124454!2d-23.2128814?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "63.4",
         name: "Padaria e Restaurante São João",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczMqcA3-CHSvvXwk2ANMOOhJ5xe35DbiLP30j_IDZL1Dsc6IQhDJBXzTd0xvmhAFZDdi4oPxBVIcYLQcCkYo_Vl_55oTf8DanU26ZTkHjb9VIVHsQmZ8OdZ-qMtqgYyhfWNVWgDUbd1mgVdvpKvaO5KL=w650-h650-s-no-gm?authuser=7",
         ],
         address: "R. José Bonifácio, 211",
         phone: "+55 15 99797-1465",
         tel: "15 99797-1465",
-        hours: "",
+        hours: "Seg - Ter - Qua - Qui - Sex - Sáb - Dom: 06:00 às 22:00",
         description: "PADARIA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/padariarestaurantesaojoao/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/16LZhxUDq4/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515997971465" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+José+Bonifácio,+211+-+Centro,+Porto+Feliz+-+SP,+18540-000/@-23.2104089,-47.6065225,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe091eeebff7:0x972a950ca5c65bf8!2m2!1d-47.5241209!2d-23.2104304?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
     ],
   },
@@ -3591,92 +3807,193 @@ export const categories = [
         id: "69.2",
         name: "Pizzaria & Choperia - Monções",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNieYa_GRtOJ9Pc5qK-SrEVBX4k42wXLx88WpyndM6UKP19if9rGgkgzyu1TY8TB7FeXvkvNgdg4GcmTu46HPvGK6Pp2Ptpnj8-Nyxp5INRJaqudTpY_c7tY6-LhoOmL6NKeBPViU8RYIp1waSv5UrQ=w500-h500-s-no-gm?authuser=4",
         ],
         address: "Av. Monsenhor Seckler, 489",
         phone: "+55 15 99144-4117",
         tel: "15 99144-4117",
-        hours: "",
+        hours:
+          "Seg: FECHADO\nTer - Qua - Qui: 18:00 às 22:30\nSex - Sáb: 18:00 às 23:00\nDom: 18:00 às 22:30",
         description: "PIZZARIA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/pizzariamoncoespfz/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/191U8Ks7ir/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515991444117" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+489+-+Vila+Alcalá,+Porto+Feliz+-+SP,+18540-000/@-23.2118722,-47.5991507,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe126891f769:0x388ef6916f0501c8!2m2!1d-47.5167491!2d-23.2118937?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "69.3",
         name: "Pizzaria & Esfiharia Felipe",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczOH6Gwlzza0QNNUQkigU-pN6PhAp-SJD5SjIQYSluZbdtE6Kbv5ymB9XjJhGcno6etfjBrDoQPIPuoCnFQ2O-LOYX2PL5Y6i_dz4Suq6PXQ9K9KvVNmyx9L1-4zm1GRl7nh6qo-29VXHYpA8zQSnlKJ=w750-h750-s-no-gm?authuser=4",
         ],
         address: "Av. Getúlio Vargas, 352 - Bambu",
         phone: "+55 15 3261-3939",
         tel: "15 3261-3939",
-        hours: "",
+        hours:
+          "Seg: FECHADO\nTer - Qua - Qui: 18:00 às 22:30\nSex - Sáb: 18:00 às 23:00\nDom: 18:00 às 22:30",
         description: "PIZZARIA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/felipepizzaria_pf/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/17NcXQ7KTj/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515998461094" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Getúlio+Vargas,+352+-+Bambu,+Porto+Feliz+-+SP,+18540-000/@-23.2255202,-47.6071096,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe770f9f7ee9:0x82e2a682804224c3!2m2!1d-47.5247115!2d-23.2255411?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "69.4",
         name: "Pizzaria Forneiro",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczPpgPkyB6QAluf47-hObTAw_F9NWZFj9HVt6rG9OGDqPt_u4nmOzHRjMM_wyDQ0QmfICuzSeHlAtzYhY0VvidOLLateDdEKqNrqkwWeJGvRMQG4A07nDnB_es0MYgfqubQiBuQNpTj6OfUYXj7pXj--=w905-h905-s-no-gm?authuser=4",
         ],
         address: "Av. Dr. Antônio Píres de Almeida, 860",
         phone: "+55 15 99636-0124",
         tel: "15 99636-0124",
-        hours: "",
+        hours:
+          "Seg: FECHADO\nTer - Qua - Qui - Sex - Sáb: 18:30 às 23:00\nDom: 19:00 às 23:00",
         description: "PIZZARIA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/pizzariaforneiroporto/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515996360124" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Dr.+Antônio+Píres+de+Almeida,+860,+Porto+Feliz+-+SP,+18540-000/@-23.2172934,-47.6035152,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe733be2eb15:0x4f8c375f0fd2c2e9!2m2!1d-47.5211223!2d-23.2173134?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "69.5",
         name: "Pizzaria Giggio's",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczMnb6GxkCv8t2HbgH76PXo871k02K_ggSFCAczp-WDwB6pYJs1KXeAOuMTjddtzytDej-cwE6VXSBChv8AwAvPGs1Xev3mRvLsyHLI5PbSOUTiWlDWIKmZtrQaT9wIZwkXDhWAe7S9QrXY0b6rjDGET=w778-h778-s-no-gm?authuser=4",
         ],
         address: "Av. José Maurino, 177",
         phone: "+55 15 99685-6418",
         tel: "15 99685-6418",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex - Sáb: 10:30 às 14:00 e 18:30 às 23:00\nDom: 18:30 às 23:00",
         description: "PIZZARIA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/giggiospizzariapf",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1Ad8iNMrsu/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515996856418" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+José+Maurino,+177,+Porto+Feliz+-+SP,+18540-000/@-23.214786,-47.6070102,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0bafa2d823:0xea95fe31f9b33616!2m2!1d-47.5246012!2d-23.2148071?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "69.6",
         name: "Pizzaria La Julia",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczPgEGNyxsMNpzQ1gGtR4M2rMr-0g89zNyCKZzYA8VJg6M0pgo1S4Rn-nAfjFXAsVPnweKWvycG7v1YLOMYioNuLJA0nt--VcwfAZpS5_4QtnP9DOD6J0XMSSwvH1pRGxV9DXJGhsHo9yTjUWn8Qkn89=w704-h688-s-no-gm?authuser=4",
         ],
         address: "Av. Dr. Antônio Píres de Almeida, 827",
         phone: "+55 15 99817-5200",
         tel: "15 99817-5200",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex - Sáb: 18:30 às 22:30\nDom: FECHADO",
         description: "PIZZARIA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/pizzarialajulia/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1AqXPAQGqV/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515998175200" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Dr.+Antônio+Píres+de+Almeida,+827+-+Centro,+Porto+Feliz+-+SP,+18542-232/@-23.2174344,-47.6030431,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0eecb45597:0x91d2f9021cfc00a1!2m2!1d-47.5206415!2d-23.2174559?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "69.7",
         name: "Pizzaria Purga",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNojGPI_wvcsLNQc2HR2VpFeKUA8Q4SDXSrKBGYAxgVLRp3DJBVunmB9EAj3SSNbglQOZetci-1-yaGMZOyej6WIM3vOnVKDxzR78Zo840pOHhF6d9T7sNDo7ckcIrKyq5Ue_9imblSamBrZaWvVaPG=w576-h576-s-no-gm?authuser=4",
         ],
         address: "Av. Armando de Salles Oliveira, 376",
         phone: "+55 15 3262-2730",
         tel: "15 3262-2730",
-        hours: "",
+        hours:
+          "Seg: 18:00 às 23:30\nTer: FECHADO\nQua - Qui - Sex - Sáb - Dom: 18:00 às 23:30",
         description: "PIZZARIA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/purgapizzaria/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/16eK9hN8fB/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515997338736" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Armando+de+Salles+Oliveira,+376,+Porto+Feliz+-+SP,+18540-000/@-23.2012602,-47.6101384,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fdffd76dc201:0xfe611a642c95af84!2m2!1d-47.5277368!2d-23.2012817?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "69.8",
         name: "Pizzaria Vecchio Ferraio",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczOH8hqo6n2-R5I9DFJZohcwF7_eD6DpNABFGgNKLSYy_E_3t8XLXhJqdlfHBqs7ryroL3Jkfm13QywIbeioar4akwu9htSoCJg5ix559pCGFdMR8DXd7qSQtj_vyoKruETeSO1d03sx3m2RfVJetSj5=w720-h721-s-no-gm?authuser=4",
         ],
         address: "R. Cardoso Pímentel, 125",
         phone: "+55 15 3262-1507",
         tel: "15 3262-1507",
-        hours: "",
+        hours:
+          "Seg: 18:00 às 23:30\nTer: FECHADO\nQua - Qui - Sex - Sáb - Dom: 18:00 às 23:30",
         description: "PIZZARIA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/pizzariavecchioferraio/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/16jTgMTkuV/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515996297558" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Cardoso+Pímentel,+125,+Porto+Feliz+-+SP,+18540-000/@-23.2087059,-47.6082107,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe087043f829:0xe640b6093d8f44d4!2m2!1d-47.5258091!2d-23.2087274?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
     ],
   },
@@ -3685,7 +4002,7 @@ export const categories = [
     name: "Posto de Combustível",
     businesses: [
       {
-        id: "71.1",
+        id: "70.1",
         name: "Auto Posto San Marino 1",
         images: [
           "https://lh3.googleusercontent.com/pw/AP1GczPRs1RplEqMl9dm12vcvKY-MySnJWcWHUZ2Y8wd4BdjnLKoiSu_LSGIX8b9DICYpAGhj5cuFRTzwuBAvV7vrnI41jIUCNwWztFuF_1Bav3_VZhzW69S5OW_AsyX4xO5v7jhE5aumwM2D1i88un1fXE=w1207-h905-s-no-gm?authuser=7",
@@ -3717,197 +4034,399 @@ export const categories = [
         id: "71.1",
         name: "Bar e Restaurante do Kleber",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczOar7BrQqOpWzRFTNwu9NZU8epulxawtwXK0B8q9AMuWUUZXT5QVPyiv7n8O9TPYoQwx_H_RpWMYghPNNVNDXycNlOs3hsuYGHNBpE9hc9vqMpApHcJ8tgcSyOAn-c6qSTxM5mMMOuL3qlZxu0i8Pma=w680-h382-s-no-gm?authuser=7",
         ],
         address: "Rua Francisco Nunes Seckler, 05 - Jardim Seckler",
         phone: "+55 152107-9115",
         tel: "15 2107-9115",
-        hours: "",
+        hours:
+          "Seg: 10:00 às 16:00\nTer: 10:00 às 16:00\nQua: 10:00 às 16:00\nQui: 10:00 às 16:00\nSex:10:00 às 16:00\nSáb: 10:00 às 16:00\nDom: FECHADO",
         description: "RESTAURANTE",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1Av1VwDmf7/",
+          },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Rua+Francisco+Nunes+Seckler,+05+-+Jardim+Seckler,+Porto+Feliz+-+SP,+18540-000/@-23.2106943,-47.6028489,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe4046578aaf:0x284b0974bb8cbd08!2m2!1d-47.5204473!2d-23.2107158?entry=ttu&g_ep=EgoyMDI1MDYwMy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "71.2",
         name: "Belo Restaurante",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczPFhq4_Hx5eo3uOtjSjIcNygLOBUxm4EdJIea_lnhv95tod6X74pOqWG8tMDcFDlXrXj27ilsAVlLPSzMVo0XSJGV-q5PeSi1v9IUJkpgG92Sqb7Hnn42yiUPPm_7l6kpdWOCObskoaYtXkLRsA4an0=w774-h905-s-no-gm?authuser=7",
         ],
         address: "Estrada Municipal Porto Feliz-Rafard, S/N, KM 3 - Tanquinho",
         phone: "+55 1599827-6454",
         tel: "15 99827-6454",
-        hours: "",
+        hours: "Dom - Seg - Ter - Qua - Qui - Sex - Sáb: 08:30 às 16:00",
         description: "RESTAURANTE",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/belo.restaurante/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1Aki8K5cFi/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515998276454" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Estrada+Municipal+Porto+Feliz-Rafard,+S%2FN,+KM+3+-+Tanquinho,+Porto+Feliz+-+SP,+18540-000/@-23.1177233,-47.6221187,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c606bb5d7ac4a9:0xcabf27e77fb61cce!2m2!1d-47.5397171!2d-23.1177447?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "71.3",
         name: "Capitão Food Sushi",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczOAyLJTEjkvZsBFobID7vrW0vxfzYlnmlsT3xvTqysf9bLLjgqXhLpHk0ZCkVIBmnUbSCcoxf3WuOJ13kGofkjNyxPvNDvyiOBgiq-DVt8vn2JTskvCBXJCQ6L8WiqM1kp3Iu1twWIffKBHafrZ89A6=w905-h905-s-no-gm?authuser=7",
         ],
         address: "Rua Professora - R. Nair Antunes de Almeida, 74",
         phone: "+55 1599721-4407",
         tel: "15 99721-4407",
-        hours: "",
+        hours: "Seg - Ter - Qua - Qui - Sex - Sáb - Dom: 18:30 às 23:00",
         description: "COMIDA JAPONESA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/capitaofoodsushi/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1EJXezF4tF/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515997214407" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Rua+professora+-+R.+Nair+Antunes+de+Almeida,+74,+Porto+Feliz+-+SP,+18546-020/@-23.213262,-47.5973151,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff9fe718712b:0xc013d8ba5b49111!2m2!1d-47.5149135!2d-23.2132835?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
+
       {
         id: "71.4",
         name: "Cassiu's Restaurante e Churrascaria",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczOCJyKNR2VfYrQTwOG4hKJ8mZ4N0zt7NG8xGYnw-bnfj4FFo5O9Gl3XYUTa7ikm7vQNvXD-HkRXXK9EwUJPEmoFu6y2sL0nGFvrJN4o1X0wfuE0AT9wm_J_XU4bSBxYa33Uq_L066R7sYRg8_HI95DA=w640-h640-s-no-gm?authuser=7",
         ],
         address: "R. Draco Albuquerque, 48",
         phone: "+55 153261-5099",
         tel: "15 3261-5099",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex - Sáb: 11:00 às 14:30\nDom: FECHADO",
         description: "RESTAURANTE",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/cassiusrestaurante/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1AeKhYJjqq/",
+          },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Draco+Albuquerque,+48+-+Centro,+Porto+Feliz+-+SP,+18540-000/@-23.2112403,-47.6079903,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff6c039fd189:0x2ce97645700316b6!2m2!1d-47.5255887!2d-23.2112618?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "71.5",
         name: "Du Levain Cozinha Artesanal",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczPUyXB-Cp78HgSmSGxjrz8uYE9DDbPT0IpAbYOMt7W8THKiJZcKcwmKWVMR1ZXaJv15pSHH8XVgCe3zZnF4yOWWjkjDkm9HAveugq-_QG4mCfCXVDrHgCSXVwnOTVkd-4S1mqZaicPeBoszPtX_ViDy=w720-h720-s-no-gm?authuser=7",
         ],
         address: "Av. José Maurino, 83 - Centro",
         phone: "+55 1599702-2235",
         tel: "15 99702-2235",
-        hours: "",
+        hours:
+          "Seg - Ter: FECHADO\nQua - Qui: 18:00 às 22:00\nSex - Sáb: 18:00 às 22:30\nDom: FECHADO",
         description: "COMIDAS",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/dulevainpizza/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1BzKbn4BYY/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515997022235" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+José+Maurino,+83+-+Centro,+Porto+Feliz+-+SP,+18540-093/@-23.2141632,-47.6068942,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ffc0c03503c9:0x46ab62cffa202954!2m2!1d-47.524576!2d-23.2141846?entry=ttu&g_ep=EgoyMDI1MDYwOC4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "71.6",
         name: "Nadir Bonfa & Cia",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNceKFSgJLHqzuFM0RrKntPJA-SwXnhsbaXeJ2TWGB6J0ec-kIkJe3R3VvopaP0bI7CNItIApycpECrdxy1QVSDbGRNphXZh9LiLi4-bfgh6k4cBfNJ6zBoQnoN8wwcJaAntWEFY9Xi8IOGWS7alSHy=w1218-h685-s-no-gm?authuser=7",
         ],
         address: " R. Tatuí, 205",
         phone: "+55 15 3262-1886",
         tel: "15 3262-1886",
-        hours: "",
+        hours:
+          "Seg - Ter: FECHADO\nQua - Qui - Sex: 09:00 às 15:00\nSáb: 09:00 às 17:00\nDom: 09:00 às 16:00",
         description: "COMIDAS",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/assadosbonfa/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/16b8jnJjou/",
+          },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Tatuí,+203,+Porto+Feliz+-+SP,+18542-180/@-23.2005205,-47.6063113,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe01a66165db:0xcdd87b6403fa3bec!2m2!1d-47.5239324!2d-23.2005894?entry=ttu&g_ep=EgoyMDI1MDYwOC4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "71.7",
         name: "O CAIPIRA RESTAURANTE",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczO1b_Ki7GBrbidplI-e46MoB0pbR6GLd6qbVpzort1PXSgIT8jYNjhrC392Mrz7oF0CqQ4ige_1WjD5072jT5f5OEZCBg62wlRGMrTqS9z0vkwnDkmjwxweOtANuQC3GQlkO0SvHSK_cmPP_VSgqxBk=w905-h905-s-no-gm?authuser=7",
         ],
         address: " Av. Getúlio Vargas, 760 - BAMBU",
         phone: "+55 15 3261-5486",
         tel: "15 3261-5486",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex - Sáb: 11:00 às 14:00\nDom: FECHADO",
         description: "COMIDAS",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/ocaipirarestaurante/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/15RcbPtUp9/",
+          },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Getúlio+Vargas,+760+-+BAMBU,+Porto+Feliz+-+SP,+18540-000/@-23.2291599,-47.6078143,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe784e7edd59:0xf9d10c83e7528fe7!2m2!1d-47.5254127!2d-23.2291814?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "71.8",
         name: "Padaria e Restaurante São João",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczMqcA3-CHSvvXwk2ANMOOhJ5xe35DbiLP30j_IDZL1Dsc6IQhDJBXzTd0xvmhAFZDdi4oPxBVIcYLQcCkYo_Vl_55oTf8DanU26ZTkHjb9VIVHsQmZ8OdZ-qMtqgYyhfWNVWgDUbd1mgVdvpKvaO5KL=w650-h650-s-no-gm?authuser=7",
         ],
         address: "R. José Bonifácio, 211",
         phone: "+55 15 99797-1465",
         tel: "15 99797-1465",
-        hours: "",
+        hours: "Seg - Ter - Qua - Qui - Sex - Sáb - Dom: 06:00 às 22:00",
         description: "PADARIA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/padariarestaurantesaojoao/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/16LZhxUDq4/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515997971465" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+José+Bonifácio,+211+-+Centro,+Porto+Feliz+-+SP,+18540-000/@-23.2104089,-47.6065225,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe091eeebff7:0x972a950ca5c65bf8!2m2!1d-47.5241209!2d-23.2104304?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
+
       {
         id: "71.9",
         name: "Pesqueiro Bresciani",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNbELSmDluyJjnhvC4vKAsIKohx6QtYxgewrTVZY06hVeWIoH4JKzwJfRJ5cujOw1-Ff_4viduwU_4nZotnhbJIzl74CxPtACJiLDj4ZBcFLP0qDnfETiB1S3MVPSkcaKb9pf8LhlFnLRWx0NRNZ64y=w905-h905-s-no-gm?authuser=4",
         ],
         address: " Estrada Rafard, km 5",
         phone: "+55 19 3491-2117",
         tel: "19 3491-2117",
-        hours: "",
+        hours:
+          "Seg: 07:00 às 18:00\nTer - Qua: Fechado\nQui - Sex - Sáb - Dom: 07:00 às 18:00",
         description: "COMIDAS",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/pesqueirobresciani/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1Z9ihhuj7H/",
+          },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Estrada+Rafard,+km+5,+Porto+Feliz+-+SP,+18540-000/@-23.0813708,-47.609051,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c6078feefe390f:0xdf882287c871eebd!2m2!1d-47.5265795!2d-23.0814042?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "71.10",
         name: "Restaurante do Juca",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczMken5p1GbfEnOUx1g7PDTuSJcZsazKpuuYT3ll0NF0JtXcjMqKTIqWQ91Vyw7QAHSWsnYhI1vk8coLzMzwfODlXQICLnhQNzcc2g12ZAwSAezN-81Pt05dFwCaAGzQre7K8MONJaZKPQiRohCX87uA=w680-h382-s-no-gm?authuser=4",
         ],
         address: "Av. Armando de Salles Oliveira, 329",
         phone: "+55 15 99806-7902",
         tel: "15 99806-7902",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex - Sáb: 10:00 às 15:00\nDom: FECHADO",
         description: "COMIDAS",
-        socialMedia: [],
+        socialMedia: [
+          { type: "whatsapp", url: "https://wa.me/5515998067902" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Armando+de+Salles+Oliveira,+329,+Porto+Feliz+-+SP,+18540-000/@-23.2017183,-47.6101043,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fd7ede68a42f:0x5fde23b44de37dc0!2m2!1d-47.5277027!2d-23.2017398?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
+
       {
         id: "71.11",
         name: "Restaurante Donizete",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczOqh5a4FEBBlcV8fnwqhcWi87NJHryRmi5gdkikpK34pMHqQgW7tK2yEFPmgN7Ix6trFOCOuCA4oyd-USIT-yMvB4K8F6i8KwaG6Tvonw6zHtnxXCLqXKyNOBGML8ueEThzXiSGEYRRkz-fycBlyw9v=w640-h640-s-no-gm?authuser=4",
         ],
         address: "Av. Monsenhor Seckler, 326",
         phone: "+55 15 3262-3206",
         tel: "15 3262-3206",
-        hours: "",
+        hours: "Seg - Ter - Qua - Qui - Sex - Sáb - Dom: 11:00 às 14:00",
         description: "COMIDAS",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/donizete_restaurante/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/19TnpSUSd7/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515997744850" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+326,+Porto+Feliz+-+SP,+18540-000/@-23.2118086,-47.6007579,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0ded6f8c95:0xcac859818f22fb5b!2m2!1d-47.5183563!2d-23.2118301?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
+
       {
         id: "71.12",
         name: "Restaurante Ray",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczM5Wd7g3T80z_xgY2jWoTnCSezVG1MZXKUwkP259M81l4JjoDSi4cr8w81nilFvv_42ciXXEKrQ4jnbXPFzAJhWtFFC72Gy9m5Wjz1ik5FJF2HgMGvDfJ0FmWtqwdrSl8xRF3uGUsDG2zrcWzAHVDCz=w486-h484-s-no-gm?authuser=4",
         ],
         address: "Av. Cap. Joaquim Floriano de Toledo, 529 - Centro",
         phone: "+55 15 2107-5749",
         tel: "15 2107-5749",
-        hours: "",
+        hours:
+          "Seg: FECHADO\nTer - Qua - Qui - Sex: 11:00 às 16:00\nSáb: 11:00 às 14:00\nDom: FECHADO",
         description: "COMIDAS",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/parmegianasray/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1DA5tNLwmd/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515998546065" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Cap.+Joaquim+Floriano+de+Toledo,+529+-+Centro,+Porto+Feliz+-+SP,+18540-000/@-23.2083521,-47.6033957,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0f113ff9b1:0x52bd96d81c4a0db5!2m2!1d-47.5209941!2d-23.2083736?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "71.13",
         name: "Restaurante Recanto Das Araras",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNUSepfEde80EmgDfQ0F_ReFoFa9H3DuEY33PHtVWRoYMYIxIP2-lkwZpvC61L5XB2vtYQInmfTyyZMDT9jxttZSOC0Usy2v2OafTY9TArpmp3MnmVaxxVAWyJYu2Lja2iA6iMajHed7YLr_iexiytr=w906-h905-s-no-gm?authuser=4",
         ],
         address: "Rod. Mal. Rondon",
         phone: "+55 15 3261-3876",
         tel: "15 3261-3876",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 11:00 às 15:00\nSáb: FECHADO\nDom: 11:00 às 15:00",
         description: "COMIDAS",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1RjQSHwLj5/",
+          },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Rod.+Mal.+Rondon,+7666-7926,+Porto+Feliz+-+SP,+18540-000/@-23.2311033,-47.6140941,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fdd73bd6a083:0x8cd57699a6ed2ee7!2m2!1d-47.5317078!2d-23.2311515?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
+
       {
         id: "71.14",
         name: "Restaurante Tempero Baiano",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczPLKQWYFW91cqZRDkDA9TZvhjHVR9i2uvNbCpfdd4ozlYmzxi_c1uouK3kq4H7jpk67gBR0lMEVSG_ozmQap0VHJMF0y_Wf6NtbtGjHJkCulD6SSgNy_hNPXOUEatvvQ1wFD35VOyk9AfdJUKZw_h8V=w652-h652-s-no-gm?authuser=4",
         ],
         address:
           "Esquina Praca Sao Joao Batista de - R. Pedro Paulo de Oliveira, 150 - Jardim Sta Eliza",
         phone: "+55 15 99607-6687",
         tel: "15 99607-6687",
-        hours: "",
+        hours:
+          "Seg: FECHADO\nTer - Qua - Qui: 11:00 às 15:00\nSex: 10:00 às 16:00\nSáb: 11:00 às 17:00\nDom: 11:00 às 16:00",
         description: "COMIDAS",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/tempero_baiano.pf/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/16Njckvmax/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515996076687" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Esquina+Praca+Sao+Joao+Batista+de+-+R.+Pedro+Paulo+de+Oliveira,+150+-+Jardim+Sta+Eliza,+Porto+Feliz+-+SP,+18540-000/@-23.1991072,-47.609884,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c6014abe339ac5:0xb8db637f0f3e4065!2m2!1d-47.5274824!2d-23.1991287?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "71.15",
         name: "VILLA PORTO RESTAURANTE",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczMifY8PHcfvaVGuBy6WX_dTQ4WcGl6cgk7-OBxmzmHH_cStH4fhGudU2QGDwL9x8YoaC4rmuz1OYSdNg8te-XGqByCp1LHgu1MWXg6hGeFfOWZykMobpewSEyyjnmeHnSWPJsQVq014PWwrsYCcBl0t=w905-h905-s-no-gm?authuser=4",
         ],
         address: "R. Ademar de Barros, 345",
         phone: "+55 15 3261-6289",
         tel: "15 3261-6289",
-        hours: "",
+        hours: "Seg - Ter - Qua - Qui - Sex - Sáb - Dom: 11:00 às 15:00",
         description: "COMIDAS",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/villaportorestaurante/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/16SfMnKXsC/",
+          },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Ademar+de+Barros,+345,+Porto+Feliz+-+SP,+18540-000/@-23.2133417,-47.6054942,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff39691d2be9:0x55758b2c0a11dadf!2m2!1d-47.5230926!2d-23.2133632?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
     ],
   },
