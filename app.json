@@ -10,7 +10,7 @@
     "splash": {
       "resizeMode": "contain",
       "image": "./assets/adaptive-icon.png",
-      "backgroundColor": "#FFF"
+      "backgroundColor": "#FFFFFF"
     },
     "ios": {
       "supportsTablet": true,
@@ -19,24 +19,25 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFF"
+        "backgroundColor": "#FFFFFF"
       },
       "package": "com.paulinhomachado22.GUIAMAIS"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "extra": {
-      "eas": {
-        "projectId": "cfaf5476-9565-4084-9553-59687679227b"
-      }
-    },
     "runtimeVersion": {
       "policy": "appVersion"
     },
+    "plugins": ["expo-router"],
     "updates": {
-      "url": "https://u.expo.dev/cfaf5476-9565-4084-9553-59687679227b"
+      "url": "https://u.expo.dev/4a5311bb-877d-4c8c-9d87-82d66a1dde3a"
     },
-    "plugins": ["expo-router"]
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4a5311bb-877d-4c8c-9d87-82d66a1dde3a"
+      }
+    }
   }
 }
