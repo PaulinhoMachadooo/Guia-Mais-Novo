@@ -14,7 +14,10 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.paulinhomachado22.GUIAMAIS"
+      "bundleIdentifier": "com.paulinhomachado22.GUIAMAIS",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -29,14 +32,13 @@
     "runtimeVersion": {
       "policy": "appVersion"
     },
-    "plugins": ["expo-router"],
-    "updates": {
-      "url": "https://u.expo.dev/4a5311bb-877d-4c8c-9d87-82d66a1dde3a"
-    },
+    "plugins": [
+      "expo-router"
+    ],
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "4a5311bb-877d-4c8c-9d87-82d66a1dde3a"
+        "projectId": "8acb5149-480e-4671-b771-7c4f2325fee9"
       }
     }
   }
