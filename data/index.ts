@@ -660,40 +660,64 @@ export const categories = [
         id: "6.1",
         name: "Alarmaq Equipamentos de Segurança",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNyNMnSv0sfWTxrPmw8aHMJpDawdpn24H_dfLC07Rwhp1gMXTEwE4TpemP8sz0GsJg8Vsvw1-KUM54LFKIzfwjTp6PpgMDXOdozAdCPEYgekafwUmtYMNT8BBX8OgLe2c6ZLZFFZo1XKv3REtZOnUGv=w450-h450-s-no-gm?authuser=4",
         ],
-        address: "R. Sarquis Abibe, 30 - Chacara Sanches",
+        address: "R. Sarquis Abibe, 30 - Chácara Sanches",
         phone: "+55 15 3262-2300",
         tel: "15 3262-2300",
-        hours: "",
+        hours: "ATENDIMENTO 24 HORAS",
         description: "SEGURANÇA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/alarmaq.segurancaeletronica/",
+          },
+          { type: "maps", url: "https://www.google.com/maps/dir//R.+Sarquis+Abibe,+30+-+Chacara+Sanches,+Porto+Feliz+-+SP,+18542-016/@-23.2063602,-47.6089606,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0798a833f3:0x4e567657973fbeb2!2m2!1d-47.526559!2d-23.2063817?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+        ],
       },
       {
         id: "6.2",
         name: "Alartec segurança digital e climatização",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczPcH7yDaIJKW4lTzl0A3zY3lVh4PSy9co6xKADHWZ08MpPkUp3D_-BbRQAeAIyBoNVcl-QQp8islN6-LMk8eVoxL-Ea0IsImm_IL_yvLucqp7nFlk1sfzKmhOsSog89OnBxAzm5t1zFNx3GoMPLkYsW=w763-h758-s-no-gm?authuser=4",
         ],
         address: "Rua Diva Cabrera Soares, 111",
         phone: "+55 15 99604-7533",
         tel: "15 99604-7533",
-        hours: "",
+        hours: "Seg - Ter - Qua - Qui - Sex - Sáb: 09:00 às 17:00\nDom: FECHADO",
         description: "SEGURANÇA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1C6nXV3ipR/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515996047533" },
+          { type: "maps", url: "https://www.google.com/maps/dir//Rua+diva+cabrera+soares,+111,+Porto+Feliz+-+SP,+18540-000/@-23.1912577,-47.5931355,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ffbf6618eb03:0xd3863173faf31f3e!2m2!1d-47.5107338!2d-23.1912793?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+        ],
       },
       {
         id: "6.3",
         name: "Persegue Segurança",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczOnQEVQmOgZOZSvGEx_Gl7EywS2jwh0UyClWLuWUeVyjW_EsHUzyEOETFNl47UKep02T3Y7YQU8qNbwkwuup_6Dra0MeTu1BbiT3GrwVmwueclSx-gsuxTy-GcpOXfLCd86_XGuk21M1e3InOYfiSn9=w763-h827-s-no-gm?authuser=4",
         ],
         address: " R. São Francisco, 20B - Vila Alcalá",
         phone: "+55 15 3262-4603",
         tel: "15 3262-4603",
-        hours: "",
+        hours: "ATENDIMENTO 24 HORAS",
         description: "SEGURANÇA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/persegueseguranca/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1EaSNu6Twe/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515998462247" },
+          { type: "maps", url: "https://www.google.com/maps/dir//R.+São+Francisco,+20B+-+Vila+Alcala,+Porto+Feliz+-+SP,+18540-000/@-23.2107975,-47.6006896,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c607492ebd453b:0xd698c0ed637fb2e5!2m2!1d-47.5182771!2d-23.2107838?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+        ],
       },
     ],
   },
@@ -705,66 +729,104 @@ export const categories = [
         id: "7.1",
         name: "Casa do Construtor - Aluguel de Equipamentos",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczPcIGZiuIJsRWnGc5MUF611Qt_l51m3nsR8Iq-Aoyl4I6P07hu4TuD_GJnlhZ1oWgn9hx2mr8EEqqC6h2B5wPWNsDuYOejEUXb7nsSyD-8lN6UdgNzbV37_PruUSnoeTm1RbiDMuD_CCD0W3gkoS5EE=w600-h600-s-no-gm?authuser=4",
         ],
         address: "Rua Newton Prado, 489 - Centro",
         phone: "+55 15 3010-0001",
         tel: "15 3010-0001",
-        hours: "",
+        hours: "Seg - Ter - Qua - Qui - Sex: 07:30 às 17:30\nSáb - Dom: FECHADO",
         description: "LOCAÇÃO",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/casadoconstrutor/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515997779595" },
+          { type: "maps", url: "https://www.google.com/maps/dir//Rua+Newton+Prado,+489+-+Centro,+Porto+Feliz+-+SP,+18540-119/@-23.2215696,-47.6065659,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fff81096c9b5:0x1dc067b0a3d0c939!2m2!1d-47.5241643!2d-23.2215911?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+        ],
       },
       {
         id: "7.2",
         name: "Locmix Locações",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNYwAx5qd8TSSXOrhd_vf8LEOKvyc3HCchIxYbiAI6jBJu3UM9b9Q2vEToMh7unzXN9zJiXphiKnHn1tkZz83K0jYLyd9AQC2KDp-OIITcGE-oJME40GnEfmWoj3pFHX5heKmiWXMHewqlhZmbnA9Ji=w508-h903-s-no-gm?authuser=4",
         ],
         address: "Av. Monsenhor Seckler, 1681 - Vila América",
         phone: "+55 15 99614-2079",
         tel: "15 99614-2079",
-        hours: "",
+        hours: "Seg - Ter - Qua - Qui - Sex: 07:00 às 17:30\nSáb: 07:00 às 12:00\nDom: FECHADO",
         description: "LOCAÇÃO",
-        socialMedia: [],
+        socialMedia: [
+          { type: "whatsapp", url: "https://wa.me/5515996142079" },
+          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+1681+-+Vila+América,+Porto+Feliz+-+SP,+18540-000/@-23.2128641,-47.5878021,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff007750dde9:0x800f654a492ff3bf!2m2!1d-47.5053975!2d-23.2129789?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+        ],
       },
       {
         id: "7.3",
         name: "Lorenzon Locadora de Equipamentos",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczPWn8XTy5agZ3j6WQpV0RdDAgZx1URBmiASzADc9bcyh22POKByGttEHMCDVxhnRvNtyfxCM0h5N4oYAMxQHfdWcYiO-D7ZvE15QmsCDahjx3FfxZ2un9awt5J-w8ZUsSnoJAT8d7i2BP3Eh1kC4gpt=w763-h763-s-no-gm?authuser=4",
         ],
         address: "Av. Monsenhor Seckler, 1477 - Jardim Borba Gato",
         phone: "+55 15 3261-7700",
         tel: "15 3261-7700",
-        hours: "",
+        hours: "Seg - Ter - Qua - Qui - Sex: 07:00 às 17:30\nSáb: 08:00 às 12:00\nDom: FECHADO",
         description: "LOCAÇÃO",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/grupo_lorenzon/",
+          },
+          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+1477+-+Jardim+Borba+Gato,+Porto+Feliz+-+SP,+18546-122/@-23.212785,-47.5894102,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff484bb9e463:0xdd4bfae5d8b9e9a0!2m2!1d-47.5070086!2d-23.2128065?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+        ],
       },
       {
         id: "7.4",
         name: "Mil Máquinas Locações de Máquinas e Equipamentos para Construção Civil",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczMlnrEPgSf1pNxqbwKTdnG_X0-fd4E8GtEo5XvHMuzTP9Q_6LpqYVlafSIzACw_vk3QMfDDrnbEGb_Xkffw5xR5RHJVca9nm8Uqa967E8jLFYoRXx6vL4bsKFGMuSGTzs_xU2mrrYCUgyYRdzknZ0Vw=w763-h763-s-no-gm?authuser=4",
         ],
         address: "R. Paulino de Bernardes, 07",
         phone: "+55 15 3261-1122",
         tel: "15 3261-1122",
-        hours: "",
+        hours: "Seg - Ter - Qua - Qui - Sex: 07:00 às 17:30\nSáb: 07:00 às 12:00\nDom: FECHADO",
         description: "LOCAÇÃO",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/milmaquinaslocadora/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/16Mszy9zqt/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5519974197882" },
+          { type: "maps", url: "https://www.google.com/maps/dir//R.+Paulino+de+Bernardes,+07,+Porto+Feliz+-+SP,+18540-000/@-23.2304984,-47.6008648,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff61c688ff17:0xb69aa54dd4a8817f!2m2!1d-47.5184632!2d-23.2305199?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+        ],
       },
       {
         id: "7.5",
         name: "Portoloc",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNMDYXUWw69SMp7PLvD_t3H7JAGwhkAnwcTigEsLvRbqaNQwcdfVkMXPEtH6L6Q0mmhiv_ll9Ax2tKifU8v0LVNuInjNkjryrDikp4GzznSpS58iv6N4pDE0ZirQNhsNQomXFYEJ52iVuY7byyJtcW9=w763-h519-s-no-gm?authuser=4",
         ],
         address: "R. José Fernandes, 90 - Jardim Morumbi",
         phone: "+55 15 3261-3609",
         tel: "15 3261-3609",
         hours: "",
         description: "LOCAÇÃO",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/portoloc/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1DjTiVkTag/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515997771831" },
+          { type: "maps", url: "https://www.google.com/maps/dir//R.+José+Fernandes,+90+-+Jardim+Morumbi,+Porto+Feliz+-+SP,+18540-000/@-23.2222874,-47.6035302,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe7314905d8d:0xb27a0d0c23f26192!2m2!1d-47.5211286!2d-23.2223089?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+        ],
       },
     ],
   },
@@ -786,29 +848,51 @@ export const categories = [
         id: "10.1",
         name: "Bika Embalagens",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczPZNwzT_Vm8ABjb0CYWVu10ljesrOztraiBw3jpStIDocZTGdWi3zLrCoMn5RZoVwLwAHW_gJS_S-hd5bZ3iXYV2z6uq1agXtmmc9JOQ5GoJ2er8CrpiCaWGygUSBrae8LnoFAt5Cw0JFyKNTBwD7nQ=w763-h764-s-no-gm?authuser=4",
         ],
         address: " Rua Altino Arantes, 284 - Centro",
         phone: "+55 15 3262-5281",
         tel: "15 3262-5281",
         hours: "",
         description: "ARTIGOS",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/bikaembalagensefesta/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1YrHds77MF/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515981339100" },
+          { type: "maps", url: "https://www.google.com/maps/dir//Bika+Embalagens+-+Rua+Altino+Arantes,+284+-+Centro,+Porto+Feliz+-+SP,+18540-000/@-23.2157256,-47.5258796,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff4e95b6bfc5:0xad1e415e658b87a0!2m2!1d-47.5258796!2d-23.2157256?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+        ],
       },
       {
         id: "10.2",
         name: "Global Embalagens E Artigos Para Festa",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczMgwEWKAgx48QRGuzPQO5xMOgZxxHehV1VqPNsHj_FSW2eg5PfdUB3JfoN0ZgqUR78bRgZO6PDJPBOUg0KN9woGVAMbmHKjqPsOOMsY-CDpiibu9kx3Jk26fmgSradWelU7Vcmzj0XngY5RuCirtUKc=w639-h723-s-no-gm?authuser=4",
         ],
         address: "Av. Dr. Antônio Píres de Almeida, 1440",
         phone: "+55 15 3262-4900",
         tel: "15 3262-4900",
-        hours: "",
+        hours: "Seg - Ter - Qua - Qui - Sex: 08:30 às 18:00\nSáb: 08:30 às 13:00\nDom: FECHADO",
         description: "EMBALAGENS",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/global_festa/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/19TRJyRG4e/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515998532426" },
+          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Dr.+Antônio+Píres+de+Almeida,+1440,+Porto+Feliz+-+SP,+18547-058/@-23.2228084,-47.6036373,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe733fa3611d:0x8b9268a0400e11ca!2m2!1d-47.5212357!2d-23.2228299?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+        ],
       },
-      {
+      /*{
         id: "10.3",
         name: "Palácio dos Balões e Presentes",
         images: [
@@ -820,7 +904,7 @@ export const categories = [
         hours: "",
         description: "PRESENTES",
         socialMedia: [],
-      },
+      },*/
     ],
   },
   {
@@ -865,43 +949,59 @@ export const categories = [
         id: "12.1",
         name: "Auto Elétrica Cardia",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczOT6Y6Iv0mLVOCpLHwE1CxtO2QsZP-Fc9VB4b8_Xto2iEnG3Uv3tSqNTtb91fIyN-48S22B1B1_QtPEiHlWmYv_50_LgpgQwVJJi-_CGWKoXPW20bZaWiiKhcLKp0H7YVyUrK1ZJhH5f_NwqVidYt6u=w763-h771-s-no-gm?authuser=4",
         ],
         address: " R. Justino Gômide Bueno, 278",
         phone: "+55 15 3262-3080",
         tel: "15 3262-3080",
-        hours: "",
+        hours: "Seg - Ter - Qua - Qui - Sex: 08:00 - 11:30 e 13:00 - 17:30\nSáb - Dom: FECHADO",
         description: "AUTO",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/autoeletricacardia/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/16Pb71sdPT/",
+          },
+          { type: "maps", url: "https://www.google.com/maps/dir//R.+Justino+Gômide+Bueno,+278,+Porto+Feliz+-+SP,+18540-330/@-23.2217436,-47.6039166,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe76abc749b9:0x31781fa75565e020!2m2!1d-47.521515!2d-23.2217651?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+        ],
       },
       {
         id: "12.2",
         name: "Auto Eletrica Juca",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczPo0O3aYDdh9tMV8V_CnfgtsoZhzpCGmF4Td6QEJsUpjnfh0qvwXrPO3rbU-PzOmL0X2t2WtjIb8ya_IEtkCf1YtIM5N32cf_Usk0mJEFjQMRvvfoUJSboIy7Hn-5QOOUv6GQ5mH-2WOf1ab5X-AEeV=w664-h702-s-no-gm?authuser=4",
         ],
         address: "Estr. da Cachoeira, 1073-1189",
-        phone: "+55 15 3262-3080",
-        tel: "15 3262-3080",
+        phone: "",
+        tel: "",
         hours: "",
         description: "AUTO",
-        socialMedia: [],
+        socialMedia: [
+         
+          { type: "maps", url: "https://www.google.com/maps/dir//Estr.+da+Cachoeira,+1073-1189,+Porto+Feliz+-+SP,+18540-000/@-23.1987421,-47.5975436,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe1c9cb97b99:0xadaf9df9a0a722b6!2m2!1d-47.515142!2d-23.1987636?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+        ],
       },
       {
         id: "12.3",
         name: "AUTO ELÉTRICA MARQUINHO",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczMGRZYYnS6TmqhtxbUgUxVBP5FaV990L-WROJI_gVwDPkJRHC30uxP-B-tbdK75dG5-5js5nuYMl5elxnTwfwxGf_N-ZFQ_TDJ3Arqe2GyPzOhv0IunES6_vBbvhbsxwLeQ-QLu95r-WVtozr6dO0rz=w602-h903-s-no-gm?authuser=4",
         ],
         address:
           "EST VOLTA DO POCO RAMAL SITIO BEIRA RIO 05 VOLTA DO POÇO (Terras do Porto)",
         phone: "+55 15 99113-9849",
         tel: "15 99113-9849",
-        hours: "",
+        hours: "Seg - Ter - Qua - Qui - Sex: 08:00 às 17:00\nSáb: 08:00 às 12:00\nDom: FECHADO",
         description: "AUTO",
-        socialMedia: [],
+        socialMedia: [
+        
+          { type: "whatsapp", url: "https://wa.me/5515991139849" },
+          { type: "maps", url: "https://www.google.com/maps/dir//EST+VOLTA+DO+POCO+RAMAL+SITIO+BEIRA+RIO+05+VOLTA+DO+POCO+Terras+do+porto,+Porto+Feliz+-+SP,+18540-000/@-23.1907171,-47.5927489,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff8137192adf:0xd3d645ca8973e821!2m2!1d-47.5103473!2d-23.1907385?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},],
       },
-      {
+      /*{
         id: "12.4",
         name: "Auto Elétrica Negão",
         images: [
@@ -913,32 +1013,40 @@ export const categories = [
         hours: "",
         description: "AUTO",
         socialMedia: [],
-      },
+      },*/
       {
         id: "12.5",
         name: "Auto Elétrica Orlando",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczOeFRXniySIuYqL0cpoo6C2HoDjEEnTFfuC5-NyJp82U3Mu771O1Crdgi6kPKjEr69GMvhYehl3LN_qvQgb5iPex8xT5k11oh80WB6xlPHSm1sfpS0DZI6-6KUPoR53LSHgpXOVEz3Rjvmlvwv1dEsR=w736-h798-s-no-gm?authuser=4",
         ],
         address: "Av. Getúlio Vargas, 110 - Bambú",
         phone: "+55 15 99765-4778",
         tel: "15 99765-4778",
         hours: "",
         description: "AUTO",
-        socialMedia: [],
+        socialMedia: [
+          { type: "whatsapp", url: "https://wa.me/5515997654778" },
+          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Getúlio+Vargas,+110+-+Bambu,+Porto+Feliz+-+SP,+18540-354/@-23.2232424,-47.6066835,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe7693e28acf:0xccbcc305fd5a1693!2m2!1d-47.5242819!2d-23.2232639?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},],
       },
       {
         id: "12.6",
         name: "Auto Elétrica Tato Ferraz",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczPztS8Fx-xuIkrgLxejUOVXldFgkIvarKmVSGCL-1xTw9j9sBLPY7rbzl0u4hzQa0Q9-CaStIqnvgEOAQpAGng7gbZRi0s5H_-FKZwZed_FSLZ0HUVLPb3MR1MmZGdKnJG1b1h169lalwJ3de1jh6Xr=w763-h645-s-no-gm?authuser=4",
         ],
         address: "R. Laís Solange Ferraz, 223",
         phone: "",
         tel: "",
-        hours: "",
+        hours: "Seg - Ter - Qua - Qui - Sex: 07:00 às 18:00\nSáb - Dom: FECHADO",
         description: "AUTO",
-        socialMedia: [],
+        socialMedia: [
+           {
+            type: "instagram",
+            url: "https://www.instagram.com/autoeletricatato/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515998216067" },
+          { type: "maps", url: "https://www.google.com/maps/dir//R.+Laís+Solange+Ferraz,+223,+Porto+Feliz+-+SP,+18540-000/@-23.2298365,-47.6021452,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe7b78e5d407:0x82b24fed6a2d0c0!2m2!1d-47.5197436!2d-23.229858?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},],
       },
     ],
   },
