@@ -438,120 +438,206 @@ export const categories = [
         id: "5.2",
         name: "Água Mineral Nova Vida",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczPfotoFnjsjvD0QJJ2gseCgUGP5R-4SvmSuM4fKDCHbeQIGcs1VnL1jtSUVoeyHbcuK9JBZdlQTHWJLCetNgR1rD6B2Kw2ftGEh22T82gPN_8d83VK-_3uj9gFPgYTOfcueiPvoeXBFEyPsJxpZIG8u=w763-h755-s-no-gm?authuser=4",
         ],
         address: "Rua Conselheiro Manoel Dias de Toledo, 483 - jardim",
         phone: "+55 15 3262-2429",
         tel: "15 3262-2429",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 08:00 às 17:00\nSáb: 08:30 às 12:00\nDom: FECHADO",
         description: "ÁGUA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/aguanovavidaja/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/16mpE48eRb//",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515997373712" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Rua+Conselheiro+Manoel+Dias+de+Toledo,+483+-+jardim+porto+feliz,+Porto+Feliz+-+SP,+18540-530/@-23.2313447,-47.6018785,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe7bf74cc77f:0xc70e54d4921842d8!2m2!1d-47.5194769!2d-23.2313662?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "5.3",
         name: "Famagás",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczPUtvywHXC-YXqpN63FrMs__K7GZ0BGkjLzqw5_cxZDOS6ATICBbajlVq2QW5yqb4tKQBWOYvXeJPAgwvAysLD5b_Bt_P4sHDsFZMBvCSXFra49EYhD_TxUkKh_8BtCTw89k3oba28cHgZvtBve56qu=w180-h180-s-no-gm?authuser=4",
         ],
         address: "Av. Gov. Mário Covas, 2001",
-        phone: "+55 15 3261-4266",
-        tel: "15 3261-4266",
-        hours: "",
+        phone: "+55 15 98104-0940",
+        tel: "15 98104-0940",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 08:00 às 19:00\nSáb - Dom: 08:00 às 14:00",
         description: "GÁS",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/famagas_/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1AXKSK1Rzt/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515981040940" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Gov.+Mário+Covas,+2001,+Porto+Feliz+-+SP,+18540-000/@-23.1944654,-47.6013842,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fc2aca141a75:0x56f847e74bcf69a9!2m2!1d-47.5189826!2d-23.1944869?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "5.4",
         name: "Galeão Águas",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNL8T07jU_RisEf1k6UXdsETTVCaDlx091f0L36oQgmAqThAz3HkiVPoZZsIcGvXfIa52JxcbNHu-Kst6LFOn_bQBL-JqZCEhRE5FOaxyzxCPzGhXRrq4bb6JH_stVYy4FIyT9B8KcpLnBpqT6QDuLP=w564-h496-s-no-gm?authuser=4",
         ],
         address: "R. Gabriel Antônio Carvalho, 19",
         phone: "+55 15 99102-6633",
         tel: "15 99102-6633",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex - Sáb: 08:30 às 18:30\nDom: 09:00 às 12:00",
         description: "ÁGUA",
-        socialMedia: [],
+        socialMedia: [
+          { type: "whatsapp", url: "https://wa.me/5515991026633" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Gabriel+Antônio+Carvalho,+51,+Porto+Feliz+-+SP,+18540-000/@-23.2142102,-47.5986773,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff6f9c8169e9:0x40add236873ce296!2m2!1d-47.5162757!2d-23.2142317?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "5.5",
         name: "Jé Águas Distribuidora",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczPpXknIvmm2EURerNlEA0csm3xSa2aBv9YT6RUPONpyiqHZVZgW_FtXFib5irAIWWcQ-riw--BWxYHvBEUTBm7Kp7qeHpPJ4f9TkQ9JotvnVCr51g9fHqENKNSChFjYDsNZEi6kcOxTa-mtfJP7yt2f=w500-h500-s-no-gm?authuser=4",
         ],
         address: "R. Antonio Sardinha, 100 - Centro",
         phone: "+55 15 3261-1870",
         tel: "15 3261-1870",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 08:00 às 17:00\nSáb: 08:00 às 12:00\nDom: FECHADO",
         description: "ÁGUA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1F9MC9gcyh/",
+          },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Antonio+Sardinha,+100+-+Centro,+Porto+Feliz+-+SP,+18540-009/@-23.2086584,-47.6091745,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe07e27384d9:0xca28d4f51d5f1c59!2m2!1d-47.5267729!2d-23.2086799?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "5.6",
         name: "Mauro Gás",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczN63Tv2U_FjntIWRe6XuvssE0vpR_cUqnsUMj_-VRg6LKQCFEtjVXxuLjoZ5VsOdT8mEcto4MjaLaiz9Q9keU13gfgDpghBsmobwhlFjvrk7NCh5VoAQZTiYxAptCWVc3ZEKb-JQhSfoCQb6n1FpxXp=w562-h498-s-no-gm?authuser=4",
         ],
         address: "Av. Mario Covas, 2161",
         phone: "+55 15 3261-5108",
         tel: "15 3261-5108",
-        hours: "",
+        hours: "Seg - Ter - Qua - Qui - Sex: 08:00 às 19:00\nSáb: 08:00 às 18:00\nDom: 08:00 às 12:00",
         description: "GÁS",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/19pC8RgfAR/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515997624590" },
+          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Mario+Covas,+2161,+Porto+Feliz+-+SP,+18540-000/@-23.1989535,-47.599856,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff5e7c61ea0b:0x7d20309ed2607f35!2m2!1d-47.5173653!2d-23.1989109?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+        ],
       },
       {
         id: "5.7",
         name: "Nogueira Gás",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczOaUsuOhAcKImQo-hhSV0gPUe-vtbGPmrNJj8ZKi9vhFwFbTUWXwyxP5j6rm6MitGjuPHYeyG1aoskWxaN15kKSFEnsx2WZ7MC_m0PKHbRXukdqC3Vg4wotZQdn3V1cTpC8H7k13PFxGFRv_tjrbubT=w763-h429-s-no-gm?authuser=4",
         ],
         address: "Av. Getúlio Vargas, 628",
         phone: "+55 15 3262-2900",
         tel: "15 3262-2900",
-        hours: "",
+        hours: "Seg - Ter - Qua - Qui - Sex - Sáb: 08:00 ás 18:00\nDom: FECHADO",
         description: "GÁS",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1M63pkkgwB/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515997393366" },
+          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Getúlio+Vargas,+628,+Porto+Feliz+-+SP,+18540-000/@-23.2280067,-47.6075996,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe7832afff35:0xdbf36321d4c10c40!2m2!1d-47.525198!2d-23.2280282?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+        ],
       },
       {
         id: "5.8",
         name: "Ultragaz",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNMit3DFR8NPmPtNgwrfJNMTH5gBdVlTQdDW1ysLTbXnLzKqNo1ExoOCWxGXJ8VQoWJbAdWATV1TCzFmUUuT1nKmtXuP45f4_9M_62chvhchIS1ivCvSwJtXvDGGGZ_cqAE-gdfx04WIqPDG53J0AUC=w763-h763-s-no-gm?authuser=4",
         ],
         address: "Av. Cap. Joaquim Floriano de Toledo, 545 - Jardim Tenda",
-        phone: "+55 15 99612-4597",
-        tel: "15 99612-4597",
-        hours: "",
+        phone: "+55 15 99267-4520",
+        tel: "15 99267-4520",
+        hours: "Seg - Ter - Qua - Qui - Sex - Sáb: 08:00 às 20:00\nDom: 08:00 às 14:00",
         description: "GÁS",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/16jKhuHP9m/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515992674520" },
+          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Cap.+Joaquim+Floriano+de+Toledo,+545+-+Jardim+Tenda,+Porto+Feliz+-+SP,+18545-020/@-23.2084539,-47.6033214,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ffd336d1bdcf:0x38c9c436f9030cf7!2m2!1d-47.5209198!2d-23.2084754?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+        ],
       },
       {
         id: "5.9",
         name: "Valinigás",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczP9hawZ0xkgf9N225u9o5ojIWaK2Y-m3du0vFfNm4ZuyBY8bL4f5sM7k1xZGZqwm0AUmw4FZS4T5avEm9XakAnmjmWNkqs4qbebdFYdH3OXWA5DHpkcIFS_r2MUip2gN7jmp7J3Tncs8OE3P_1EWjZZ=w763-h639-s-no-gm?authuser=4",
         ],
         address: "Av. Monsenhor Seckler, 1628",
         phone: "+55 15 2107-8898",
         tel: "15 2107-8898",
-        hours: "",
+        hours: "Seg - Ter - Qua - Qui - Sex - Sáb: 08:00 às 18:30\nDom: 08:00 às 14:00",
         description: "GÁS",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/valinigas/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/14EwUzqGECW/",
+          },
+          { type: "whatsapp", url: "https://wa.me/551521078898" },
+          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+1628,+Porto+Feliz+-+SP,+18540-000/@-23.2132216,-47.5883839,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe405a9fbca9:0xa1840c97d0f6aca3!2m2!1d-47.5059823!2d-23.2132431?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+        ],
       },
       {
         id: "5.10",
         name: "Vandergás",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNYBq8gyR6owPvPApI0QznYxkyI8IDzyh7Oua8c_1YHIOBUovzWQZb1DhT80HlMqS_Z6blpBaZHu_DfniR7EhoOxbcj7AXkoJ8qKt3p4wTRwOBijHWQNJR5NxRoLZxK-G2QHonh1bwUvMQjvwfy46pj=w763-h572-s-no-gm?authuser=4",
         ],
         address: " R. João Marinonio de Camargo",
         phone: "+55 15 3261-5904",
         tel: "15 3261-5904",
-        hours: "",
+        hours: "Seg - Ter - Qua - Qui - Sex - Sáb: 08:00 às 19:00\nDom: FECHADO",
         description: "GÁS",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1DtQXfAavb/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515996120390" },
+          { type: "maps", url: "https://www.google.com/maps/dir//R.+João+Marinonio+de+Camargo,+Porto+Feliz+-+SP,+18540-000/@-23.1976375,-47.6080017,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c600aa8da7161b:0xb470a317c1a8c527!2m2!1d-47.5256001!2d-23.197659?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+        ],
       },
-      {
+      /*{
         id: "5.11",
         name: "Zacarias Gás",
         images: [
@@ -563,7 +649,7 @@ export const categories = [
         hours: "",
         description: "GÁS",
         socialMedia: [],
-      },
+      },*/
     ],
   },
   {
