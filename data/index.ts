@@ -542,7 +542,8 @@ export const categories = [
         address: "Av. Mario Covas, 2161",
         phone: "+55 15 3261-5108",
         tel: "15 3261-5108",
-        hours: "Seg - Ter - Qua - Qui - Sex: 08:00 às 19:00\nSáb: 08:00 às 18:00\nDom: 08:00 às 12:00",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 08:00 às 19:00\nSáb: 08:00 às 18:00\nDom: 08:00 às 12:00",
         description: "GÁS",
         socialMedia: [
           {
@@ -550,7 +551,10 @@ export const categories = [
             url: "https://www.facebook.com/share/19pC8RgfAR/",
           },
           { type: "whatsapp", url: "https://wa.me/5515997624590" },
-          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Mario+Covas,+2161,+Porto+Feliz+-+SP,+18540-000/@-23.1989535,-47.599856,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff5e7c61ea0b:0x7d20309ed2607f35!2m2!1d-47.5173653!2d-23.1989109?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Mario+Covas,+2161,+Porto+Feliz+-+SP,+18540-000/@-23.1989535,-47.599856,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff5e7c61ea0b:0x7d20309ed2607f35!2m2!1d-47.5173653!2d-23.1989109?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       {
@@ -562,7 +566,8 @@ export const categories = [
         address: "Av. Getúlio Vargas, 628",
         phone: "+55 15 3262-2900",
         tel: "15 3262-2900",
-        hours: "Seg - Ter - Qua - Qui - Sex - Sáb: 08:00 ás 18:00\nDom: FECHADO",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex - Sáb: 08:00 ás 18:00\nDom: FECHADO",
         description: "GÁS",
         socialMedia: [
           {
@@ -570,7 +575,10 @@ export const categories = [
             url: "https://www.facebook.com/share/1M63pkkgwB/",
           },
           { type: "whatsapp", url: "https://wa.me/5515997393366" },
-          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Getúlio+Vargas,+628,+Porto+Feliz+-+SP,+18540-000/@-23.2280067,-47.6075996,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe7832afff35:0xdbf36321d4c10c40!2m2!1d-47.525198!2d-23.2280282?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Getúlio+Vargas,+628,+Porto+Feliz+-+SP,+18540-000/@-23.2280067,-47.6075996,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe7832afff35:0xdbf36321d4c10c40!2m2!1d-47.525198!2d-23.2280282?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       {
@@ -582,7 +590,8 @@ export const categories = [
         address: "Av. Cap. Joaquim Floriano de Toledo, 545 - Jardim Tenda",
         phone: "+55 15 99267-4520",
         tel: "15 99267-4520",
-        hours: "Seg - Ter - Qua - Qui - Sex - Sáb: 08:00 às 20:00\nDom: 08:00 às 14:00",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex - Sáb: 08:00 às 20:00\nDom: 08:00 às 14:00",
         description: "GÁS",
         socialMedia: [
           {
@@ -590,7 +599,10 @@ export const categories = [
             url: "https://www.facebook.com/share/16jKhuHP9m/",
           },
           { type: "whatsapp", url: "https://wa.me/5515992674520" },
-          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Cap.+Joaquim+Floriano+de+Toledo,+545+-+Jardim+Tenda,+Porto+Feliz+-+SP,+18545-020/@-23.2084539,-47.6033214,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ffd336d1bdcf:0x38c9c436f9030cf7!2m2!1d-47.5209198!2d-23.2084754?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Cap.+Joaquim+Floriano+de+Toledo,+545+-+Jardim+Tenda,+Porto+Feliz+-+SP,+18545-020/@-23.2084539,-47.6033214,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ffd336d1bdcf:0x38c9c436f9030cf7!2m2!1d-47.5209198!2d-23.2084754?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       {
@@ -602,7 +614,8 @@ export const categories = [
         address: "Av. Monsenhor Seckler, 1628",
         phone: "+55 15 2107-8898",
         tel: "15 2107-8898",
-        hours: "Seg - Ter - Qua - Qui - Sex - Sáb: 08:00 às 18:30\nDom: 08:00 às 14:00",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex - Sáb: 08:00 às 18:30\nDom: 08:00 às 14:00",
         description: "GÁS",
         socialMedia: [
           {
@@ -614,7 +627,10 @@ export const categories = [
             url: "https://www.facebook.com/share/14EwUzqGECW/",
           },
           { type: "whatsapp", url: "https://wa.me/551521078898" },
-          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+1628,+Porto+Feliz+-+SP,+18540-000/@-23.2132216,-47.5883839,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe405a9fbca9:0xa1840c97d0f6aca3!2m2!1d-47.5059823!2d-23.2132431?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+1628,+Porto+Feliz+-+SP,+18540-000/@-23.2132216,-47.5883839,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe405a9fbca9:0xa1840c97d0f6aca3!2m2!1d-47.5059823!2d-23.2132431?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       {
@@ -626,7 +642,8 @@ export const categories = [
         address: " R. João Marinonio de Camargo",
         phone: "+55 15 3261-5904",
         tel: "15 3261-5904",
-        hours: "Seg - Ter - Qua - Qui - Sex - Sáb: 08:00 às 19:00\nDom: FECHADO",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex - Sáb: 08:00 às 19:00\nDom: FECHADO",
         description: "GÁS",
         socialMedia: [
           {
@@ -634,7 +651,10 @@ export const categories = [
             url: "https://www.facebook.com/share/1DtQXfAavb/",
           },
           { type: "whatsapp", url: "https://wa.me/5515996120390" },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+João+Marinonio+de+Camargo,+Porto+Feliz+-+SP,+18540-000/@-23.1976375,-47.6080017,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c600aa8da7161b:0xb470a317c1a8c527!2m2!1d-47.5256001!2d-23.197659?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+João+Marinonio+de+Camargo,+Porto+Feliz+-+SP,+18540-000/@-23.1976375,-47.6080017,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c600aa8da7161b:0xb470a317c1a8c527!2m2!1d-47.5256001!2d-23.197659?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       /*{
@@ -672,7 +692,10 @@ export const categories = [
             type: "instagram",
             url: "https://www.instagram.com/alarmaq.segurancaeletronica/",
           },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+Sarquis+Abibe,+30+-+Chacara+Sanches,+Porto+Feliz+-+SP,+18542-016/@-23.2063602,-47.6089606,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0798a833f3:0x4e567657973fbeb2!2m2!1d-47.526559!2d-23.2063817?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Sarquis+Abibe,+30+-+Chacara+Sanches,+Porto+Feliz+-+SP,+18542-016/@-23.2063602,-47.6089606,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0798a833f3:0x4e567657973fbeb2!2m2!1d-47.526559!2d-23.2063817?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       {
@@ -684,7 +707,8 @@ export const categories = [
         address: "Rua Diva Cabrera Soares, 111",
         phone: "+55 15 99604-7533",
         tel: "15 99604-7533",
-        hours: "Seg - Ter - Qua - Qui - Sex - Sáb: 09:00 às 17:00\nDom: FECHADO",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex - Sáb: 09:00 às 17:00\nDom: FECHADO",
         description: "SEGURANÇA",
         socialMedia: [
           {
@@ -692,7 +716,10 @@ export const categories = [
             url: "https://www.facebook.com/share/1C6nXV3ipR/",
           },
           { type: "whatsapp", url: "https://wa.me/5515996047533" },
-          { type: "maps", url: "https://www.google.com/maps/dir//Rua+diva+cabrera+soares,+111,+Porto+Feliz+-+SP,+18540-000/@-23.1912577,-47.5931355,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ffbf6618eb03:0xd3863173faf31f3e!2m2!1d-47.5107338!2d-23.1912793?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Rua+diva+cabrera+soares,+111,+Porto+Feliz+-+SP,+18540-000/@-23.1912577,-47.5931355,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ffbf6618eb03:0xd3863173faf31f3e!2m2!1d-47.5107338!2d-23.1912793?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       {
@@ -716,7 +743,10 @@ export const categories = [
             url: "https://www.facebook.com/share/1EaSNu6Twe/",
           },
           { type: "whatsapp", url: "https://wa.me/5515998462247" },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+São+Francisco,+20B+-+Vila+Alcala,+Porto+Feliz+-+SP,+18540-000/@-23.2107975,-47.6006896,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c607492ebd453b:0xd698c0ed637fb2e5!2m2!1d-47.5182771!2d-23.2107838?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+São+Francisco,+20B+-+Vila+Alcala,+Porto+Feliz+-+SP,+18540-000/@-23.2107975,-47.6006896,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c607492ebd453b:0xd698c0ed637fb2e5!2m2!1d-47.5182771!2d-23.2107838?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
     ],
@@ -734,7 +764,8 @@ export const categories = [
         address: "Rua Newton Prado, 489 - Centro",
         phone: "+55 15 3010-0001",
         tel: "15 3010-0001",
-        hours: "Seg - Ter - Qua - Qui - Sex: 07:30 às 17:30\nSáb - Dom: FECHADO",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 07:30 às 17:30\nSáb - Dom: FECHADO",
         description: "LOCAÇÃO",
         socialMedia: [
           {
@@ -742,7 +773,10 @@ export const categories = [
             url: "https://www.instagram.com/casadoconstrutor/",
           },
           { type: "whatsapp", url: "https://wa.me/5515997779595" },
-          { type: "maps", url: "https://www.google.com/maps/dir//Rua+Newton+Prado,+489+-+Centro,+Porto+Feliz+-+SP,+18540-119/@-23.2215696,-47.6065659,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fff81096c9b5:0x1dc067b0a3d0c939!2m2!1d-47.5241643!2d-23.2215911?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Rua+Newton+Prado,+489+-+Centro,+Porto+Feliz+-+SP,+18540-119/@-23.2215696,-47.6065659,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fff81096c9b5:0x1dc067b0a3d0c939!2m2!1d-47.5241643!2d-23.2215911?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       {
@@ -754,11 +788,15 @@ export const categories = [
         address: "Av. Monsenhor Seckler, 1681 - Vila América",
         phone: "+55 15 99614-2079",
         tel: "15 99614-2079",
-        hours: "Seg - Ter - Qua - Qui - Sex: 07:00 às 17:30\nSáb: 07:00 às 12:00\nDom: FECHADO",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 07:00 às 17:30\nSáb: 07:00 às 12:00\nDom: FECHADO",
         description: "LOCAÇÃO",
         socialMedia: [
           { type: "whatsapp", url: "https://wa.me/5515996142079" },
-          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+1681+-+Vila+América,+Porto+Feliz+-+SP,+18540-000/@-23.2128641,-47.5878021,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff007750dde9:0x800f654a492ff3bf!2m2!1d-47.5053975!2d-23.2129789?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+1681+-+Vila+América,+Porto+Feliz+-+SP,+18540-000/@-23.2128641,-47.5878021,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff007750dde9:0x800f654a492ff3bf!2m2!1d-47.5053975!2d-23.2129789?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       {
@@ -770,14 +808,18 @@ export const categories = [
         address: "Av. Monsenhor Seckler, 1477 - Jardim Borba Gato",
         phone: "+55 15 3261-7700",
         tel: "15 3261-7700",
-        hours: "Seg - Ter - Qua - Qui - Sex: 07:00 às 17:30\nSáb: 08:00 às 12:00\nDom: FECHADO",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 07:00 às 17:30\nSáb: 08:00 às 12:00\nDom: FECHADO",
         description: "LOCAÇÃO",
         socialMedia: [
           {
             type: "instagram",
             url: "https://www.instagram.com/grupo_lorenzon/",
           },
-          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+1477+-+Jardim+Borba+Gato,+Porto+Feliz+-+SP,+18546-122/@-23.212785,-47.5894102,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff484bb9e463:0xdd4bfae5d8b9e9a0!2m2!1d-47.5070086!2d-23.2128065?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+1477+-+Jardim+Borba+Gato,+Porto+Feliz+-+SP,+18546-122/@-23.212785,-47.5894102,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff484bb9e463:0xdd4bfae5d8b9e9a0!2m2!1d-47.5070086!2d-23.2128065?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       {
@@ -789,7 +831,8 @@ export const categories = [
         address: "R. Paulino de Bernardes, 07",
         phone: "+55 15 3261-1122",
         tel: "15 3261-1122",
-        hours: "Seg - Ter - Qua - Qui - Sex: 07:00 às 17:30\nSáb: 07:00 às 12:00\nDom: FECHADO",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 07:00 às 17:30\nSáb: 07:00 às 12:00\nDom: FECHADO",
         description: "LOCAÇÃO",
         socialMedia: [
           {
@@ -801,7 +844,10 @@ export const categories = [
             url: "https://www.facebook.com/share/16Mszy9zqt/",
           },
           { type: "whatsapp", url: "https://wa.me/5519974197882" },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+Paulino+de+Bernardes,+07,+Porto+Feliz+-+SP,+18540-000/@-23.2304984,-47.6008648,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff61c688ff17:0xb69aa54dd4a8817f!2m2!1d-47.5184632!2d-23.2305199?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Paulino+de+Bernardes,+07,+Porto+Feliz+-+SP,+18540-000/@-23.2304984,-47.6008648,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff61c688ff17:0xb69aa54dd4a8817f!2m2!1d-47.5184632!2d-23.2305199?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       {
@@ -825,7 +871,10 @@ export const categories = [
             url: "https://www.facebook.com/share/1DjTiVkTag/",
           },
           { type: "whatsapp", url: "https://wa.me/5515997771831" },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+José+Fernandes,+90+-+Jardim+Morumbi,+Porto+Feliz+-+SP,+18540-000/@-23.2222874,-47.6035302,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe7314905d8d:0xb27a0d0c23f26192!2m2!1d-47.5211286!2d-23.2223089?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+José+Fernandes,+90+-+Jardim+Morumbi,+Porto+Feliz+-+SP,+18540-000/@-23.2222874,-47.6035302,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe7314905d8d:0xb27a0d0c23f26192!2m2!1d-47.5211286!2d-23.2223089?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
     ],
@@ -865,7 +914,10 @@ export const categories = [
             url: "https://www.facebook.com/share/1YrHds77MF/",
           },
           { type: "whatsapp", url: "https://wa.me/5515981339100" },
-          { type: "maps", url: "https://www.google.com/maps/dir//Bika+Embalagens+-+Rua+Altino+Arantes,+284+-+Centro,+Porto+Feliz+-+SP,+18540-000/@-23.2157256,-47.5258796,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff4e95b6bfc5:0xad1e415e658b87a0!2m2!1d-47.5258796!2d-23.2157256?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Bika+Embalagens+-+Rua+Altino+Arantes,+284+-+Centro,+Porto+Feliz+-+SP,+18540-000/@-23.2157256,-47.5258796,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff4e95b6bfc5:0xad1e415e658b87a0!2m2!1d-47.5258796!2d-23.2157256?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       {
@@ -877,7 +929,8 @@ export const categories = [
         address: "Av. Dr. Antônio Píres de Almeida, 1440",
         phone: "+55 15 3262-4900",
         tel: "15 3262-4900",
-        hours: "Seg - Ter - Qua - Qui - Sex: 08:30 às 18:00\nSáb: 08:30 às 13:00\nDom: FECHADO",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 08:30 às 18:00\nSáb: 08:30 às 13:00\nDom: FECHADO",
         description: "EMBALAGENS",
         socialMedia: [
           {
@@ -889,7 +942,10 @@ export const categories = [
             url: "https://www.facebook.com/share/19TRJyRG4e/",
           },
           { type: "whatsapp", url: "https://wa.me/5515998532426" },
-          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Dr.+Antônio+Píres+de+Almeida,+1440,+Porto+Feliz+-+SP,+18547-058/@-23.2228084,-47.6036373,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe733fa3611d:0x8b9268a0400e11ca!2m2!1d-47.5212357!2d-23.2228299?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Dr.+Antônio+Píres+de+Almeida,+1440,+Porto+Feliz+-+SP,+18547-058/@-23.2228084,-47.6036373,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe733fa3611d:0x8b9268a0400e11ca!2m2!1d-47.5212357!2d-23.2228299?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       /*{
@@ -954,7 +1010,8 @@ export const categories = [
         address: " R. Justino Gômide Bueno, 278",
         phone: "+55 15 3262-3080",
         tel: "15 3262-3080",
-        hours: "Seg - Ter - Qua - Qui - Sex: 08:00 - 11:30 e 13:00 - 17:30\nSáb - Dom: FECHADO",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 08:00 - 11:30 e 13:00 - 17:30\nSáb - Dom: FECHADO",
         description: "AUTO",
         socialMedia: [
           {
@@ -965,7 +1022,10 @@ export const categories = [
             type: "facebook",
             url: "https://www.facebook.com/share/16Pb71sdPT/",
           },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+Justino+Gômide+Bueno,+278,+Porto+Feliz+-+SP,+18540-330/@-23.2217436,-47.6039166,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe76abc749b9:0x31781fa75565e020!2m2!1d-47.521515!2d-23.2217651?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Justino+Gômide+Bueno,+278,+Porto+Feliz+-+SP,+18540-330/@-23.2217436,-47.6039166,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe76abc749b9:0x31781fa75565e020!2m2!1d-47.521515!2d-23.2217651?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       {
@@ -980,8 +1040,10 @@ export const categories = [
         hours: "",
         description: "AUTO",
         socialMedia: [
-         
-          { type: "maps", url: "https://www.google.com/maps/dir//Estr.+da+Cachoeira,+1073-1189,+Porto+Feliz+-+SP,+18540-000/@-23.1987421,-47.5975436,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe1c9cb97b99:0xadaf9df9a0a722b6!2m2!1d-47.515142!2d-23.1987636?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Estr.+da+Cachoeira,+1073-1189,+Porto+Feliz+-+SP,+18540-000/@-23.1987421,-47.5975436,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe1c9cb97b99:0xadaf9df9a0a722b6!2m2!1d-47.515142!2d-23.1987636?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       {
@@ -994,12 +1056,16 @@ export const categories = [
           "EST VOLTA DO POCO RAMAL SITIO BEIRA RIO 05 VOLTA DO POÇO (Terras do Porto)",
         phone: "+55 15 99113-9849",
         tel: "15 99113-9849",
-        hours: "Seg - Ter - Qua - Qui - Sex: 08:00 às 17:00\nSáb: 08:00 às 12:00\nDom: FECHADO",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 08:00 às 17:00\nSáb: 08:00 às 12:00\nDom: FECHADO",
         description: "AUTO",
         socialMedia: [
-        
           { type: "whatsapp", url: "https://wa.me/5515991139849" },
-          { type: "maps", url: "https://www.google.com/maps/dir//EST+VOLTA+DO+POCO+RAMAL+SITIO+BEIRA+RIO+05+VOLTA+DO+POCO+Terras+do+porto,+Porto+Feliz+-+SP,+18540-000/@-23.1907171,-47.5927489,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff8137192adf:0xd3d645ca8973e821!2m2!1d-47.5103473!2d-23.1907385?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},],
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//EST+VOLTA+DO+POCO+RAMAL+SITIO+BEIRA+RIO+05+VOLTA+DO+POCO+Terras+do+porto,+Porto+Feliz+-+SP,+18540-000/@-23.1907171,-47.5927489,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff8137192adf:0xd3d645ca8973e821!2m2!1d-47.5103473!2d-23.1907385?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       /*{
         id: "12.4",
@@ -1027,7 +1093,11 @@ export const categories = [
         description: "AUTO",
         socialMedia: [
           { type: "whatsapp", url: "https://wa.me/5515997654778" },
-          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Getúlio+Vargas,+110+-+Bambu,+Porto+Feliz+-+SP,+18540-354/@-23.2232424,-47.6066835,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe7693e28acf:0xccbcc305fd5a1693!2m2!1d-47.5242819!2d-23.2232639?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},],
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Getúlio+Vargas,+110+-+Bambu,+Porto+Feliz+-+SP,+18540-354/@-23.2232424,-47.6066835,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe7693e28acf:0xccbcc305fd5a1693!2m2!1d-47.5242819!2d-23.2232639?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "12.6",
@@ -1038,15 +1108,20 @@ export const categories = [
         address: "R. Laís Solange Ferraz, 223",
         phone: "",
         tel: "",
-        hours: "Seg - Ter - Qua - Qui - Sex: 07:00 às 18:00\nSáb - Dom: FECHADO",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 07:00 às 18:00\nSáb - Dom: FECHADO",
         description: "AUTO",
         socialMedia: [
-           {
+          {
             type: "instagram",
             url: "https://www.instagram.com/autoeletricatato/",
           },
           { type: "whatsapp", url: "https://wa.me/5515998216067" },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+Laís+Solange+Ferraz,+223,+Porto+Feliz+-+SP,+18540-000/@-23.2298365,-47.6021452,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe7b78e5d407:0x82b24fed6a2d0c0!2m2!1d-47.5197436!2d-23.229858?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},],
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Laís+Solange+Ferraz,+223,+Porto+Feliz+-+SP,+18540-000/@-23.2298365,-47.6021452,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe7b78e5d407:0x82b24fed6a2d0c0!2m2!1d-47.5197436!2d-23.229858?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
     ],
   },
@@ -1058,27 +1133,57 @@ export const categories = [
         id: "13.1",
         name: "Autoescola e Despachante Monteiro",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczOA5Pq420YD0zNngfLzKrZIP-_QoX5pjJ9d63IMdEupE_AE9sjNKMYWCOBKl-9JfaN7UHCahlE0HbGWFloX14DaEb7MB7Gy6Nq-M3-iYwwBNBna4sNmGrvnxphDwY2qmQp9lV32idJE6pYrDWvKUvfa=w763-h763-s-no-gm?authuser=4",
         ],
         address: "R. Draco Albuquerque, 38 - Centro",
         phone: "+55 15 3262-1136",
         tel: "15 3262-1136",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 08:00 às 17:30\nSáb: 09:00 às 11:00\nDom: FECHADO",
         description: "AUTO ESCOLA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/monteiroautoescolaportofeliz/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/16CgiqXBJU/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515996874116" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Draco+Albuquerque,+38+-+Centro,+Porto+Feliz+-+SP,+18540-059/@-23.2112428,-47.6078197,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ffc02a19f0dd:0x55972783aaf52294!2m2!1d-47.525418!2d-23.2112627?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "13.2",
         name: "Autoescola Nogueira",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczMrRxAr4W5UowNCENW6VWO9uHwJevpxOzPGMHcGlTqTrw2nIl1_909DQ-JDeZp9LcYV4EoUnzJQgCZf6DroqpOvUbzjDAlZhqsEiAk9L_hnnJnAHZ37BzgKnl4h8gK4sHgk71VtArPLq6y5VGfY0aES=w763-h763-s-no-gm?authuser=4",
         ],
         address: "R. Rui Barbosa, 143 - Centro",
         phone: "+55 15 3262-1141",
         tel: "15 3262-1141",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 08:00 às 17:30\nSáb: 08:00 às 12:00\nDom: FECHADO ",
         description: "AUTO ESCOLA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/autoescolanogueiracfc/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/16636miRHA/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515991017935" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Rui+Barbosa,+143+-+Centro,+Porto+Feliz+-+SP,+18540-000/@-23.2170674,-47.607333,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0b755644b7:0xabdd93b2f030c3c2!2m2!1d-47.5249234!2d-23.2171164?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
     ],
   },
@@ -1090,66 +1195,136 @@ export const categories = [
         id: "14.1",
         name: "Auto Geral Auto Peças",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczOghF7W6EXiw6FKNYJO9hslA0So9m49pSwMIfwAN4YIbJxFS-wUZvQEhgftENPOXsySbzdMTsxmfbjCG8D-T6M4Z5-zSyhh0xNm4hhcxp40NKy01P-8UiUCZsI_J9VmLsHFTf_sIqgYw74qQGwyNkBr=w763-h763-s-no-gm?authuser=4",
         ],
         address: "Av. Dr. Antônio Píres de Almeida, 630",
         phone: "+55 15 3262-8888",
         tel: "15 3262-8888",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 08:00 às 18:00\nSáb: 08:00 às 12:00\nDom: FECHADO",
         description: "AUTO PEÇAS",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/autogeral/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/14ECNheZxGL/",
+          },
+          { type: "whatsapp", url: "https://wa.me/551532628888" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Dr.+Antônio+Píres+de+Almeida,+630,+Porto+Feliz+-+SP,+18540-000/@-23.2147232,-47.6026018,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0ce1dc3383:0x56c28351c284bc91!2m2!1d-47.5202002!2d-23.2147447?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "14.2",
         name: "Bilci Auto Peças",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczPGVMBJ2y60qcfirZRpXOfKnp6elwBP7lsd7SQqAaaS788lPfncBt3C3DZ99AFUuCekzf30i8D1ef9e_4rt4Z92tNywuKwlq4f5bJNifZe_i9sGPEewq8yVQ5MfBVyw428fJXbLMOF8Qu3oDcsNC4QZ=w763-h763-s-no-gm?authuser=4",
         ],
         address: " Av. Cap. Joaquim Floriano de Toledo",
         phone: "+55 15 3261-6353",
         tel: "15 3261-6353",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 08:00 às 18:00\nSáb: 08:00 às 12:00\nDom: FECHADO",
         description: "AUTO PEÇAS",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/bilciautopecas/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/15zg4YWpwW/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515998119464" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Cap.+Joaquim+Floriano+de+Toledo,+Porto+Feliz+-+SP,+18540-000/@-23.2090552,-47.6030117,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0f02788b51:0x2bf15dab53781199!2m2!1d-47.5206101!2d-23.2090767?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "14.3",
         name: "Desmanche Juliano Multimarcas Autopeças",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczMdfLEsXW3DxZWpOZISPko-tbC_Rcy1OktQSDm229KdN1KFK6ABLOB4qWIF0yjnErdm4XaBupDaM9MdLT7f0RtJp5hMWkJg1yTqi8939IoK2FqD5XL2LAgjGbIpTj2FHApMpY6ihxw7KClfXXGHmNSw=w477-h477-s-no-gm?authuser=4",
         ],
         address: "R. Cardoso Pímentel, 1.708 - São Francisco",
         phone: "+55 15 99854-2009",
         tel: "15 99854-2009",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 08:00 às 18:00\nSáb: 08:00 às 13:00\nDom: FECHADO",
         description: "AUTO PEÇAS",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/desmanche_juliano/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1YsTjHa5PN/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515998542009" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Cardoso+Pímentel,+1.708+-+São+Francisco,+Porto+Feliz+-+SP,+18545-222/@-23.1997598,-47.5980151,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff49b83dad37:0x51633f02dc925b6f!2m2!1d-47.5156135!2d-23.1997813?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "14.4",
         name: "Funny Car Auto Peças e Acessórios",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczOzp27trAwWzfgO2CvxIzNk0Uan2yrAL2AavHmZ72LPx9DO_dEJxXeUpVG-VxW-Run2BTEyVhTbwFhBq3fA5b3x9rpvHsl5EjFvDjy648Kl0xm02PEWk2aZLSGqo3lcOiSXdhQkedIpInnZO8DrEcs8=w763-h724-s-no-gm?authuser=4",
         ],
         address: "R. João Marinonio de Camargo, 353 - Vila Martelli",
         phone: "+55 15 3261-1766",
         tel: "15 3261-1766",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 08:00 às 18:00\nSáb: 08:00 às 13:00\nDom: FECHADO",
         description: "AUTO PEÇAS",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/14Efq27AS1x/",
+          },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+João+Marinonio+de+Camargo,+353+-+Vila+Martelli,+Porto+Feliz+-+SP,+18540-000/@-23.1963674,-47.6085127,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c600ab1db9f401:0x48efcff18fd3bb55!2m2!1d-47.5260346!2d-23.1963731?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "14.5",
         name: "Porto Auto Comércio Peças",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczM6wjAC2lfrOHg0TAmyvgtdv8dPbSeymgEqQAKyEOm0Asv6JvFqWjI1lVAYS0hAO-8zLaF0b1yuwznDbY2a1Ozo2Xh2Y11pXKh_C0iIKjF6-Dgwd6GcAVT1ujhYQsozFe7fEiNbDEyg16A_7IGRXquL=w480-h468-s-no-gm?authuser=4",
         ],
-        address: "Rua Bahia, 51",
-        phone: "+55 15 3262-1861",
-        tel: "15 3262-1861",
-        hours: "",
+        address: "Praça João Francisco Menezes, 51 - Jardim Brasil",
+        phone: "+55 15 3262-9666",
+        tel: "15 3262-9666",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 08:15 às 18:00\nSáb: 08:15 às 12:00\nDom: FECHADO",
         description: "AUTO PEÇAS",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/portoautoseubruto/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1MGT9LmqLN/",
+          },
+          { type: "whatsapp", url: "https://wa.me/551532629666" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Praça+João+Francisco+Menezes,+51+-+Jardim+Brasil,+Porto+Feliz+-+SP,+18540-000/@-23.230688,-47.6074065,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe791ef3282d:0xfab8a0ddc678cd05!2m2!1d-47.5250417!2d-23.2308378?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
     ],
   },
@@ -1166,7 +1341,8 @@ export const categories = [
         address: "Rua Newton Prado, 495 - Centro",
         phone: "+55 15 99774-5829",
         tel: "15 99774-5829",
-        hours: "Seg - Ter - Qua - Qui - Sex - Sáb: 08:00 às 20:00\nDom: FECHADO",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex - Sáb: 08:00 às 20:00\nDom: FECHADO",
         description: "BARBEARIA",
         socialMedia: [
           {
@@ -1174,7 +1350,10 @@ export const categories = [
             url: "https://www.instagram.com/barbaecabelo2009/",
           },
           { type: "whatsapp", url: "https://wa.me/5515997745829" },
-          { type: "maps", url: "https://www.google.com/maps/dir//Rua+Newton+Prado,+495+-+Centro,+Porto+Feliz+-+SP,+18540-000/@-23.2216699,-47.6067142,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe743b2b6553:0x507e14a5cc3c3664!2m2!1d-47.5243126!2d-23.2216914?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Rua+Newton+Prado,+495+-+Centro,+Porto+Feliz+-+SP,+18540-000/@-23.2216699,-47.6067142,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe743b2b6553:0x507e14a5cc3c3664!2m2!1d-47.5243126!2d-23.2216914?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       {
@@ -1186,7 +1365,8 @@ export const categories = [
         address: " Rua Altino Arantes, 346 - Centro",
         phone: "+55 15 99262-4949",
         tel: "15 99262-4949",
-        hours: "Seg: 09:00 às 19:30\nTer - Qua - Qui - Sex: 08:30 às 19:30\nSáb: 07:00 às 16:00\nDom: FECHADO",
+        hours:
+          "Seg: 09:00 às 19:30\nTer - Qua - Qui - Sex: 08:30 às 19:30\nSáb: 07:00 às 16:00\nDom: FECHADO",
         description: "BARBEARIA",
         socialMedia: [
           {
@@ -1198,7 +1378,10 @@ export const categories = [
             url: "https://www.facebook.com/share/16qcz27BA3/",
           },
           { type: "whatsapp", url: "https://wa.me/5515992624949" },
-          { type: "maps", url: "https://www.google.com/maps/dir//Rua+Altino+Arantes,+346+-+Centro,+Porto+Feliz+-+SP,+18540-000/@-23.2162947,-47.6082406,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff8537aaee4b:0xca6e74deafcc27ec!2m2!1d-47.525839!2d-23.2163162?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Rua+Altino+Arantes,+346+-+Centro,+Porto+Feliz+-+SP,+18540-000/@-23.2162947,-47.6082406,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff8537aaee4b:0xca6e74deafcc27ec!2m2!1d-47.525839!2d-23.2163162?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       {
@@ -1210,7 +1393,8 @@ export const categories = [
         address: " R. Justino Gômide Bueno, 74 - Jardim Morumbi",
         phone: "+55 11 99970-1750",
         tel: "11 99970-1750",
-        hours: "Seg: 09:00 às 13:00\nTer - Qua - Qui: 09:00 às 20:00\nSex: 09:00 às 18:00\nSáb: 09:00 às 13:00\nDom: FECHADO",
+        hours:
+          "Seg: 09:00 às 13:00\nTer - Qua - Qui: 09:00 às 20:00\nSex: 09:00 às 18:00\nSáb: 09:00 às 13:00\nDom: FECHADO",
         description: "BARBEARIA",
         socialMedia: [
           {
@@ -1222,7 +1406,10 @@ export const categories = [
             url: "https://www.facebook.com/share/16j6TEZzZu/",
           },
           { type: "whatsapp", url: "https://wa.me/5511999701750" },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+Justino+Gômide+Bueno,+74+-+Jardim+Morumbi,+Porto+Feliz+-+SP,+18540-000/@-23.222268,-47.605881,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0ea5f45555:0xc0dedb730b61780b!2m2!1d-47.5234794!2d-23.2222895?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Justino+Gômide+Bueno,+74+-+Jardim+Morumbi,+Porto+Feliz+-+SP,+18540-000/@-23.222268,-47.605881,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0ea5f45555:0xc0dedb730b61780b!2m2!1d-47.5234794!2d-23.2222895?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       /*{
@@ -1270,7 +1457,10 @@ export const categories = [
             url: "https://www.facebook.com/share/16rFnJRVYp/",
           },
           { type: "whatsapp", url: "https://wa.me/5515996721155" },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+Frederico+Palmieri,+70,+Porto+Feliz+-+SP,+18540-000/@-23.2263739,-47.6006829,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe7ac8447973:0xb53612d4ec5b117d!2m2!1d-47.5182716!2d-23.2263959?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Frederico+Palmieri,+70,+Porto+Feliz+-+SP,+18540-000/@-23.2263739,-47.6006829,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe7ac8447973:0xb53612d4ec5b117d!2m2!1d-47.5182716!2d-23.2263959?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       {
@@ -1282,7 +1472,8 @@ export const categories = [
         address: "R. Silvio Pelegrini, n° 57 - Jardim Excelsior",
         phone: "+55 15 99662-2323",
         tel: "15 99662-2323",
-        hours: "Seg - Ter - Qua - Qui - Sex: 08:40 às 19:00\nSáb: 08:00 às 17:40\nDom: FECHADO",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 08:40 às 19:00\nSáb: 08:00 às 17:40\nDom: FECHADO",
         description: "BARBEARIA",
         socialMedia: [
           {
@@ -1294,7 +1485,10 @@ export const categories = [
             url: "https://www.facebook.com/share/19BpggNQBa/",
           },
           { type: "whatsapp", url: "https://wa.me/5515996622323" },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+Silvio+Pelegrini,+n°+57+-+Jardim+Excelsior,+Porto+Feliz+-+SP,+18540-000/@-23.1929058,-47.6093851,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c6017f486e4d81:0x765be0f98c71e72b!2m2!1d-47.5269952!2d-23.1929303?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Silvio+Pelegrini,+n°+57+-+Jardim+Excelsior,+Porto+Feliz+-+SP,+18540-000/@-23.1929058,-47.6093851,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c6017f486e4d81:0x765be0f98c71e72b!2m2!1d-47.5269952!2d-23.1929303?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       {
@@ -1306,7 +1500,8 @@ export const categories = [
         address: "R. Arcílio Borges, 274 - Centro",
         phone: "+55 15 99849-8966",
         tel: "15 99849-8966",
-        hours: "Seg: 09:30 às 19:30\nTer - Qua - Qui - Sex - Sáb: 09:00 - 12:00 e 14:00 - 19:30\nDom: FECHADO",
+        hours:
+          "Seg: 09:30 às 19:30\nTer - Qua - Qui - Sex - Sáb: 09:00 - 12:00 e 14:00 - 19:30\nDom: FECHADO",
         description: "BARBEARIA",
         socialMedia: [
           {
@@ -1318,7 +1513,10 @@ export const categories = [
             url: "https://www.facebook.com/share/1Fr51Myfbo/",
           },
           { type: "whatsapp", url: "https://wa.me/5515998498966" },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+Arcílio+Borges,+274+-+Centro,+Porto+Feliz+-+SP,+18540-000/@-23.2109062,-47.6052253,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff7175885d47:0xc661906c15a4eb1a!2m2!1d-47.5228237!2d-23.2109277?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Arcílio+Borges,+274+-+Centro,+Porto+Feliz+-+SP,+18540-000/@-23.2109062,-47.6052253,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff7175885d47:0xc661906c15a4eb1a!2m2!1d-47.5228237!2d-23.2109277?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       {
@@ -1330,7 +1528,8 @@ export const categories = [
         address: "Av. Monsenhor Seckler, 891",
         phone: "+55 15 99709-9186",
         tel: "15 99709-9186",
-        hours: "Seg: FECHADO\nTer - Qua - Qui - Sex - Sáb: 09:00 às 20:00\nDom: FECHADO",
+        hours:
+          "Seg: FECHADO\nTer - Qua - Qui - Sex - Sáb: 09:00 às 20:00\nDom: FECHADO",
         description: "BARBEARIA",
         socialMedia: [
           {
@@ -1338,7 +1537,10 @@ export const categories = [
             url: "https://www.facebook.com/share/1HQVAuR69B/",
           },
           { type: "whatsapp", url: "https://wa.me/5515997099186" },
-          { type: "maps", url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+891,+Porto+Feliz+-+SP,+18540-000/@-23.2128672,-47.5948467,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff771b3fd6ef:0x8656b6a931e1de78!2m2!1d-47.5124432!2d-23.2128819?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+891,+Porto+Feliz+-+SP,+18540-000/@-23.2128672,-47.5948467,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff771b3fd6ef:0x8656b6a931e1de78!2m2!1d-47.5124432!2d-23.2128819?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       {
@@ -1357,7 +1559,10 @@ export const categories = [
             type: "facebook",
             url: "https://www.facebook.com/share/1FmSYwV1ki/",
           },
-          { type: "maps", url: "https://www.google.com/maps/dir//R.+João+Marinonio+de+Camargo,+Porto+Feliz+-+SP,+18540-000/@-23.1944563,-47.6087335,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c600ab5d8135b5:0xa4ab72bf9fc35fd8!2m2!1d-47.5263413!2d-23.1944804?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+João+Marinonio+de+Camargo,+Porto+Feliz+-+SP,+18540-000/@-23.1944563,-47.6087335,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c600ab5d8135b5:0xa4ab72bf9fc35fd8!2m2!1d-47.5263413!2d-23.1944804?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
       {
@@ -1369,7 +1574,8 @@ export const categories = [
         address: "Rua Newton Prado, 535 - Centro",
         phone: "+55 15 99716-8057",
         tel: "15 99716-8057",
-        hours: "Seg: FECHADO\nTer - Qua - Qui - Sex - Sáb: 09:00 às 20:00 - Dom: FECHADO",
+        hours:
+          "Seg: FECHADO\nTer - Qua - Qui - Sex - Sáb: 09:00 às 20:00 - Dom: FECHADO",
         description: "BARBEARIA",
         socialMedia: [
           {
@@ -1377,7 +1583,10 @@ export const categories = [
             url: "https://www.facebook.com/share/15dq6RpFsM/",
           },
           { type: "whatsapp", url: "https://wa.me/5515997168057" },
-          { type: "maps", url: "https://www.google.com/maps/dir//Rua+Newton+Prado,+535+-+Centro,+Porto+Feliz+-+SP,+18540-000/@-23.2218688,-47.6065714,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ffc2a7b1953f:0x53a503f5a91dfe6c!2m2!1d-47.5242505!2d-23.2219055?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D"},
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Rua+Newton+Prado,+535+-+Centro,+Porto+Feliz+-+SP,+18540-000/@-23.2218688,-47.6065714,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ffc2a7b1953f:0x53a503f5a91dfe6c!2m2!1d-47.5242505!2d-23.2219055?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+          },
         ],
       },
     ],
