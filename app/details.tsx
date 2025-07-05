@@ -1,18 +1,43 @@
-import { View, Text, StyleSheet, Image, ScrollView, Linking, Pressable, Dimensions, Animated, FlatList, TouchableOpacity } from 'react-native';
-import { useRouter, useLocalSearchParams } from 'expo-router';
-import { Clock, MapPin, Phone, Mail, ArrowLeft, Instagram, Facebook, Twitter, Linkedin, Youtube, MessageCircle, Chrome } from 'lucide-react-native';
-import { useRef, useState, useEffect } from 'react';
-import { categories } from '../data/index';
-import React from 'react';
+import {
+  View,
+  Text,
+  StyleSheet,
+  Image,
+  ScrollView,
+  Linking,
+  Pressable,
+  Dimensions,
+  Animated,
+  FlatList,
+  TouchableOpacity,
+} from "react-native";
+import { useRouter, useLocalSearchParams } from "expo-router";
+import {
+  Clock,
+  MapPin,
+  Phone,
+  Mail,
+  ArrowLeft,
+  Instagram,
+  Facebook,
+  Twitter,
+  Linkedin,
+  Youtube,
+  MessageCircle,
+  Chrome,
+} from "lucide-react-native";
+import { useRef, useState, useEffect } from "react";
+import { categories } from "../data/index";
+import React from "react";
 
-const { width } = Dimensions.get('window');
+const { width } = Dimensions.get("window");
 
 export default function DetailsScreen() {
   const router = useRouter();
   const { id, categoryId } = useLocalSearchParams();
   const business = categories
-    .flatMap(category => category.businesses)
-    .find(business => business.id === id);
+    .flatMap((category) => category.businesses)
+    .find((business) => business.id === id);
 
   const scrollX = useRef(new Animated.Value(0)).current;
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -22,27 +47,27 @@ export default function DetailsScreen() {
 
   useEffect(() => {
     if (!business) return;
-    
+
     let interval;
-    
+
     if (autoPlay) {
       interval = setInterval(() => {
         if (currentIndex === business.images.length - 1) {
           flatListRef.current?.scrollToOffset({
             offset: 0,
-            animated: true
+            animated: true,
           });
           setCurrentIndex(0);
         } else {
           flatListRef.current?.scrollToOffset({
             offset: (currentIndex + 1) * width,
-            animated: true
+            animated: true,
           });
           setCurrentIndex(currentIndex + 1);
         }
       }, autoPlayInterval);
     }
-    
+
     return () => {
       if (interval) {
         clearInterval(interval);
@@ -74,35 +99,32 @@ export default function DetailsScreen() {
 
   const renderDots = () => {
     if (!business) return null;
-    
+
     return (
       <View style={styles.dotsContainer}>
         {business.images.map((_, index) => {
           const inputRange = [
             (index - 1) * width,
             index * width,
-            (index + 1) * width
+            (index + 1) * width,
           ];
-          
+
           const dotWidth = scrollX.interpolate({
             inputRange,
             outputRange: [8, 16, 8],
-            extrapolate: 'clamp'
+            extrapolate: "clamp",
           });
-          
+
           const opacity = scrollX.interpolate({
             inputRange,
             outputRange: [0.3, 1, 0.3],
-            extrapolate: 'clamp'
+            extrapolate: "clamp",
           });
-          
+
           return (
             <Animated.View
               key={index}
-              style={[
-                styles.dot,
-                { width: dotWidth, opacity }
-              ]}
+              style={[styles.dot, { width: dotWidth, opacity }]}
             />
           );
         })}
@@ -112,7 +134,7 @@ export default function DetailsScreen() {
 
   // Function to check if data exists and is not empty
   const hasData = (data) => {
-    return data !== undefined && data !== null && data !== '';
+    return data !== undefined && data !== null && data !== "";
   };
 
   // Function to render social media icons
@@ -121,25 +143,30 @@ export default function DetailsScreen() {
     let color;
 
     switch (type) {
-      case 'instagram':
+      case "instagram":
         icon = <Instagram size={35} color="#E1306C" />;
-       
+
         break;
-      case 'facebook':
+      case "facebook":
         icon = <Facebook size={35} color="#1877F2" />;
-        
+
         break;
-      case 'whatsapp':
+      case "whatsapp":
         icon = <MessageCircle size={35} color="#25D366" />;
-        
+
         break;
-        case 'whatsapp2':
-          icon = <MessageCircle size={35} color="#25D366" />;
-          
-          break;
-      case 'maps':
-        icon = <Image source={require("../assets/maps.png")} style={{ width: 35, height: 35 }} />;
-        
+      case "whatsapp2":
+        icon = <MessageCircle size={35} color="#25D366" />;
+
+        break;
+      case "maps":
+        icon = (
+          <Image
+            source={require("../assets/maps.png")}
+            style={{ width: 35, height: 35 }}
+          />
+        );
+
         break;
       default:
         return null;
@@ -148,8 +175,9 @@ export default function DetailsScreen() {
     return (
       <TouchableOpacity
         key={type}
-        style={[styles.socialIcon, ]}
-        onPress={() => Linking.openURL(url)}>
+        style={[styles.socialIcon]}
+        onPress={() => Linking.openURL(url)}
+      >
         {icon}
       </TouchableOpacity>
     );
@@ -165,9 +193,7 @@ export default function DetailsScreen() {
 
   return (
     <View style={styles.container}>
-  
-      
-      <ScrollView 
+      <ScrollView
         style={styles.scrollContainer}
         showsVerticalScrollIndicator={false}
       >
@@ -188,18 +214,19 @@ export default function DetailsScreen() {
             {renderDots()}
           </View>
         )}
-        
+
         <View style={styles.content}>
           {hasData(business.name) && (
             <Text style={styles.name}>{business.name}</Text>
           )}
-          
 
           {business.socialMedia && business.socialMedia.length > 0 && (
             <View style={styles.socialMediaContainer}>
               <FlatList
                 data={business.socialMedia}
-                renderItem={({ item }) => renderSocialMediaIcon(item.type, item.url)}
+                renderItem={({ item }) =>
+                  renderSocialMediaIcon(item.type, item.url)
+                }
                 keyExtractor={(item) => item.type}
                 horizontal
                 showsHorizontalScrollIndicator={false}
@@ -212,22 +239,17 @@ export default function DetailsScreen() {
             <Text style={styles.description}>{business.description}</Text>
           )}
 
-          
-
           <View style={styles.infoSection}>
-
-             
             {hasData(business.phone) && (
               <View style={styles.infoItem}>
                 <Phone size={30} color="#0891b2" />
-                <TouchableOpacity style={{}}
-                onPress={() => Linking.openURL(`tel:${business.phone}`)}
+                <TouchableOpacity
+                  style={{}}
+                  onPress={() => Linking.openURL(`tel:${business.phone}`)}
                 >
-                <Text 
-                  style={[styles.infoPhoneText, styles.link]}
-                  >
-                  {business.tel}
-                </Text>
+                  <Text style={[styles.infoPhoneText, styles.link]}>
+                    {business.tel}
+                  </Text>
                 </TouchableOpacity>
               </View>
             )}
@@ -235,9 +257,10 @@ export default function DetailsScreen() {
             {hasData(business.phone2) && (
               <View style={styles.infoItem}>
                 <Phone size={30} color="#0891b2" />
-                <Text 
+                <Text
                   style={[styles.infoPhoneText, styles.link]}
-                  onPress={() => Linking.openURL(`tel2:${business.phone2}`)}>
+                  onPress={() => Linking.openURL(`tel2:${business.phone2}`)}
+                >
                   {business.tel2}
                 </Text>
               </View>
@@ -250,13 +273,13 @@ export default function DetailsScreen() {
               </View>
             )}
 
-
             {hasData(business.email) && (
               <View style={styles.infoItem}>
                 <Mail size={20} color="#0891b2" />
-                <Text 
+                <Text
                   style={[styles.infoText, styles.link]}
-                  onPress={() => Linking.openURL(`mailto:${business.email}`)}>
+                  onPress={() => Linking.openURL(`mailto:${business.email}`)}
+                >
                   {business.email}
                 </Text>
               </View>
@@ -278,15 +301,15 @@ export default function DetailsScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f4f4f5',
-    paddingBottom: 50,
+    backgroundColor: "#f4f4f5",
+    //paddingBottom: 50,
   },
   header: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: 'white',
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: "white",
     borderBottomWidth: 1,
-    borderBottomColor: '#e2e8f0',
+    borderBottomColor: "#e2e8f0",
   },
   backButton: {
     marginTop: 15,
@@ -295,8 +318,8 @@ const styles = StyleSheet.create({
   },
   headerTitle: {
     fontSize: 20,
-    fontWeight: '600',
-    color: '#0f172a',
+    fontWeight: "600",
+    color: "#0f172a",
   },
   scrollContainer: {
     flex: 1,
@@ -307,31 +330,31 @@ const styles = StyleSheet.create({
   carouselItem: {
     width,
     height: 380,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
   },
   carouselImage: {
     width: width,
     height: 380,
-    elevation:0.2,
+    elevation: 0.2,
     borderBottomLeftRadius: 40,
     borderBottomRightRadius: 40,
-    marginBottom:30,
+    marginBottom: 30,
   },
   dotsContainer: {
-    flexDirection: 'row',
-    justifyContent: 'center',
-    position: 'absolute',
+    flexDirection: "row",
+    justifyContent: "center",
+    position: "absolute",
     bottom: 10,
-    width: '100%',
+    width: "100%",
   },
   dot: {
     height: 8,
     width: 8,
     borderRadius: 4,
-    backgroundColor: '#112342',
+    backgroundColor: "#112342",
     marginHorizontal: 4,
-    shadowColor: '#000',
+    shadowColor: "#000",
     shadowOffset: {
       width: 0,
       height: 2,
@@ -344,18 +367,18 @@ const styles = StyleSheet.create({
   },
   name: {
     fontSize: 30,
-    fontWeight: '600',
-    color: '#112342',
+    fontWeight: "600",
+    color: "#112342",
     marginBottom: 4,
-    textAlign:'center',
+    textAlign: "center",
   },
   category: {
     fontSize: 16,
-    color: '#0891b2',
+    color: "#0891b2",
     marginBottom: 8,
   },
   socialMediaContainer: {
-    alignItems:'center',
+    alignItems: "center",
     marginBottom: 16,
   },
   socialMediaList: {
@@ -365,10 +388,10 @@ const styles = StyleSheet.create({
     width: 60,
     height: 60,
     borderRadius: 24,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
     marginRight: 12,
-    backgroundColor: 'white',
+    backgroundColor: "white",
     shadowOffset: {
       width: 0,
       height: 2,
@@ -379,18 +402,18 @@ const styles = StyleSheet.create({
   },
   description: {
     fontSize: 16,
-    color: '#334155',
+    color: "#334155",
     lineHeight: 24,
     marginBottom: 24,
-    textAlign:'center',
+    textAlign: "center",
   },
   infoSection: {
-    width:"auto",
-    backgroundColor: 'white',
+    width: "auto",
+    backgroundColor: "white",
     padding: 16,
     borderRadius: 12,
     gap: 16,
-    shadowColor: '#000',
+    shadowColor: "#000",
     shadowOffset: {
       width: 0,
       height: 2,
@@ -400,19 +423,19 @@ const styles = StyleSheet.create({
     elevation: 2,
   },
   infoItem: {
-    flexDirection: 'row',
-    alignItems: 'center',
+    flexDirection: "row",
+    alignItems: "center",
     gap: 12,
   },
   infoText: {
     fontSize: 16,
-    color: '#334155',
+    color: "#334155",
     flex: 1,
   },
-  infoPhoneText:{
+  infoPhoneText: {
     fontSize: 25,
   },
   link: {
-    color: '#0891b2',
+    color: "#0891b2",
   },
 });

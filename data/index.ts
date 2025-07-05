@@ -4369,8 +4369,8 @@ export const categories = [
           "https://lh3.googleusercontent.com/pw/AP1GczNHhIjLrohNvOIWaKiqdl8NFdqmehQIqa6_bh1iV9H-EdlaqvNo2dgOV0ialTP_e5T0_Ad4xiCo3VzbPR31B6HnmS935vzQxO1QJNEknzgz8md6KkVeqEqYmg9HtaQfpu04d2WyYMbVMfHphJwgO6Ae=w905-h905-s-no-gm?authuser=7",
         ],
         address: "Rua Newton Prado 535",
-        phone: "+55 15996552341",
-        tel: "15 1599655-2341",
+        phone: "+55 15 996552341",
+        tel: "15 99655-2341",
         hours: "Seg-Ter: 19h às 23h\nQua: Fechado\nQui-Sex-Sáb-Dom: 19h às 23h",
         description: "Um sabor Surreal.",
         socialMedia: [

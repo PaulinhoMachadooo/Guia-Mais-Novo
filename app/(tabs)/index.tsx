@@ -10,9 +10,9 @@ import {
   TouchableOpacity,
 } from "react-native";
 import { useRef, useState, useEffect } from "react";
-import { useRouter } from "expo-router";
+
 import { carouselImages } from "../../data/index";
-import { Link, router } from "expo-router";
+import { router } from "expo-router";
 import { heightPercentageToDP as hp } from "react-native-responsive-screen";
 import { ScrollView } from "react-native";
 import React from "react";
@@ -34,7 +34,7 @@ export default function HomeScreen() {
   };
 
   useEffect(() => {
-    let interval;
+    let interval: string | number | NodeJS.Timeout | undefined;
 
     if (autoPlay) {
       interval = setInterval(() => {
@@ -66,12 +66,14 @@ export default function HomeScreen() {
     { useNativeDriver: false }
   );
 
-  const handleMomentumScrollEnd = (event) => {
+  const handleMomentumScrollEnd = (event: {
+    nativeEvent: { contentOffset: { x: number } };
+  }) => {
     const newIndex = Math.round(event.nativeEvent.contentOffset.x / width);
     setCurrentIndex(newIndex);
   };
 
-  const renderItem = ({ item }) => {
+  function renderItem({ item }): React.JSX.Element {
     return (
       <View style={styles.carouselItem}>
         <Image
@@ -81,7 +83,7 @@ export default function HomeScreen() {
         />
       </View>
     );
-  };
+  } //
 
   const renderDots = () => {
     return (
@@ -190,7 +192,6 @@ export default function HomeScreen() {
               />
             </View>
           </View>
-
         </TouchableOpacity>
         <TouchableOpacity
           style={{ paddingTop: 40, alignItems: "center" }}
