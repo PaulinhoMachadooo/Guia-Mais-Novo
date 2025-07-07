@@ -1904,33 +1904,51 @@ export const categories = [
         id: "18.1",
         name: "BORRACHARIA CARLINHOS ÁGUA BRANCA",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczM_K2HuW-ef7TZANKxi6n3IpNifpOr-XtnT8kgctvrGKG6TVGmGb1Gg3bDM9p1NCUhr0vhHP3BYg2c8wi5SFix5lsyRHgDZqIAzNjZMkwly2-Gt3wxKIbDJgxkSmdWPb8a1d4M8OATEypJOLmmJBNQC=w858-h858-s-no-gm?authuser=5",
         ],
         address: "R. João Gastardelli, 21 - Água branca",
         phone: "+55 15 99837-0144",
         tel: "15 99837-0144",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 06:50 às 22:00\nSáb: 06:30 às 22:00\nDom: 07:00 às 22:00",
         description: "CONSERTOS DE PNEUS",
-        socialMedia: [],
+        socialMedia: [
+          { type: "whatsapp", url: "https://wa.me/5515998370144" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+João+Gastardelli,+21+-+Água+branca,+Porto+Feliz+-+SP,+18542-480/@-23.19484,-47.6037377,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c60132fcca2181:0x200c0462f1608fd7!2m2!1d-47.521274!2d-23.1948807?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "18.2",
         name: "Borracharia do Careca",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczOKcW6_xsC8bPNQC1vhkVO5jmj0oiZnhztv0fAFUfRwl4E1sTuNSTbqaYHBZQLINM4IIXsr8qE5Kg56lxPxargu2KvYt-Afrbx0nhaw2NnmSKgCUSd8Dj8qeqAg6GVZ503LmlhqM8nin1nkQf_XitSi=w1115-h754-s-no-gm?authuser=5",
         ],
         address: "R. Cardoso Pímentel, 1412",
         phone: "+55 15 99634-7488",
         tel: "15 99634-7488",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex - Sáb: 07:30 às 19:00\nDom: FECHADO",
         description: "CONSERTOS DE PNEUS",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "facebook",
+            url: "",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515996347488" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Cardoso+Pímentel,+1412,+Porto+Feliz+-+SP,+18540-000/@-23.2013065,-47.6004401,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff2deb3b67f7:0x27a91233f553c760!2m2!1d-47.5180456!2d-23.2013183?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "18.3",
         name: "Borracharia do Luiz",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczPj1_8urQQKzgg3K-hGdXmGH9EPyO8l-Gib3wlopfrfRryHNgm9hGSnGtBYNbs_MN6Nq5c-4Bn6Kbv_HIUBg_5D3peDq-aVxEsJbNK8SaUkPEAz6BwKBpWbd5N7QCW86Cs7B-0G8_eb8IJejJ3HHatS=w1139-h858-s-no-gm?authuser=5",
         ],
         address:
           " Avenida Governador Mario Covas, R. Eugênio Egídio Alcala, 1085",
@@ -1938,7 +1956,13 @@ export const categories = [
         tel: "",
         hours: "",
         description: "CONSERTOS DE PNEUS",
-        socialMedia: [],
+        socialMedia: [
+          { type: "whatsapp", url: "https://wa.me/5513996869224" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Avenida+Governador+Mario+Covas,+R.+Eugênio+Egídio+Alcala,+1085,+Porto+Feliz+-+SP,+18540-000/@-23.2061779,-47.5926279,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff0149e32d33:0xfd30802121b5e007!2m2!1d-47.5102263!2d-23.2061994?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
     ],
   },
@@ -1963,42 +1987,60 @@ export const categories = [
     businesses: [
       {
         id: "22.1",
-        name: "Cartório de Registro Civil",
+        name: "CARTÓRIO DE REGISTRO CIVIL",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczMH26AbK0EOGNlpKvPCmKJH31mFowWX7XGYKQjhdgY8kHoyG0mgdMjDgtGyeu0TaRPakRfsMjDdX2nFK3G3r0Y5D3-MAN6VNRyTpvT1UfdPmJnGXqCUmBAsI-Lcwd8-EJu06c_4GYaBUGfbkWaLOVWZ=w1360-h626-s-no-gm?authuser=5V",
         ],
         address: "Av. Monsenhor Seckler, 202 - Centro",
         phone: "+55 15 3261-3110",
         tel: "15 3261-3110",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 09:00 às 16:30\nSáb: 09:00 às 11:30\nDom: FECHADO",
         description: "CARTÓRIO",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+202+-+Centro,+Porto+Feliz+-+SP,+18540-075/@-23.2114032,-47.601847,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe08e24fdc5d:0x7a2bfe6a497fdf5e!2m2!1d-47.5194454!2d-23.2114247?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "22.2",
         name: "CARTÓRIO TORRES",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczNC-uGckyvFkWyobUcJsIWLFA3tmAWQtgRSnt-bZABepB7AHOlsIc-HFQUGdoPuENIjKn7q9OKC7094qDvhEtqYZdeOdz1032enFA9-w5nUaZz7PyB_VgXwaYDTdii7_hb_pm-FH6FqRf_dJ9kMig7v=w483-h858-s-no-gm?authuser=5",
         ],
         address: "Praça Duque de Caxias, 43 - Centro",
         phone: "+55 15 3262-3321",
         tel: "15 3262-3321",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 09:00 às 16:00\nSáb - Dom: FECHADO",
         description: "CARTÓRIO",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Praça+Duque+de+Caxias,+43+-+Centro,+Porto+Feliz+-+SP,+18540-000/@-23.2093714,-47.6090095,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe086ec98419:0x6a06fc9d9471c8bb!2m2!1d-47.5266237!2d-23.209499?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "22.3",
-        name: "Tabelionato de Notas e Protesto de Letras e Títulos",
+        name: "TABELIONATO DE NOTAS E PROTESTOS DE LETRAS E TÍTULOS",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczPVD9_wyZ-Y8eHfVGGKKUDindyxPzU0ykkJHMwDc0F7lrgCZVnkSp_HB2anBdmI43f37qA8JTKFpXw60I_LBSaBf2yqW08U5sZYSuf7sCKRhpI-vfKWdUDdqXGf-twQpMPfAKslCgXDgjpJnEQhoRZu=w1024-h766-s-no-gm?authuser=5",
         ],
         address: "Rua Altino Arantes, 61 - Centro",
         phone: "+55 15 3262-1564",
         tel: "15 3262-1564",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 08:30 às 16:30\nSáb: 08:30 às 11:00\nDom: FECHADO",
         description: "CARTÓRIO",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Rua+Altino+Arantes,+61+-+Centro,+Porto+Feliz+-+SP,+18540-147/@-23.2137866,-47.6079088,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0a2e291ec5:0x238fae920074fe6c!2m2!1d-47.5255072!2d-23.2138081?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
     ],
   },
@@ -2011,44 +2053,64 @@ export const categories = [
     id: "24",
     name: "Chaveiro",
     businesses: [
-      {
+      /*{
         id: "24.1",
         name: "Chaveiro Candido",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczP8e_EUx7BfV-yxRj9xHZFpicTIn4D3steXP4qCxlj8Eg9WDAfgf702lSLFR7Xfliwet3m5CjWCiq1_NRyWLMPhVLivax1eqB_2P-fAvzNwDboAP4Ew5eG_B9gAFMvqFSCxMlx13M3E_6nDKb7lKRcw=w580-h450-s-no-gm?authuser=5",
         ],
         address: "Thomaz de Almeida,568 Jd - Bela Vista",
-        phone: "+55 15 99734-2624",
-        tel: "15 99734-2624",
-        hours: "",
+        phone: "+55 15 99661-1066",
+        tel: "15  99661-1066",
+        hours: "ABERTO 24 HORAS",
         description: "CHAVES",
-        socialMedia: [],
-      },
+        socialMedia: [
+          { type: "whatsapp", url: "https://wa.me/5515996611066" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Fernão+Dias,+271,+Porto+Feliz+-+SP,+18540-000/@-23.2221063,-47.5963767,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe6f1613ead3:0xd1f16a79e8228f75!2m2!1d-47.5140389!2d-23.2221886?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
+      },*/
       {
         id: "24.2",
         name: "Chaveiro Dias",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczN0EJH680of6BBErkbD2E0MW0gPfZdQ-jtZ9Ap2ms2h3vXLcImgy-jS22CKZCGrYwOj_Xi6Dn_8p9PoLqhVuF0QWOInoYztE7-nwnrAFXBbZST9NkRegL22F5ZIOBnNag8Dujaxb7J0wEVnuMtO-mde=w1065-h810-s-no-gm?authuser=5",
         ],
         address: "R. Barão do Rio Branco, 13 - Centro",
-        phone: "+55 15 3262-5789",
-        tel: "15 3262-5789",
-        hours: "",
+        phone: "+55 15 99718 - 2014",
+        tel: "15 99718 - 2014",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 08:30 às 17:30\nSáb: 08:00 às 12:00\nDom: FECHADO",
         description: "CHAVES",
-        socialMedia: [],
+        socialMedia: [
+          { type: "whatsapp", url: "https://wa.me/5515997182014" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Barão+do+Rio+Branco,+13+-+Centro,+Porto+Feliz+-+SP,+18540-000/@-23.2130629,-47.6074958,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0a2adc667d:0x340837ca58012798!2m2!1d-47.5251128!2d-23.2131297?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "24.3",
         name: "Machados Chaveiro",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczMIosSuplZWXxBqaQwuXuXHLlJnDRJthq0maitsEZHSWD0Tu12Qf5BPhCiQA2Bls4MLqWUnrfmn3PL_6YO8aArIsJwbO_M0Jui_W55BzfohdoIpiKFSeoyUMbXHDndjUUVExwE9F6zyHeoiuNvwJxZM=w1360-h765-s-no-gm?authuser=5",
         ],
         address: "Av. Monsenhor Seckler, 278",
         phone: "+55 15 3262-3849",
         tel: "15 3262-3849",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 08:00 às 18:00\nSáb: 08:00 às 12:00\nDom: FECHADO",
         description: "CHAVES",
-        socialMedia: [],
+        socialMedia: [
+          { type: "whatsapp", url: "https://wa.me/5515997416018" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+278,+Porto+Feliz+-+SP,+18540-000/@-23.2116814,-47.6011963,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0de90a878d:0x15381f73ad79e536!2m2!1d-47.5187782!2d-23.2116669?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
     ],
   },
@@ -2060,66 +2122,133 @@ export const categories = [
         id: "25.1",
         name: "Centro Médico",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczPrXy2SeNGRGnGY8O-onFCYKgdM2tEyQDHizXm45F2r3ZFzLNq1wfv90kOOmqxRQTBgefLu5HJojUkT9ptzhXyPk3zjHi_RPWEXiqYrft41pfRsQlXQmp670NfB9wQR0EB90yeYV0_dTYj_6obbOwfK=w1569-h858-s-no-gm?authuser=5",
         ],
         address: "Av. Monsenhor Seckler, 676 - Vila Alcalá",
         phone: "+55 15 99792-9606",
         tel: "15 99792-9606",
-        hours: "",
+        hours:
+          "Seg: 07:00 ás 17:00\nTer: 07:00 ás 15:00\nQua: 07:00 às 16:30\nQui - Sex: 07:00 às 15:00\nSáb - Dom: FECHADO",
         description: "MEDICINA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/19P73LCX9W/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515997929606" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+Monsenhor+Seckler,+676+-+Vila+Alcalá,+Porto+Feliz+-+SP,+18540-000/@-23.2126279,-47.5971442,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe6d645a4cb7:0x16f48e75201595cd!2m2!1d-47.5147426!2d-23.2126494?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "25.2",
         name: "IDS Instituto de Diagnóstico",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczOLKe_jD6sHLS24xXL2BNzdkppmp5Z_N3mOdV-WhOoynGGM3uhcCwWVdCwDYrCh5ePHXbOoSbbphdHr1lBa6zbtVBOAV8IMJAqsyaiGTqSYhKaEQaaOtV0m50TS9Ad-jI5t4Pz712CrFDwPVOgMEnYH=w858-h858-s-no-gm?authuser=5",
         ],
         address: "R. Francisco de Souza Morães, 230 - Jd Bela Vista",
         phone: "+55 15 3261-9540",
         tel: "15 3261-9540",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 07:00 às 18:00\nSáb: 07:00 às 12:00\nDom: FECHADO",
         description: "MEDICINA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/idssorocaba/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515997908897" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Francisco+de+Souza+Morães,+230+-+Jd+Bela+Vista,+Porto+Feliz+-+SP,+18540-000/@-23.2154452,-47.5951772,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe6b7cdbdd13:0x2c45696447d080ba!2m2!1d-47.5127958!2d-23.2154042?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "25.3",
         name: "Itulab Laboratório De Análises Clínicas",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczMPK4Q0xkOLTJlIcSr1c3zhc9ooLVN0uCu8e4FmTG2IadBksF3W1ExVJKLQCUciTceYYCJ53MwYNzxe3-bO_0_TmrW2UMokGRE-SIF9grlSHgvOrcj775hIiLkMasqFwdAQCEYuVE685hZHYYSXJgSK=w557-h557-s-no-gm?authuser=5",
         ],
-        address: " R. Barão do Rio Branco, 99",
+        address: " R. Barão do Rio Branco, 99, Centro",
         phone: "+55  11 4003-5869",
         tel: " 11 4003-5869",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 07:00 às 15:00\nSáb: 07:00 às 10:00\nDom: FECHADO",
         description: "MEDICINA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/laboratorio_itulab/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1BugUqdmq4/",
+          },
+          { type: "whatsapp", url: "https://wa.me/551140035869" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//R.+Barão+do+Rio+Branco,+99,+Porto+Feliz+-+SP,+18530-000/@-23.2132395,-47.6070791,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5fe0bd10ef061:0x8ffcac36e07a40e0!2m2!1d-47.5246842!2d-23.2132779?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "25.4",
         name: "MEDSURE SEGURANCA E MEDICINA OCUPACIONAL",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczN9DGILg0sihkBn7gBH6rxP0BXE-JvaE3stazvhfaPm7-uQHTSp5YnQXIUoFcgXmKNm0S85PBFfVaCwwxzeliy1QcqKFIHI41NZd-anHUx6K9GZBXdJ3UXfDuDEh0scbO_Us-n3UY55L-yFbaJff8Ht=w500-h500-s-no-gm?authuser=5",
         ],
-        address: "Av. José Maurino, no 310",
+        address: "Av. José Maurino, 310, Centro",
         phone: "+55 15 2107-9979",
         tel: "15 2107-9979",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 07:00 às 18:00\nSáb - Dom: FECHADO",
         description: "MEDICINA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/medsureportofeliz/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1AiKtmndEs/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515991403637" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Av.+José+Maurino,+no+310,+Porto+Feliz+-+SP,+18540-000/@-23.2161353,-47.6072013,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff0406adeb2d:0xf7ff5c4dd6bec941!2m2!1d-47.524706!2d-23.216138?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
       {
         id: "25.5",
         name: "Pró Saúde",
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNKs-boGKm5RqtWjqbKckQhubN5A7gBRIxzDemR0Tyo_CAlZHFmFvDynsfw7WPV0WGE0f031EAtIUN5k03Df4XZiXeVRCwXRJ0o7hVKINpGWNx0mQNK3rlRxXPKv3ZmqswY9KxayEXc9MHed-_mW5lw=w1218-h720-s-no-gm?authuser=7",
+          "https://lh3.googleusercontent.com/pw/AP1GczOza0O-eY6RLHX5Yn4HZJJdv7C1g2NxhfnlTzp48T7mb4ax8wZzC8e4phde-A7vA6nEPfE49jdpeT1SH4YOdkB--2JNVY0OId5wpnghL8CqGwMQG-pXbGSQ8ZLrmHr8wsT1103PpsHlgW3aN5ayrPx2=w780-h780-s-no-gm?authuser=5",
         ],
-        address: "Rua Newton Prado, 5",
+        address: "Rua Newton Prado, 5, Centro",
         phone: "+55 15 3261-5671",
         tel: "15 3261-5671",
-        hours: "",
+        hours:
+          "Seg - Ter - Qua - Qui - Sex: 07:30 às 17:30\nSáb - Dom: FECHADO",
         description: "MEDICINA",
-        socialMedia: [],
+        socialMedia: [
+          {
+            type: "instagram",
+            url: "https://www.instagram.com/prosaudevip/",
+          },
+          {
+            type: "facebook",
+            url: "https://www.facebook.com/share/1953EVjfsQ/",
+          },
+          { type: "whatsapp", url: "https://wa.me/5515991614745" },
+          {
+            type: "maps",
+            url: "https://www.google.com/maps/dir//Rua+Newton+Prado,+5,+Porto+Feliz+-+SP,+18540-000/@-23.217376,-47.6078281,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c5ff698c023077:0x89bf029457321b3d!2m2!1d-47.5254079!2d-23.2173941?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D",
+          },
+        ],
       },
     ],
   },
