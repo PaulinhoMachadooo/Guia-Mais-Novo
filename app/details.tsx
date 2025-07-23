@@ -29,6 +29,7 @@ import {
 import { useRef, useState, useEffect } from "react";
 import { categories } from "../data/index";
 import React from "react";
+import ImageGallery from "../components/ImageGallery";
 
 const { width } = Dimensions.get("window");
 
@@ -292,6 +293,15 @@ export default function DetailsScreen() {
               </View>
             )}
           </View>
+          {/* Gallery Section */}
+          {business.gallery && business.gallery.length > 0 && (
+            <View style={styles.gallerySection}>
+              <ImageGallery
+                images={business.gallery}
+                title="Galeria de Fotos"
+              />
+            </View>
+          )}
         </View>
       </ScrollView>
     </View>
@@ -437,5 +447,8 @@ const styles = StyleSheet.create({
   },
   link: {
     color: "#0891b2",
+  },
+  gallerySection: {
+    marginTop: 16,
   },
 });
