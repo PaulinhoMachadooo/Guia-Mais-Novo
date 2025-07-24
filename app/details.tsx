@@ -33,6 +33,32 @@ import ImageGallery from "../components/ImageGallery";
 
 const { width } = Dimensions.get("window");
 
+const getDefaultServices = (businessName) => {
+  const name = businessName.toLowerCase();
+
+  if (
+    name.includes("restaurante") ||
+    name.includes("lanchonete") ||
+    name.includes("pizzaria")
+  ) {
+    return ["Delivery", "Balcão", "Mesas", "Wi-Fi", "Estacionamento"];
+  } else if (name.includes("farmácia") || name.includes("drogaria")) {
+    return ["24h", "Delivery", "Manipulação", "Convênios", "Perfumaria"];
+  } else if (name.includes("posto") || name.includes("combustível")) {
+    return ["Gasolina", "Álcool", "Diesel", "Conveniência", "Lavagem"];
+  } else if (name.includes("pet") || name.includes("veterinária")) {
+    return ["Banho", "Tosa", "Consultas", "Vacinas", "Ração"];
+  } else if (name.includes("salão") || name.includes("beleza")) {
+    return ["Corte", "Escova", "Manicure", "Pedicure", "Coloração"];
+  } else if (name.includes("mercado") || name.includes("supermercado")) {
+    return ["Açougue", "Padaria", "Hortifrúti", "Delivery", "Cartão"];
+  } else if (name.includes("oficina") || name.includes("mecânica")) {
+    return ["Revisão", "Freios", "Suspensão", "Elétrica", "Pneus"];
+  } else {
+    return ["Atendimento", "Qualidade", "Preço Justo", "Experiência"];
+  }
+};
+
 export default function DetailsScreen() {
   const router = useRouter();
   const { id, categoryId } = useLocalSearchParams();
@@ -238,6 +264,23 @@ export default function DetailsScreen() {
 
           {hasData(business.description) && (
             <Text style={styles.description}>{business.description}</Text>
+          )}
+
+          {/* Services Section */}
+          {(business.services || getDefaultServices(business.name)).length >
+            0 && (
+            <View style={styles.servicesSection}>
+              <Text style={styles.servicesTitle}>Serviços Oferecidos</Text>
+              <View style={styles.servicesContainer}>
+                {(business.services || getDefaultServices(business.name)).map(
+                  (service, index) => (
+                    <View key={index} style={styles.serviceBadge}>
+                      <Text style={styles.serviceText}>{service}</Text>
+                    </View>
+                  )
+                )}
+              </View>
+            </View>
           )}
 
           <View style={styles.infoSection}>
@@ -447,6 +490,41 @@ const styles = StyleSheet.create({
   },
   link: {
     color: "#0891b2",
+  },
+  servicesSection: {
+    marginBottom: 24,
+  },
+  servicesTitle: {
+    fontSize: 20,
+    fontWeight: "600",
+    color: "#112342",
+    marginBottom: 12,
+    textAlign: "center",
+  },
+  servicesContainer: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "center",
+    gap: 8,
+  },
+  serviceBadge: {
+    backgroundColor: "#ff5e00",
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    borderRadius: 20,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 3,
+    elevation: 2,
+  },
+  serviceText: {
+    color: "white",
+    fontSize: 14,
+    fontWeight: "500",
   },
   gallerySection: {
     marginTop: 16,

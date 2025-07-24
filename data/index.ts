@@ -2397,6 +2397,7 @@ export const categories = [
         tel: "15 1599655-2341",
         hours: "Seg-Ter: 19h às 23h\nQua: Fechado\nQui-Sex-Sáb-Dom: 19h às 23h",
         description: "Um sabor Surreal.",
+        services: ["Delivery", "Balcão", "Mesas", "Wi-Fi"],
         socialMedia: [
           {
             type: "instagram",
@@ -2410,10 +2411,10 @@ export const categories = [
           { type: "maps", url: "https://maps.app.goo.gl/tC1CcN4GJT5eKZ3t6" },
         ],
         gallery: [
-          "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          "https://images.pexels.com/photos/2253643/pexels-photo-2253643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          "https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "https://lh3.googleusercontent.com/pw/AP1GczMXpwXfisUfPCvlVNaNlf68q3pJrdkG0v3yOzq_2Onjuy-UiP0SEoNMN2aBtYGgdFXRWRByeG5DJbh5sGJ3b9W6fC_dGEk0tkw5Gg5M2lZLV9TfMaigSf4HcIY0cjyVHWNW4B82H6_pfuzxDb3_d9J0=w730-h912-s-no-gm?authuser=4",
+          "https://lh3.googleusercontent.com/pw/AP1GczPpq1a6zH76LecYP_Zx6aKI4G6WrJIVJFxsAdLP8H8xWWINmpUgJSYCW7TuXGLj0nIgoX9Ab3fqpm4cxrf9e9vitB5ipwopK6bSG6Uk86jurV5zRl79dESWy77F1hI5aQHVY6FogSnCyTH6u-XfGmto=w1218-h685-s-no-gm?authuser=4",
+          "https://lh3.googleusercontent.com/pw/AP1GczOQND6u6XvNxj0QHZwfCHf20p-U6r_cxb5IjUuNgBRApYpRxwKtVmMgdwuunVyJoUc6mijDJ6Nk-rKVqCK1O2SrCy7xarrDWJb5LWKshQZygaTHSYnaAeYSEmEKmlxAeBq5X3lWx2CosTX-mUUROJJm=w1216-h912-s-no-gm?authuser=4",
+          "https://lh3.googleusercontent.com/pw/AP1GczPCdLSEHtTZinAk2R0iO3_3HjkO5TrGQmjC9hn4NbSGB0fgRQ47U4ZuSHMXbKjGfP8rJMj6gcu_XSNfTcNMFJVx3UWIars0pITS15bYzcrPWrqEJr5QACVXe1RnrZLu96GwADj0bYHHiQfzYhMNlvgD=w1080-h660-s-no-gm?authuser=4",
         ],
       },
       {
@@ -2428,6 +2429,7 @@ export const categories = [
         hours:
           "Seg: 19:00 às 23:00\nTer: Fechado\nQua-Qui-Sex-Sáb-Dom: 19:00 às 23:00",
         description: "LANCHES",
+
         socialMedia: [
           {
             type: "instagram",
@@ -2453,8 +2455,7 @@ export const categories = [
         address: "R. Cândido Mota, 291",
         phone: "+55 153261-3752",
         tel: "15 3261-3752",
-        hours:
-          "Seg: 08:00 às 23:00\nTer: 08:00 às 23:00\nQua: 08:00 às 23:00\nQui: 08:00 às 23:00\nSex:08:00 às 23:00\nSáb: 08:00 às 23:00\nDom: 08:00 às 23:00",
+        hours: "Seg - Ter - Qua - Qui - Sex - Sáb - Dom: 08:00 às 23:00",
         description: "LANCHES",
         socialMedia: [
           {
@@ -2473,7 +2474,7 @@ export const categories = [
         phone: "+55 152107-9115",
         tel: "15 2107-9115",
         hours:
-          "Seg: 10:00 às 16:00\nTer: 10:00 às 16:00\nQua: 10:00 às 16:00\nQui: 10:00 às 16:00\nSex:10:00 às 16:00\nSáb: 10:00 às 16:00\nDom: FECHADO",
+          "Seg - Ter - Qua - Qui - Sex - Sáb: 10:00 às 16:00\nDom: FECHADO",
         description: "RESTAURANTE",
         socialMedia: [
           {
@@ -2496,7 +2497,7 @@ export const categories = [
         phone: "+55 1599709-5216",
         tel: "15 99709-5216",
         hours:
-          "Seg: FECHADO\nTer: 18:30 às 22:30\nQua: 18:30 às 22:30\nQui: 18:30 às 22:30\nSex: 10:30 às 14:00 e 18:30 às 22:30\nSáb: 10:30 às 14:00 e 18:30 às 22:30\nDom: FECHADO",
+          "Seg: FECHADO\nTer - Qua - Qui: 18:30 às 22:30\nSex: 10:30 às 14:00 e 18:30 às 22:30\nSáb: 10:30 às 14:00 e 18:30 às 22:30\nDom: FECHADO",
         description: "RESTAURANTE",
         socialMedia: [
           {
@@ -5177,6 +5178,13 @@ export const categories = [
         tel: "15 99758-9870",
         hours: "Dom: Fechado\nSeg-Sex: 07:00 às 17:00\nSáb: 08:00 às 11:30",
         description: "",
+        services: [
+          "Balcão",
+          "Mesas",
+          "Wi-Fi",
+          "Estacionamento",
+          "Sofás e Cadeiras",
+        ],
         socialMedia: [
           { type: "whatsapp", url: "https://wa.me/5515997589870" },
           {
