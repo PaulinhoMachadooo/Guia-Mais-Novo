@@ -2397,7 +2397,7 @@ export const categories = [
         tel: "15 1599655-2341",
         hours: "Seg-Ter: 19h às 23h\nQua: Fechado\nQui-Sex-Sáb-Dom: 19h às 23h",
         description: "Um sabor Surreal.",
-        services: ["Delivery", "Balcão", "Mesas", "Wi-Fi"],
+        services: ["Delivery", "Balcão", "Qualidade", "Variedade"],
         socialMedia: [
           {
             type: "instagram",
@@ -4445,7 +4445,14 @@ export const categories = [
         tel: "15 99744-8363",
         hours: "Seg-Sex: 08h às 18h\nSáb: 08h às 13h\nDom: Fechado",
         description: "Cuidado com seu animalzinho.",
-        services: ["Banho", "Tosa", "Higienização", "Corte de Unha", "Cachorro", "Gato",],
+        services: [
+          "Banho",
+          "Tosa",
+          "Higienização",
+          "Corte de Unha",
+          "Cachorro",
+          "Gato",
+        ],
         socialMedia: [
           {
             type: "instagram",
@@ -4458,12 +4465,12 @@ export const categories = [
           { type: "whatsapp", url: "https://wa.me/5515997448363" },
           { type: "maps", url: "https://maps.app.goo.gl/GNM7T12JDGoVo6yE8" },
         ],
-         gallery: [
-          'https://lh3.googleusercontent.com/pw/AP1GczOSB8JNmgZSD28ultIo7CKZ1ZmKg67VG6NYfTYyNQyKNp2Sltx2rmnVgKlUI_p6uqySVPHVyZQqDa4bIKdKBIvJUnEieeClS83nmKIa9ceJ3BgeDVp7L2LuntqiPvUoh4ptlOGE3JAUHFkyiL1x0rhl=w912-h912-s-no-gm?authuser=4',
-          'https://lh3.googleusercontent.com/pw/AP1GczPgjvKKzkpAKSNQ96tcml3H0dSsmBjJx7e3Nu1lhzmrx-Hh99re_3WvqB8bbAEvEEAMjciodKjKlbVeXri0rGGEl3bsOO9xze_oeJkFqnD3RjA64-GRsICXC1RPC9pO1qaBWG83syVQzMhr5DIuwFXd=w912-h912-s-no-gm?authuser=4',
-          'https://lh3.googleusercontent.com/pw/AP1GczMR_UCGeYTedIm22h3zLk5F9muyFiVEt3ZUIg-k-peD_94Yxm8sKwRdDhbkAINdxU5TML4posE8pklGeAqwoAXj6gCdUGhrCDGCLgl-sKWwYkQAmYnLIzNM49-hBmkc4S7IRJ1dm1YHmXp_nBDBmvA5=w912-h912-s-no-gm?authuser=4',
-          'https://lh3.googleusercontent.com/pw/AP1GczO6suIB-cjdXMR_v9vJY1FHiDe-2TWjrKICnLq13CVfDqmTCvZgeZNRGIJDYF3i1C50Wyi7mUKlGckgYExKKVcMlR3tPxlw8AwZ6fPX9PE-fyLUnCKaMwZNCRuq7YwOe_U65d_pIWmXZGy7EZ2g8IBo=w912-h912-s-no-gm?authuser=4'
-        ]
+        gallery: [
+          "https://lh3.googleusercontent.com/pw/AP1GczOSB8JNmgZSD28ultIo7CKZ1ZmKg67VG6NYfTYyNQyKNp2Sltx2rmnVgKlUI_p6uqySVPHVyZQqDa4bIKdKBIvJUnEieeClS83nmKIa9ceJ3BgeDVp7L2LuntqiPvUoh4ptlOGE3JAUHFkyiL1x0rhl=w912-h912-s-no-gm?authuser=4",
+          "https://lh3.googleusercontent.com/pw/AP1GczPgjvKKzkpAKSNQ96tcml3H0dSsmBjJx7e3Nu1lhzmrx-Hh99re_3WvqB8bbAEvEEAMjciodKjKlbVeXri0rGGEl3bsOO9xze_oeJkFqnD3RjA64-GRsICXC1RPC9pO1qaBWG83syVQzMhr5DIuwFXd=w912-h912-s-no-gm?authuser=4",
+          "https://lh3.googleusercontent.com/pw/AP1GczMR_UCGeYTedIm22h3zLk5F9muyFiVEt3ZUIg-k-peD_94Yxm8sKwRdDhbkAINdxU5TML4posE8pklGeAqwoAXj6gCdUGhrCDGCLgl-sKWwYkQAmYnLIzNM49-hBmkc4S7IRJ1dm1YHmXp_nBDBmvA5=w912-h912-s-no-gm?authuser=4",
+          "https://lh3.googleusercontent.com/pw/AP1GczO6suIB-cjdXMR_v9vJY1FHiDe-2TWjrKICnLq13CVfDqmTCvZgeZNRGIJDYF3i1C50Wyi7mUKlGckgYExKKVcMlR3tPxlw8AwZ6fPX9PE-fyLUnCKaMwZNCRuq7YwOe_U65d_pIWmXZGy7EZ2g8IBo=w912-h912-s-no-gm?authuser=4",
+        ],
       },
     ],
   },
@@ -4738,7 +4745,15 @@ export const categories = [
         tel: "15 99242-4348",
         hours: "Seg-Sex: 06h às 22\nSáb: 06h às 22h\nDom: 07h às 21h",
         description: "Mais que uma opção, uma diferença.",
-        services: ["Gasolina", "Etanol", "Diesel", "Troca de óleo", "Produtos automotivos", "Qualidade", "Confiança"],
+        services: [
+          "Gasolina",
+          "Etanol",
+          "Diesel",
+          "Troca de óleo",
+          "Produtos automotivos",
+          "Qualidade",
+          "Confiança",
+        ],
         socialMedia: [
           {
             type: "facebook",
@@ -5200,12 +5215,12 @@ export const categories = [
           },
           { type: "maps", url: "https://maps.app.goo.gl/YMuhpwLJMNKTv5DT9" },
         ],
-         gallery: [
-          'https://lh3.googleusercontent.com/pw/AP1GczPyBNKNUfmKLxygMKFKpLp3Z1lpx12zJWq8YNcgeSF-y0qmRajf9U3hWa8rDHYIWcdEZBxbrkkaMnkT8K7-9rLRfHAp5NN6ldBCgvl6wNmR1fyCENQd_08rBhY9DAd0gK89I9a2Bu7-P039DgDLzfmp=w680-h471-s-no-gm?authuser=4',
-          'https://lh3.googleusercontent.com/pw/AP1GczNC8YnvHBcezafVd0o7d3Eh7Zj_gvRAcWycsZ2uqZMoDl8QI1ou4-Gt1XGJ0Wd_ePwrfRCXPQn0S65g4csZMR4Lj0I20xi48FDyt7yejox99QApQl6J_B2WF-VeSTpPJT9Gu6KM-IrDzS5rGpPl0Jh2=w680-h369-s-no-gm?authuser=4',
-          'https://lh3.googleusercontent.com/pw/AP1GczNvumbCo2pKxSigQ3LDWxPAW71DEdckyGn8TeUVJsmK1WgR_9XOM8be01DBGYYyJc6JhV2LGhF_tz9w6DQi-83vXOvf8s4YoQvsS9Twbju-z0YJs1tNsuyzJzRu3MIAE_BtBZVYJfExuAooeXktN1FD=w680-h404-s-no-gm?authuser=4',
-          'https://lh3.googleusercontent.com/pw/AP1GczOqnQbOtCpTBKfqLfbL7EPj8mtn0PTQOgjilS2INnlCSgBU5eNuGl6uekvgbOO1yc38wwAwcNC1eA0VL9KZhP_w52RpOkbHmAPPL0h9VQsZo_o17mAFbG65_44epLKIWVu8aV22lfzxWjSYtJGtziaT=w382-h510-s-no-gm?authuser=4'
-        ]
+        gallery: [
+          "https://lh3.googleusercontent.com/pw/AP1GczPyBNKNUfmKLxygMKFKpLp3Z1lpx12zJWq8YNcgeSF-y0qmRajf9U3hWa8rDHYIWcdEZBxbrkkaMnkT8K7-9rLRfHAp5NN6ldBCgvl6wNmR1fyCENQd_08rBhY9DAd0gK89I9a2Bu7-P039DgDLzfmp=w680-h471-s-no-gm?authuser=4",
+          "https://lh3.googleusercontent.com/pw/AP1GczNC8YnvHBcezafVd0o7d3Eh7Zj_gvRAcWycsZ2uqZMoDl8QI1ou4-Gt1XGJ0Wd_ePwrfRCXPQn0S65g4csZMR4Lj0I20xi48FDyt7yejox99QApQl6J_B2WF-VeSTpPJT9Gu6KM-IrDzS5rGpPl0Jh2=w680-h369-s-no-gm?authuser=4",
+          "https://lh3.googleusercontent.com/pw/AP1GczNvumbCo2pKxSigQ3LDWxPAW71DEdckyGn8TeUVJsmK1WgR_9XOM8be01DBGYYyJc6JhV2LGhF_tz9w6DQi-83vXOvf8s4YoQvsS9Twbju-z0YJs1tNsuyzJzRu3MIAE_BtBZVYJfExuAooeXktN1FD=w680-h404-s-no-gm?authuser=4",
+          "https://lh3.googleusercontent.com/pw/AP1GczOqnQbOtCpTBKfqLfbL7EPj8mtn0PTQOgjilS2INnlCSgBU5eNuGl6uekvgbOO1yc38wwAwcNC1eA0VL9KZhP_w52RpOkbHmAPPL0h9VQsZo_o17mAFbG65_44epLKIWVu8aV22lfzxWjSYtJGtziaT=w382-h510-s-no-gm?authuser=4",
+        ],
       },
       {
         id: "74.2",

@@ -41,8 +41,8 @@ const getDefaultServices = (businessName) => {
     name.includes("lanchonete") ||
     name.includes("pizzaria")
   ) {
-    return ["Delivery", "Balcão", "Mesas", "Wi-Fi", "Estacionamento"];
-  } else if (name.includes("farmácia") || name.includes("drogaria")) {
+    return ["Delivery", "Balcão", "Mesas"];
+    /*} else if (name.includes("farmácia") || name.includes("drogaria")) {
     return ["24h", "Delivery", "Manipulação", "Convênios", "Perfumaria"];
   } else if (name.includes("posto") || name.includes("combustível")) {
     return ["Gasolina", "Álcool", "Diesel", "Conveniência", "Lavagem"];
@@ -53,7 +53,7 @@ const getDefaultServices = (businessName) => {
   } else if (name.includes("mercado") || name.includes("supermercado")) {
     return ["Açougue", "Padaria", "Hortifrúti", "Delivery", "Cartão"];
   } else if (name.includes("oficina") || name.includes("mecânica")) {
-    return ["Revisão", "Freios", "Suspensão", "Elétrica", "Pneus"];
+    return ["Revisão", "Freios", "Suspensão", "Elétrica", "Pneus"];*/
   } else {
     return ["Atendimento", "Qualidade", "Preço Justo", "Experiência"];
   }
